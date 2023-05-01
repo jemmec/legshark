@@ -10,4 +10,5 @@
   (lib (name "acheron_MX_soldermask")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_MX_soldermask.pretty")(options "")(descr ""))
   (lib (name "acheron_Hardware")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Hardware.pretty")(options "")(descr ""))
   (lib (name "shark_library")(type "KiCad")(uri "${KIPRJMOD}/libraries/shark_library.pretty")(options "")(descr ""))
+  (lib (name "Legshark")(type "KiCad")(uri "${KIPRJMOD}/legshark-lib/Legshark.pretty")(options "")(descr ""))
 )

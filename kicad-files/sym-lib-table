@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "${KIPRJMOD}/Schematic_Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name "acheron_Symbols")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Symbols/acheron_Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "legshark_symbols")(type "KiCad")(uri "${KIPRJMOD}/legshark-lib/legshark_symbols.kicad_sym")(options "")(descr ""))
 )
