@@ -9552,7 +9552,7 @@
     (property "Value" "STM32F411CEU6" (at 307.34 271.78 0)
       (effects (font (size 2.0066 2.0066) bold))
     )
-    (property "Footprint" "acheron_Components:STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering_ThermalReliefs" (at 307.34 330.2 0)
+    (property "Footprint" "acheron_Components:STM_UFQFPN-48_LQFP-48-1EP_7x7mm_P0.5mm_HandSoldering" (at 307.34 330.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 307.34 274.32 0)
