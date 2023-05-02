@@ -4832,7 +4832,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 2d4e52b6-04db-4bc0-9403-94b23bddbdb2)
-    (at 317 17.5)
+    (at 310.25 3.75)
     (descr "SOD-123")
     (tags "SOD-123")
     (property "Sheetfile" "keyboard.kicad_sch")
@@ -9410,7 +9410,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp b2752442-5a37-4aea-98d8-415dd8abc048)
-    (at 316.75 36.75)
+    (at 310 22.75)
     (descr "SOD-123")
     (tags "SOD-123")
     (property "Sheetfile" "keyboard.kicad_sch")
@@ -10078,7 +10078,7 @@
 
   (footprint "Legshark:Molex, PicoBlade, 53261, 4 Way, 1 Row, Right Angle PCB Header" (layer "B.Cu")
     (tstamp ca0b7384-9be6-4751-9c4f-9339f5febc92)
-    (at 264.775 50.3 -90)
+    (at 264.525 50.3 -90)
     (property "Sheetfile" "keyboard.kicad_sch")
     (property "Sheetname" "")
     (path "/f183971e-39a7-430e-bec9-e87e3158697f")
@@ -10134,10 +10134,10 @@
       (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
       (polygon
         (pts
-          (xy 264.775 44.5)
-          (xy 264.775 56)
-          (xy 268.675 56)
-          (xy 268.675 44.5)
+          (xy 264.525 44.5)
+          (xy 264.525 56)
+          (xy 268.425 56)
+          (xy 268.425 44.5)
         )
       )
     )
@@ -10439,7 +10439,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp d3765f32-a0f1-4be5-84ec-673a6703018e)
-    (at 317 56.25)
+    (at 310 41.75)
     (descr "SOD-123")
     (tags "SOD-123")
     (property "Sheetfile" "keyboard.kicad_sch")
@@ -11473,7 +11473,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp fcd88a1e-b43c-4665-b17f-8af8752954b4)
-    (at 310.75 80.25)
+    (at 310 80)
     (descr "SOD-123")
     (tags "SOD-123")
     (property "Sheetfile" "keyboard.kicad_sch")
@@ -11700,4 +11700,31 @@
   (segment (start 276.463108 60.39669) (end 276.463108 61.38419) (width 0.25) (layer "B.Cu") (net 151) (tstamp b92ea2b5-d06e-4618-9d80-17e619917f1f))
   (segment (start 276.463108 61.38419) (end 276.604919 61.526001) (width 0.25) (layer "B.Cu") (net 151) (tstamp bdffed18-045f-4e26-8fcb-489d1d6c8435))
 
+  (zone (net 104) (net_name "GND") (layer "F.Cu") (tstamp 61df4973-2769-472c-8dae-9bab4e715cf7) (hatch edge 0.5)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy 0 0)
+        (xy 325 0)
+        (xy 325 100)
+        (xy 0 100)
+      )
+    )
+  )
+  (zone (net 104) (net_name "GND") (layer "B.Cu") (tstamp f4570f25-3611-4a61-acd1-57b19b6844ed) (hatch edge 0.5)
+    (priority 1)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy 0 0)
+        (xy 325 0)
+        (xy 325 100)
+        (xy 0 100)
+      )
+    )
+  )
 )
