@@ -4371,8 +4371,8 @@
     (property "Datasheet" "" (at 504.19 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 1b05256d-10e0-46cd-9ef3-045697ed722b))
-    (pin "2" (uuid 0e748551-eb5a-4da0-be59-430588731cfb))
+    (pin "1" (uuid e03cfe7c-c77f-44f1-8360-3ca79fd4482a))
+    (pin "2" (uuid 0e43a617-3bc0-4ee5-94e8-f48fe15143b4))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -4525,8 +4525,8 @@
     (property "Datasheet" "" (at 631.19 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 60ed5d76-fbd7-4bba-aef7-59962e1f9c41))
-    (pin "2" (uuid 57463f18-ac6d-431f-8d7d-5b7383f61ba5))
+    (pin "1" (uuid da8bf63f-9fa6-41f8-b32e-19e59c21f40a))
+    (pin "2" (uuid 86f19920-c0b9-4d07-a5e5-c181e1a8d8dc))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -4653,8 +4653,8 @@
     (property "Datasheet" "" (at 300.99 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 9e12906d-268b-4531-b125-b34d6601fe28))
-    (pin "2" (uuid b0a86cd7-f484-406c-9d1c-c6299f33b273))
+    (pin "1" (uuid f8b95fee-16a6-4fea-9a6c-a37409b3f7cb))
+    (pin "2" (uuid 10c4a3b9-ecd2-443a-ad89-90c2901d5740))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -4730,8 +4730,8 @@
     (property "Datasheet" "" (at 529.59 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 30bd02b1-40d2-4064-ba48-78f1764f73aa))
-    (pin "2" (uuid de4f447e-3ffa-49eb-8697-83616faba381))
+    (pin "1" (uuid de45aa2c-79e0-4564-8aa7-908dca359a23))
+    (pin "2" (uuid 3961c818-f202-43c1-9b22-b6798142de4b))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -4833,8 +4833,8 @@
     (property "Datasheet" "" (at 402.59 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 67602b1c-01ed-4e70-9b3f-4b8707f26666))
-    (pin "2" (uuid 5ff0723b-0253-439a-bc07-2c8211345ff7))
+    (pin "1" (uuid bd16dc76-20eb-4b43-a1bc-c0a02ceb9300))
+    (pin "2" (uuid b250dd1a-e4c3-4b1c-8e13-7226c4ea4e17))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -4935,8 +4935,8 @@
     (property "Datasheet" "" (at 250.19 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid cdfbd9cc-e1d0-4d13-9af0-3cd8765cd705))
-    (pin "2" (uuid 4fc529ab-c818-4275-a9fc-9e113887be2a))
+    (pin "1" (uuid 117ff925-fe4c-42f6-85b8-377e7b1ba3eb))
+    (pin "2" (uuid 4a47381d-f19c-4c10-b012-e7780559a4cc))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5040,8 +5040,8 @@
     (property "Datasheet" "" (at 402.59 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 1281334d-fdb5-4b2c-b550-2ec129bb2e89))
-    (pin "2" (uuid 92b30d84-0929-40dc-a30c-a2f32dcfb340))
+    (pin "1" (uuid 94a1921a-b23d-484c-a3fe-f7603558ac51))
+    (pin "2" (uuid 0c002749-023b-4170-97e5-85b067b9f331))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5066,8 +5066,8 @@
     (property "Datasheet" "" (at 478.79 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 76c441c3-4640-4e12-9576-4a923b6fda56))
-    (pin "2" (uuid 5171f733-63eb-40fe-81d7-fa1aef002838))
+    (pin "1" (uuid 596d4b78-033a-47ef-b0e1-75e49d473f27))
+    (pin "2" (uuid a801f9f6-e12e-4830-a82a-fea9bccdca26))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5092,8 +5092,8 @@
     (property "Datasheet" "" (at 478.79 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 7344b020-38b3-4212-ae5e-3a90bcfede56))
-    (pin "2" (uuid 32be8cf0-9e1e-4cb1-b443-3374419367a9))
+    (pin "1" (uuid 63c265af-37fc-4c43-abc8-0db2c14e4f49))
+    (pin "2" (uuid b57d656f-4f35-49ac-94b4-e70c83348a7b))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5118,8 +5118,8 @@
     (property "Datasheet" "~" (at 275.59 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 020fe9b4-7758-4cec-9316-ba1651457d77))
-    (pin "2" (uuid 094bd909-ada2-4a75-be25-1102bdca58e8))
+    (pin "1" (uuid 9c82114e-b80b-4ae7-8b64-200d259e10fe))
+    (pin "2" (uuid 98f5e08f-62a4-4866-8f50-c589008ece94))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5196,8 +5196,8 @@
     (property "Datasheet" "" (at 377.19 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 50e88d28-22a4-4f91-8a06-71eea7ecb10e))
-    (pin "2" (uuid bf65f2d8-22c4-4d59-b895-a5470afad0c0))
+    (pin "1" (uuid f7961a73-c83a-49d4-914b-5def2c11e0cb))
+    (pin "2" (uuid cc1c1710-6608-47b6-8321-8fac96a68e6f))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5298,8 +5298,8 @@
     (property "Datasheet" "" (at 275.59 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid b8ba4859-0028-4fbc-ba36-97cd8fa29a27))
-    (pin "2" (uuid 428593bb-8557-472c-a0c3-8d0e166e3278))
+    (pin "1" (uuid 0839f4df-9568-4ec1-b998-5e2548d1d01e))
+    (pin "2" (uuid fb67515b-6257-40f8-af14-e0097086904a))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5350,8 +5350,8 @@
     (property "Datasheet" "" (at 453.39 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 9fba6b8b-478e-4b63-8f2a-7f9c79b9a5e4))
-    (pin "2" (uuid ce6d8438-4551-481c-b3c7-77aab68cabee))
+    (pin "1" (uuid aa58465d-86ca-4032-a2fd-1f8a7c13eb6f))
+    (pin "2" (uuid 5a93195b-b2f7-4d6f-9cc3-d52d37a887c1))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5402,8 +5402,8 @@
     (property "Datasheet" "" (at 351.79 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid ec2ee75e-ddfe-44a6-9c3c-ae9129fb8783))
-    (pin "2" (uuid ef7cebb2-18ef-4b2c-b406-84af10182daa))
+    (pin "1" (uuid ad4281fd-ec09-419e-8657-7e85900bd980))
+    (pin "2" (uuid e370f5d5-26a6-4488-b34f-10cc8000dbbe))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5557,8 +5557,8 @@
     (property "Datasheet" "" (at 580.39 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid c7663282-3afb-4151-87c7-3897598b5a34))
-    (pin "2" (uuid 3260f437-a300-4070-9de0-8bd646cf8ba1))
+    (pin "1" (uuid 88aa5f3e-b296-4a1f-a1c1-2236faab94f7))
+    (pin "2" (uuid 1b67dadd-5be3-4ddd-89a2-e3c243fc0320))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5609,8 +5609,8 @@
     (property "Datasheet" "" (at 326.39 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid bbb915e6-0726-45e4-a7c5-a739b10f0158))
-    (pin "2" (uuid eb9820dd-2932-4536-9c4c-d88d72bb42da))
+    (pin "1" (uuid 9c437794-6bfe-49f6-a4a6-af9834deaa25))
+    (pin "2" (uuid 3e03c17b-076a-41cb-9edf-01e811499247))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5687,8 +5687,8 @@
     (property "Datasheet" "" (at 554.99 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 8a549ea5-1ba5-4416-a2b6-1996a8505918))
-    (pin "2" (uuid 5391be40-e123-45d7-86fc-3cb40e108771))
+    (pin "1" (uuid a82e7bb4-27cd-4a48-a6e5-6e6c0c1fd0d6))
+    (pin "2" (uuid d401ecc4-99f3-4b77-97b0-e01939ca60b2))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5713,8 +5713,8 @@
     (property "Datasheet" "" (at 351.79 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 227bc0fa-faff-493d-bad5-e151e582e4a5))
-    (pin "2" (uuid b4b8bce6-e45e-46bf-99cf-5da3ff43c6a7))
+    (pin "1" (uuid 3795818c-9e48-40ea-9543-a658d348d972))
+    (pin "2" (uuid 378d86c0-6763-44bf-9d68-f8f5ff040c04))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5816,8 +5816,8 @@
     (property "Datasheet" "" (at 478.79 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid b3c8ecc6-c9ea-4f2d-a209-6a6992f57251))
-    (pin "2" (uuid 5370990f-d906-4ce3-a69b-d6769552b046))
+    (pin "1" (uuid 860ef56a-843c-46ac-b664-a46f15be0454))
+    (pin "2" (uuid f541196b-8dcb-469d-8760-220d472ab7cc))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5842,8 +5842,8 @@
     (property "Datasheet" "" (at 478.79 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid d6ba3161-5cc8-486d-a516-83104fcd64a9))
-    (pin "2" (uuid b4ef0cbc-de70-4ec4-b66d-71463b2636f0))
+    (pin "1" (uuid 876ca5cd-4bd1-4a31-941c-71ab97266e40))
+    (pin "2" (uuid ba6a8d3e-9b1a-4f07-905d-524568f6a32e))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -5998,8 +5998,8 @@
     (property "Datasheet" "" (at 631.19 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 1961bee0-ee71-4490-9ddc-a54914ad1864))
-    (pin "2" (uuid 18d8de92-c870-4169-b49c-ebb5add7c0c5))
+    (pin "1" (uuid 3f17b9ac-3240-424c-ab50-42dfa6060453))
+    (pin "2" (uuid c0024940-e5fe-4126-bee4-4d2fa6f94413))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6024,8 +6024,8 @@
     (property "Datasheet" "" (at 402.59 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 0f4a52a0-22bb-428b-9140-4e5b41cee0cb))
-    (pin "2" (uuid 2ac8e755-d579-40ff-9a6e-eab24d78748d))
+    (pin "1" (uuid 443ecf5f-c049-4086-b9be-09cc42c48145))
+    (pin "2" (uuid 4f768444-d448-4125-884d-66e562fe15a2))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6152,8 +6152,8 @@
     (property "Datasheet" "" (at 275.59 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 2890fd3a-dbc1-4dbf-b4ae-90beab51cc58))
-    (pin "2" (uuid f4171549-6670-415d-a0e6-d1c6fb5b4a14))
+    (pin "1" (uuid 61368be1-957d-48ea-a910-0c8183ca21f0))
+    (pin "2" (uuid 3a7c050f-2060-4f0e-8573-9802f1f9e106))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6256,8 +6256,8 @@
     (property "Datasheet" "" (at 605.79 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 4bf542bd-506d-4920-8835-a2dbd8586207))
-    (pin "2" (uuid 1a9006e6-c275-48f6-8002-521035b0ccf4))
+    (pin "1" (uuid a5845379-e501-48d9-a027-61ffb9a6573e))
+    (pin "2" (uuid fd14d81c-e4af-4222-937d-cc2cd7b59167))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6386,8 +6386,8 @@
     (property "Datasheet" "" (at 275.59 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid bded4246-b2de-48f0-a836-883ffa24f87e))
-    (pin "2" (uuid 876050b1-f1d0-4f68-824a-7dc7fb91fc95))
+    (pin "1" (uuid 9381c0b1-6371-42f8-bf9a-517261968628))
+    (pin "2" (uuid 69274251-a5b6-43bc-a211-7f958f08f044))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6438,8 +6438,8 @@
     (property "Datasheet" "" (at 504.19 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid ddb494d1-290d-4bea-b911-2d8a002f10b1))
-    (pin "2" (uuid ccf054bb-a5c2-4361-b661-9c6a08dc247b))
+    (pin "1" (uuid 9dcacca6-655a-429f-b42f-5f053e07e54a))
+    (pin "2" (uuid e7ce7bb7-237d-42c2-bc0b-df84864155c0))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6455,8 +6455,8 @@
     (property "Reference" "K_0" (at 224.79 137.5918 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "KEYSW" (at 224.79 146.05 0)
-      (effects (font (size 1.524 1.524)) hide)
+    (property "Value" "Escape" (at 217.17 142.24 0)
+      (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 224.79 143.51 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -6464,8 +6464,8 @@
     (property "Datasheet" "" (at 224.79 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 894958eb-3de0-44d4-85a0-65470f16bc7d))
-    (pin "2" (uuid c48cf457-281a-44ba-8286-94195827a169))
+    (pin "1" (uuid 54e37187-6776-49c5-ac15-93502f8efa7f))
+    (pin "2" (uuid 34785a0e-1b27-44af-b533-f18af12910e2))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6490,8 +6490,8 @@
     (property "Datasheet" "" (at 453.39 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid e7c33759-deec-489d-b050-69cb4a212c56))
-    (pin "2" (uuid 57cc0220-edc3-44bb-8df8-e801bc8ab718))
+    (pin "1" (uuid b1177702-0f2e-4314-b1e8-a1d39e19fe09))
+    (pin "2" (uuid 7aaf7f28-883c-4822-bc01-86081d6fcbb2))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6592,8 +6592,8 @@
     (property "Datasheet" "" (at 605.79 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 4cc00984-2961-4ce9-9daf-a538965cbac3))
-    (pin "2" (uuid 1f11728f-a0b2-43f0-be37-0bd6dab360f5))
+    (pin "1" (uuid 6673a7a5-4187-403d-b89e-7c8c8c5c54fb))
+    (pin "2" (uuid 13018561-108e-482a-b594-fa0948267345))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6618,8 +6618,8 @@
     (property "Datasheet" "" (at 377.19 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 30c10f92-25ce-4cc2-9000-295521195589))
-    (pin "2" (uuid f379dbd2-f0ac-46f1-8af5-e388540f623a))
+    (pin "1" (uuid 36dc6dfa-54d2-40ed-8e80-fc3d488daa1c))
+    (pin "2" (uuid a5b4cdf9-4c4f-45d3-a8bf-ef74c2b00721))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6696,8 +6696,8 @@
     (property "Datasheet" "" (at 554.99 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 54d71b69-e933-4c40-9e62-3ef8126bdfd8))
-    (pin "2" (uuid 19fa92a0-a386-476d-a31a-c12588d43332))
+    (pin "1" (uuid 0ab5373b-630d-4d3c-8209-3a5e3c72518c))
+    (pin "2" (uuid ef553d31-7546-4546-acff-282adb3082ab))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6747,8 +6747,8 @@
     (property "Datasheet" "" (at 300.99 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid d90f938e-54ad-4733-a843-ed13366922e0))
-    (pin "2" (uuid 93f7c837-16f2-4773-a205-651b8d2430f6))
+    (pin "1" (uuid 037cdddc-82f3-4180-b3aa-508fd07accba))
+    (pin "2" (uuid 3aeaf204-38e6-4dcf-a4dc-15a63aafe01f))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6851,8 +6851,8 @@
     (property "Datasheet" "" (at 529.59 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 4036faf7-d0a5-43c2-83a8-b4413c538c14))
-    (pin "2" (uuid bbbbd5fe-3892-4f39-8b96-b8af38c29fd4))
+    (pin "1" (uuid ca3c2bb6-1a58-415c-9c0f-cf4d6b1b8d93))
+    (pin "2" (uuid 4df03e37-0ae3-4c68-8584-2c52a7be106a))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6931,8 +6931,8 @@
     (property "Datasheet" "" (at 250.19 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid df716f99-c060-4006-ba3b-d400774376c6))
-    (pin "2" (uuid ee799c30-0d9d-4dab-97ad-cffe6136f68a))
+    (pin "1" (uuid 86b8297f-3e99-4f9c-a209-98756c0add9f))
+    (pin "2" (uuid e58a86cc-1301-4376-a48b-d53d61fd1d08))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -6983,8 +6983,8 @@
     (property "Datasheet" "" (at 326.39 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid b52291f8-11a2-4fa6-a36c-87add9d8a3b1))
-    (pin "2" (uuid 97ec74df-ac86-463e-b96a-118b815bbc34))
+    (pin "1" (uuid 9bc1aa12-82e1-4ccf-aac0-7666be62083c))
+    (pin "2" (uuid 84a98f2f-07b4-45fd-b161-70233335b92e))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7009,8 +7009,8 @@
     (property "Datasheet" "" (at 300.99 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid a1ec9118-ebe0-44c7-91c6-341f42ef527f))
-    (pin "2" (uuid 72609d7f-ac4b-47f8-aaf9-b51d86fa33dd))
+    (pin "1" (uuid 8eb2521d-984d-4e6b-b485-b89ad18c8ea5))
+    (pin "2" (uuid 4bf4dc23-376f-4343-8d68-2e8c5321a93a))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7060,8 +7060,8 @@
     (property "Datasheet" "" (at 275.59 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 3f170e02-6a72-4a73-a750-8f388ed9baac))
-    (pin "2" (uuid 9e8e6919-15e3-46fd-9c09-b6e11c7d3359))
+    (pin "1" (uuid 04ae877a-4819-4257-8dd6-ac3451c03b82))
+    (pin "2" (uuid 76dcc6d5-d1e2-4fa2-9096-733e3ffbb6c5))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7112,8 +7112,8 @@
     (property "Datasheet" "" (at 631.19 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 36bf0414-801b-46fd-a7e9-57a1bacc0c62))
-    (pin "2" (uuid 750b87c6-3785-42e8-9044-618d07b51469))
+    (pin "1" (uuid 351ce41c-2565-4e68-9504-cc7eaa50f8d5))
+    (pin "2" (uuid 61a21440-b4fb-4301-bf70-611b0186db7b))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7291,8 +7291,8 @@
     (property "Datasheet" "" (at 504.19 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 60de72fc-0566-4fca-ae45-e526e409319c))
-    (pin "2" (uuid 6bcc9663-e4d8-424f-8b3b-0bf6412001b1))
+    (pin "1" (uuid 8339d365-20fa-42a3-b570-21d335d83baf))
+    (pin "2" (uuid d7ac3ec2-5d49-4274-bdf0-b390e03fa0f4))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7317,8 +7317,8 @@
     (property "Datasheet" "" (at 580.39 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 9f763763-04ca-43ca-94d3-48e96e8e36fa))
-    (pin "2" (uuid a3907f16-4ecd-4329-9a2e-6a7a89b896c8))
+    (pin "1" (uuid e9bb2155-63cf-4ef9-ae9e-0a233d199466))
+    (pin "2" (uuid 56cd53d2-bc8f-44ed-a8d1-0e018028282b))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7368,8 +7368,8 @@
     (property "Datasheet" "" (at 631.19 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid d460f559-5df8-4991-96f9-a7687a811a96))
-    (pin "2" (uuid 32ba51b8-b7f6-482a-a223-222e6c203544))
+    (pin "1" (uuid 16898242-4d14-48df-8d16-47c3b5f79117))
+    (pin "2" (uuid 242171ad-65aa-4812-9972-4d48c6687dcd))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7471,8 +7471,8 @@
     (property "Datasheet" "" (at 300.99 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 3789256b-fb4d-4def-aa64-baf291534af6))
-    (pin "2" (uuid b912e5fd-0926-49f0-bada-e2f71f240f78))
+    (pin "1" (uuid 5681d175-6ac1-4850-b040-bdabc60aee2e))
+    (pin "2" (uuid cd8c7c36-d28e-4b12-8a5c-eefb4c1b4bc5))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7497,8 +7497,8 @@
     (property "Datasheet" "" (at 427.99 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 2cc4e75f-417d-4cec-8bb2-c27c0f69800c))
-    (pin "2" (uuid a0882a7b-d6b1-4ec7-a28d-994aad9ea703))
+    (pin "1" (uuid 0f444da2-390e-435f-aa86-76eb237dd00e))
+    (pin "2" (uuid c24eee95-969a-4e0e-b96d-e2c7d86d6120))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7549,8 +7549,8 @@
     (property "Datasheet" "" (at 427.99 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 0bb6473b-c8c1-4942-904e-b818c2fa5a5f))
-    (pin "2" (uuid cb465135-c100-4115-a296-0fd222e55056))
+    (pin "1" (uuid 619de344-6c0e-4ec1-a6d9-02b6a208c96d))
+    (pin "2" (uuid a9b91ae0-7bbe-450e-9812-0fcdf6994ebf))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7679,8 +7679,8 @@
     (property "Datasheet" "" (at 326.39 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 519e338c-6e8b-407f-8ba5-8c9775a06e6b))
-    (pin "2" (uuid 2295a44e-da6f-49a2-b83e-9499e4c4f1bd))
+    (pin "1" (uuid a86dd1ed-4ff1-4f27-a124-fde26cd775bb))
+    (pin "2" (uuid 9398a2c7-216f-45d1-91cf-048985902513))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7705,8 +7705,8 @@
     (property "Datasheet" "" (at 427.99 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 0ea53689-90e2-43bb-87e4-f6037296b231))
-    (pin "2" (uuid b0d5aa1f-1f97-4ec5-aa8f-35111e482200))
+    (pin "1" (uuid a46430ce-42b4-4ac3-acb8-bc7cff700d52))
+    (pin "2" (uuid 35ecce3e-ecc0-457d-9de5-3457ec4815ad))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7783,8 +7783,8 @@
     (property "Datasheet" "" (at 351.79 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid ebccc318-df22-477a-b111-e744e19928da))
-    (pin "2" (uuid dc04c418-0820-4157-a900-1911c4b43541))
+    (pin "1" (uuid 0eb73c0b-143c-4025-9f22-2181f1e03ba8))
+    (pin "2" (uuid 2cdae53b-7bb7-4053-96f8-834884691dc1))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7835,8 +7835,8 @@
     (property "Datasheet" "" (at 554.99 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 49b1605c-9d77-448a-a92c-87171f90176d))
-    (pin "2" (uuid 10ce4a46-449f-446a-bf53-ec794a4314df))
+    (pin "1" (uuid e67d8f55-c98b-472c-8288-79f6e17d5338))
+    (pin "2" (uuid 795bb9e7-fb7c-452c-8466-09c35114bc51))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7861,8 +7861,8 @@
     (property "Datasheet" "" (at 529.59 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 90c5ae86-0354-451d-ab07-942a0aec6465))
-    (pin "2" (uuid f0df71d1-2035-493d-af86-2a748c243d1d))
+    (pin "1" (uuid 5b4ee56f-1a90-4974-8948-2ffb56473d7b))
+    (pin "2" (uuid a44ac326-8711-44cd-87e6-f73c6326e287))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7887,8 +7887,8 @@
     (property "Datasheet" "" (at 224.79 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 85165f2b-4981-4491-a887-14b268ca9691))
-    (pin "2" (uuid 62737448-30f0-4f0b-9adc-a023e6b1bbcd))
+    (pin "1" (uuid 90ff5fe7-5408-4c93-ad6c-a4d04b571c54))
+    (pin "2" (uuid a4b64e55-6078-433d-bfcb-80227db42b86))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7913,8 +7913,8 @@
     (property "Datasheet" "~" (at 250.19 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5dd7228f-8ec1-48a9-9b23-5e53aa8368f2))
-    (pin "2" (uuid 07ebcff9-3bfd-4393-8682-a47c0ed51379))
+    (pin "1" (uuid 8fc7b86c-5f15-4319-a390-2a37a1cee7f0))
+    (pin "2" (uuid d962c2f8-9f58-4b88-80dd-517aded8b16b))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -7990,8 +7990,8 @@
     (property "Datasheet" "" (at 250.19 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 97dc2212-bb81-42af-9139-cc8e229cdd12))
-    (pin "2" (uuid 64cecfff-09d7-40a3-ae51-d85c09a8710b))
+    (pin "1" (uuid 21b5c924-f9af-41ea-bf06-9f1e4b24bf62))
+    (pin "2" (uuid b79b923e-ea9a-4a52-b92c-4206f3b64a19))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8254,8 +8254,8 @@
     (property "Datasheet" "" (at 453.39 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid bfdd5ebd-c281-4b85-85e5-a02ca9ebf756))
-    (pin "2" (uuid ce9754b3-1dea-42e8-8320-1b67f4d2e303))
+    (pin "1" (uuid aedee046-099c-4b08-94a7-a6e6af0561f9))
+    (pin "2" (uuid f024ed01-3eb4-434e-b122-030bd67fd750))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8306,8 +8306,8 @@
     (property "Datasheet" "" (at 529.59 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid f473a27a-21b0-4e0e-b04a-a9f619059927))
-    (pin "2" (uuid eaa34e71-8a4b-40ee-bd37-876c9a4fbedc))
+    (pin "1" (uuid e42ad207-95fb-406f-bf08-1d070dedfe6f))
+    (pin "2" (uuid 8306ee1a-6e9f-422b-a5f2-8488ee305406))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8332,8 +8332,8 @@
     (property "Datasheet" "" (at 605.79 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 5d8ce389-58ed-451d-a124-b8ab7f5cea84))
-    (pin "2" (uuid 55e85edd-8cbd-49e1-bc03-b049dfda6c0e))
+    (pin "1" (uuid b93830e2-7b33-48b7-8509-f0c097df481c))
+    (pin "2" (uuid bcfafbda-9441-43ec-9d72-b116017c878f))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8384,8 +8384,8 @@
     (property "Datasheet" "" (at 377.19 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 1a3f8f5d-84f9-4912-917b-6262ab175d32))
-    (pin "2" (uuid 6f1c7091-371b-47b7-9429-e4fda9cc211e))
+    (pin "1" (uuid 89cdd9b4-f869-4558-8861-ed369ce17140))
+    (pin "2" (uuid 566085c5-2d40-47fc-86d9-ca0967bd117b))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8487,8 +8487,8 @@
     (property "Datasheet" "" (at 224.79 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid a390f68b-591e-41cd-bbae-0cb3e86a4764))
-    (pin "2" (uuid 75e3ad6c-5be5-48fa-913c-bb6e2f0cffda))
+    (pin "1" (uuid 801ba50e-c0b7-4edf-82f7-65394b28bffe))
+    (pin "2" (uuid 7db7aee0-7fc9-4c93-956f-8e99dd5f9001))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8666,8 +8666,8 @@
     (property "Datasheet" "" (at 351.79 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 99f68c70-ef84-4e08-aa6f-4f56cd2fdc98))
-    (pin "2" (uuid d116fc91-48cd-4528-a450-8e78205bff2e))
+    (pin "1" (uuid 4de3f275-ad4f-4a33-b24a-31098490e180))
+    (pin "2" (uuid 82a4960f-928e-4c0e-8fff-7e63efd2a23e))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8771,8 +8771,8 @@
     (property "Datasheet" "" (at 300.99 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 8d02da07-6003-48c7-b1ad-0fb64aed9b57))
-    (pin "2" (uuid 7a128cf3-2c7d-419b-9299-04d28c586733))
+    (pin "1" (uuid 2ae86771-a480-40a8-aa74-ef5fecaa6fcd))
+    (pin "2" (uuid 059d0f5d-cc63-454f-a1f9-965ea77f2075))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8848,8 +8848,8 @@
     (property "Datasheet" "" (at 377.19 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid e78d6f61-cf9c-4663-a4e1-905491cc5041))
-    (pin "2" (uuid 5908b5ea-3368-44ad-8600-e1e35561c410))
+    (pin "1" (uuid e146ec81-d922-421b-91b6-90b4bd546251))
+    (pin "2" (uuid a7c4afdb-8ad8-4058-83ab-914842b415ad))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -8874,8 +8874,8 @@
     (property "Datasheet" "" (at 478.79 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 205b0120-32df-4ba6-9d0f-368533b5a334))
-    (pin "2" (uuid 7ce81fe5-26fb-4433-874b-f0fca5ccd096))
+    (pin "1" (uuid 91bd3f63-96c8-425b-9787-ba5f9a23de08))
+    (pin "2" (uuid 0e25b7b1-08a4-4709-bfc4-e61ff4f5b497))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9004,8 +9004,8 @@
     (property "Datasheet" "" (at 605.79 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid ceed835d-89db-4be1-940b-16c349f87772))
-    (pin "2" (uuid 5bdaa4e7-9a8e-4dba-ad3c-6e18ec0c1e5e))
+    (pin "1" (uuid eea1a78f-7c5a-4e85-ba01-b4d4826fbc41))
+    (pin "2" (uuid 64b948fc-c4a7-49cd-bd73-dd8afb7c9671))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9186,8 +9186,8 @@
     (property "Datasheet" "" (at 275.59 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 83c61231-5c12-43e4-beba-2a9cf30123b2))
-    (pin "2" (uuid 26c99b36-6584-46d0-b828-af490ea42114))
+    (pin "1" (uuid a3a3df79-4f9b-4d45-b155-406ad9a217b0))
+    (pin "2" (uuid d4b68d4b-d71c-46f1-aaca-30ab019d99ec))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9264,8 +9264,8 @@
     (property "Datasheet" "" (at 402.59 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 9b20523a-43f4-421d-b26e-58b8d89ae36d))
-    (pin "2" (uuid 4c3dc056-77ad-4194-b1c3-7dd4bcf5a24e))
+    (pin "1" (uuid 0a7268a4-4a5a-43f8-8d5c-7a5d210f9f3f))
+    (pin "2" (uuid 751215c9-728c-4f43-92c8-c187458d1a88))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9290,8 +9290,8 @@
     (property "Datasheet" "" (at 351.79 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid cb864c8a-50b6-4cbf-b827-41c0d142194c))
-    (pin "2" (uuid f0119327-bc33-458d-b7b8-408f86f6ed70))
+    (pin "1" (uuid a16d2513-30bf-4a29-97d3-23422aaf1be1))
+    (pin "2" (uuid fa0f49dc-e5e6-4226-9c5f-d533f9224320))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9316,8 +9316,8 @@
     (property "Datasheet" "" (at 504.19 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 4d0b7162-d2cd-45b9-bd8d-1843a7c95da2))
-    (pin "2" (uuid 5dd72210-803e-4bb0-af7a-b1d61a31d7d1))
+    (pin "1" (uuid 77b5f281-2249-44c3-8f76-32681f54be72))
+    (pin "2" (uuid ff8e9594-2968-44b1-8bb0-7c53d12356f3))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9379,8 +9379,8 @@
     (property "Datasheet" "" (at 529.59 245.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 7909feca-5990-4029-8e37-a3bf1da276be))
-    (pin "2" (uuid 605beb56-c569-47f8-9412-cb2dfcd08362))
+    (pin "1" (uuid e8220f07-80b2-4819-864f-ac506eeb6db6))
+    (pin "2" (uuid d8d83239-d075-4720-89bb-76ef0638a04a))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9431,8 +9431,8 @@
     (property "Datasheet" "~" (at 224.79 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16844f84-3b6d-4aba-ae97-830b3058a036))
-    (pin "2" (uuid bb8048b0-70a8-4595-a3f7-8908560ded14))
+    (pin "1" (uuid e62a098a-efca-4c3b-9b1a-42e2881d4b3a))
+    (pin "2" (uuid 0bf9dbc0-d9d2-47ce-b285-3a32b8d68227))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9457,8 +9457,8 @@
     (property "Datasheet" "" (at 453.39 143.51 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 37fae21a-3f91-4000-8a10-843c564f000e))
-    (pin "2" (uuid df597412-5d6c-4194-806a-30ad1804d87a))
+    (pin "1" (uuid 8a8a5a45-2e8f-4d34-93f1-9a44c201664c))
+    (pin "2" (uuid b86ae2d3-03a0-41ff-8556-bea5f7bf3337))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9483,8 +9483,8 @@
     (property "Datasheet" "~" (at 300.99 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 884b27b5-c8fb-4d9f-9533-7cba0210ed59))
-    (pin "2" (uuid 11477e53-0b8a-48ab-8136-4d2fb4363b0a))
+    (pin "1" (uuid 7830288e-1921-4428-934b-4a96fadd9011))
+    (pin "2" (uuid 289a96d0-15e5-4f7d-b14a-22a805c8416b))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9638,8 +9638,8 @@
     (property "Datasheet" "" (at 504.19 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 1174a0e5-28e6-41b1-80a7-4d64bf4556a0))
-    (pin "2" (uuid e398322a-9c3d-4d31-888c-73763d1c6882))
+    (pin "1" (uuid b5974a50-e8cb-4d2e-a4bc-92ec373bcf55))
+    (pin "2" (uuid 304ebb35-c640-4388-a894-7379a01966b1))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9802,8 +9802,8 @@
     (property "Datasheet" "" (at 427.99 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 38a137f1-3900-4c54-8963-26e6026d291b))
-    (pin "2" (uuid feb74387-5487-409d-b079-95c6fe2243c1))
+    (pin "1" (uuid 0376a3c3-ae11-4542-b1bf-1854f2ee1055))
+    (pin "2" (uuid a9bc7b1a-b425-4d03-a6ee-9f310c484972))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9828,8 +9828,8 @@
     (property "Datasheet" "" (at 326.39 219.71 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid fda495d3-2764-434b-b694-9ea0a8c4594f))
-    (pin "2" (uuid 277a6451-930f-4f9f-827c-17928840c3df))
+    (pin "1" (uuid 940927cc-1d9f-4dc9-8340-c63913b8cfca))
+    (pin "2" (uuid 28da5fee-975c-4f02-b7c6-e164bac34bb2))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -9854,8 +9854,8 @@
     (property "Datasheet" "" (at 580.39 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 78bba818-1c9d-4866-88fa-5ffe8023084f))
-    (pin "2" (uuid 4dab0531-f2aa-485b-8bbf-e9e65251bd3a))
+    (pin "1" (uuid 17435617-73a1-49c4-a855-29f7f4414d76))
+    (pin "2" (uuid a7009a09-c47d-45b6-b1e7-a3ebfb909be4))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -10032,8 +10032,8 @@
     (property "Datasheet" "" (at 427.99 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid dd795157-49f8-414b-8b85-6d46d5c65201))
-    (pin "2" (uuid ff77c23e-5ffe-44d8-bd84-342ce9e1b88e))
+    (pin "1" (uuid e270bcf7-978d-46a3-ba03-9ba062d208a9))
+    (pin "2" (uuid cd188659-2cbd-487a-8fe9-60c3566668f6))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
@@ -10136,8 +10136,8 @@
     (property "Datasheet" "" (at 250.19 168.91 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid c3d0cc0e-6861-44de-a0ed-fa0864cb0251))
-    (pin "2" (uuid 3d3ef664-d183-461d-99ae-ba5ab4410790))
+    (pin "1" (uuid 4e5cf642-fef0-4e6d-9a45-5e9e39cdf4ce))
+    (pin "2" (uuid 28750a07-da68-4cdc-a404-c93a2ebd0f98))
     (instances
       (project "keyboard"
         (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
