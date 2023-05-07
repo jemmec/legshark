@@ -9643,6 +9643,30 @@
     )
   )
 
+  (symbol (lib_id "legshark_symbols:Legshark_Logo") (at 435.61 412.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e37ecf45-5779-482f-ac4f-f70e5f1a8ea9)
+    (property "Reference" "Legshark_Logo2" (at 435.61 410.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Huge" (at 435.61 412.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Legshark:Legshark_Logo_Huge" (at 435.61 412.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 435.61 412.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboard"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "Legshark_Logo2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Small") (at 502.92 201.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4705f60-a154-455d-baa9-96a439be7b62)
