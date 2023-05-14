@@ -1,8 +1,8 @@
 # legshark65
 
-> Version 1
+> Version 2
 
-![keyboard-layout](images/keyboard-layout.jpg)
+![keyboard-layout](images/keyboard-layout-v2.jpg)
 
 65% (ish) ortholinear keyboard using STM32 controller
 
