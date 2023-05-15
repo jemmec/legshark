@@ -823,7 +823,7 @@
       )
     )
     (symbol "legshark_symbols:Header_4_Way,_1_Row" (in_bom yes) (on_board yes)
-      (property "Reference" "T1" (at 1.27 8.89 90)
+      (property "Reference" "T2" (at 1.27 8.89 90)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Value" "53261-0471" (at 7.62 0 90)
@@ -834,16 +834,6 @@
       )
       (property "Datasheet" "https://docs.rs-online.com/4dcc/0900766b8150e34b.pdf" (at 1.27 12.7 0)
         (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Header_4_Way,_1_Row_1_0"
-        (pin bidirectional line (at 2.54 10.16 270) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 2.54 -11.43 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
       )
       (symbol "Header_4_Way,_1_Row_1_1"
         (rectangle (start -3.81 7.62) (end 3.81 -8.89)
@@ -5745,36 +5735,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 41.91 264.16 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 83a4fcfc-0eb1-4e20-920b-12d82d24d35c)
-    (property "Reference" "#PWR037" (at 35.56 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 38.4603 266.1746 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 41.91 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 41.91 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a9547067-24a6-4cb8-b702-33bc3784946a))
-    (instances
-      (project "old_layout"
-        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
-          (reference "#PWR037") (unit 1)
-        )
-      )
-      (project "legshark65"
-        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:Crystal_GND24") (at 93.98 255.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8588fb79-cb12-420a-ae87-4e0dba480f4e)
@@ -6180,8 +6140,6 @@
     (property "Datasheet" "https://docs.rs-online.com/4dcc/0900766b8150e34b.pdf" (at 66.04 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 2b07c463-9b86-46b2-be41-7c2fbf40c868))
-    (pin "6" (uuid 1eddaf01-1753-4e2e-ba7d-278351ee0e5d))
     (pin "1" (uuid f9e23765-1dea-4b13-b4fc-1102f220664f))
     (pin "2" (uuid c7eb8950-0063-42c2-8572-aab7fc4eccbf))
     (pin "3" (uuid 4dbae55b-8916-4316-8213-d03b0a83cadc))
@@ -6772,36 +6730,6 @@
       (project "legshark65"
         (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
           (reference "K_32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 63.5 264.16 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c911bcfa-0c74-49e9-b940-23c5495ceb0f)
-    (property "Reference" "#PWR036" (at 69.85 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 66.9497 262.1454 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 63.5 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 63.5 264.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 72e6f918-ba0d-427e-8bc8-035c5e73cd37))
-    (instances
-      (project "old_layout"
-        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
-          (reference "#PWR036") (unit 1)
-        )
-      )
-      (project "legshark65"
-        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
-          (reference "#PWR03") (unit 1)
         )
       )
     )
