@@ -30,6 +30,7 @@
 
   (setup
     (pad_to_mask_clearance 0)
+    (aux_axis_origin 163.35 68.1)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
@@ -155,7 +156,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 00878599-958c-49d9-964f-1e9c1794c0c3)
-    (at 229.55 58.1)
+    (at 239.55 68.1)
     (path "/00000000-0000-0000-0000-000000000401")
     (attr through_hole)
     (fp_text reference "K_40" (at 0 3.175) (layer "Dwgs.User")
@@ -205,7 +206,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 0cbe051d-a60a-42b8-b69d-776600316c47)
-    (at 267.65 39.05)
+    (at 277.65 49.05)
     (path "/00000000-0000-0000-0000-000000000271")
     (attr through_hole)
     (fp_text reference "K_27" (at 0 3.175) (layer "Dwgs.User")
@@ -255,7 +256,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 0daf1eef-dc0f-41a7-a72c-9d0520d5b804)
-    (at 58.1 58.1)
+    (at 68.1 68.1)
     (path "/00000000-0000-0000-0000-000000000311")
     (attr through_hole)
     (fp_text reference "K_31" (at 0 3.175) (layer "Dwgs.User")
@@ -305,7 +306,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 0eb8d32e-ac30-4793-94a9-e8bcf9ce9707)
-    (at 134.3 39.05)
+    (at 144.3 49.05)
     (path "/00000000-0000-0000-0000-000000000201")
     (attr through_hole)
     (fp_text reference "K_20" (at 0 3.175) (layer "Dwgs.User")
@@ -355,7 +356,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 22905334-e222-46f0-9728-dc3a881c89ac)
-    (at 115.25 77.15)
+    (at 125.25 87.15)
     (path "/00000000-0000-0000-0000-000000000471")
     (attr through_hole)
     (fp_text reference "K_47" (at 0 3.175) (layer "Dwgs.User")
@@ -405,7 +406,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1.75U-NoLED" (layer "F.Cu")
     (tstamp 2433e1d3-9b53-41f0-b2e8-3cf42267b8ca)
-    (at 27.14375 96.2)
+    (at 37.14375 106.2)
     (path "/00000000-0000-0000-0000-000000000571")
     (attr through_hole)
     (fp_text reference "K_57" (at 0 3.175) (layer "Dwgs.User")
@@ -455,7 +456,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 29c4affc-e1b2-4204-b887-f841e1682836)
-    (at 191.45 77.15)
+    (at 201.45 87.15)
     (path "/00000000-0000-0000-0000-000000000511")
     (attr through_hole)
     (fp_text reference "K_51" (at 0 3.175) (layer "Dwgs.User")
@@ -505,7 +506,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-2U-NoLED" (layer "F.Cu")
     (tstamp 2f01737f-b040-41f8-9ca4-e2dcf59fd2dd)
-    (at 29.525 39.05)
+    (at 39.525 49.05)
     (path "/00000000-0000-0000-0000-000000000151")
     (attr through_hole)
     (fp_text reference "K_15" (at 0 3.175) (layer "Dwgs.User")
@@ -559,7 +560,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 3f15f318-e852-4e6c-8407-28eab237d9d1)
-    (at 172.4 77.15)
+    (at 182.4 87.15)
     (path "/00000000-0000-0000-0000-000000000501")
     (attr through_hole)
     (fp_text reference "K_50" (at 0 3.175) (layer "Dwgs.User")
@@ -609,7 +610,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 4015a2a9-703c-4f04-91eb-05a5d1a1d5a7)
-    (at 191.45 58.1)
+    (at 201.45 68.1)
     (path "/00000000-0000-0000-0000-000000000381")
     (attr through_hole)
     (fp_text reference "K_38" (at 0 3.175) (layer "Dwgs.User")
@@ -659,7 +660,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 40f48462-8b59-4d44-8eb7-1113f3708ae1)
-    (at 77.15 20)
+    (at 87.15 30)
     (path "/00000000-0000-0000-0000-000000000031")
     (attr through_hole)
     (fp_text reference "K_3" (at 0 3.175) (layer "Dwgs.User")
@@ -709,7 +710,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 427a1bc9-54c1-4710-8b32-602e2d6afcb0)
-    (at 77.15 58.1)
+    (at 87.15 68.1)
     (path "/00000000-0000-0000-0000-000000000321")
     (attr through_hole)
     (fp_text reference "K_32" (at 0 3.175) (layer "Dwgs.User")
@@ -759,7 +760,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 448c58c9-51d8-4f14-b1f2-84e76b4d9609)
-    (at 39.05 58.1)
+    (at 49.05 68.1)
     (path "/00000000-0000-0000-0000-000000000301")
     (attr through_hole)
     (fp_text reference "K_30" (at 0 3.175) (layer "Dwgs.User")
@@ -809,7 +810,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 4aa28666-9b40-45a3-8223-f3cde5f718de)
-    (at 210.5 39.05)
+    (at 220.5 49.05)
     (path "/00000000-0000-0000-0000-000000000241")
     (attr through_hole)
     (fp_text reference "K_24" (at 0 3.175) (layer "Dwgs.User")
@@ -859,7 +860,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-2.25U-NoLED" (layer "F.Cu")
     (tstamp 4d10cf64-9776-4de5-bb77-925342df2e86)
-    (at 112.86875 96.2)
+    (at 122.86875 106.2)
     (path "/00000000-0000-0000-0000-000000000601")
     (attr through_hole)
     (fp_text reference "K_60" (at 0 3.175) (layer "Dwgs.User")
@@ -913,7 +914,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 5658bd16-89e1-46ed-ac6a-20ed531b8d50)
-    (at 191.45 39.05)
+    (at 201.45 49.05)
     (path "/00000000-0000-0000-0000-000000000231")
     (attr through_hole)
     (fp_text reference "K_23" (at 0 3.175) (layer "Dwgs.User")
@@ -963,7 +964,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 5685f2bd-a1e3-4306-b9f8-e2944e48a9e3)
-    (at 77.15 39.05)
+    (at 87.15 49.05)
     (path "/00000000-0000-0000-0000-000000000171")
     (attr through_hole)
     (fp_text reference "K_17" (at 0 3.175) (layer "Dwgs.User")
@@ -1013,7 +1014,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 569055ec-c138-4ee6-8da3-2bbc0126142e)
-    (at 248.6 58.1)
+    (at 258.6 68.1)
     (path "/00000000-0000-0000-0000-000000000411")
     (attr through_hole)
     (fp_text reference "K_41" (at 0 3.175) (layer "Dwgs.User")
@@ -1063,7 +1064,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 68437a09-c6c5-4762-a365-1d200a2e654f)
-    (at 267.65 77.15)
+    (at 277.65 87.15)
     (path "/00000000-0000-0000-0000-000000000541")
     (attr through_hole)
     (fp_text reference "K_54" (at 0 3.175) (layer "Dwgs.User")
@@ -1113,7 +1114,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 6aa285b1-de78-43f5-8ddb-6b93d1999c3b)
-    (at 172.4 58.1)
+    (at 182.4 68.1)
     (path "/00000000-0000-0000-0000-000000000371")
     (attr through_hole)
     (fp_text reference "K_37" (at 0 3.175) (layer "Dwgs.User")
@@ -1163,7 +1164,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 6b31e46a-6ed7-4e71-8ed6-3ea72c16ac48)
-    (at 134.3 58.1)
+    (at 144.3 68.1)
     (path "/00000000-0000-0000-0000-000000000351")
     (attr through_hole)
     (fp_text reference "K_35" (at 0 3.175) (layer "Dwgs.User")
@@ -1213,7 +1214,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 6c3be1ca-eb1f-44d5-ab02-d7e6889c4748)
-    (at 39.05 20)
+    (at 49.05 30)
     (path "/00000000-0000-0000-0000-000000000011")
     (attr through_hole)
     (fp_text reference "K_1" (at 0 3.175) (layer "Dwgs.User")
@@ -1263,7 +1264,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 6cfeaccb-48ee-48cc-9265-5f2e9885d47e)
-    (at 115.25 58.1)
+    (at 125.25 68.1)
     (path "/00000000-0000-0000-0000-000000000341")
     (attr through_hole)
     (fp_text reference "K_34" (at 0 3.175) (layer "Dwgs.User")
@@ -1313,7 +1314,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 715afb4a-4adb-4a0c-bdc0-aa445422af7a)
-    (at 153.35 20)
+    (at 163.35 30)
     (path "/00000000-0000-0000-0000-000000000071")
     (attr through_hole)
     (fp_text reference "K_7" (at 0 3.175) (layer "Dwgs.User")
@@ -1363,7 +1364,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1.25U-NoLED" (layer "F.Cu")
     (tstamp 74721fd4-b518-4dc6-8a42-19dee50f78dc)
-    (at 79.53125 96.2)
+    (at 89.53125 106.2)
     (path "/00000000-0000-0000-0000-000000000591")
     (attr through_hole)
     (fp_text reference "K_59" (at 0 3.175) (layer "Dwgs.User")
@@ -1413,7 +1414,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-2U-NoLED" (layer "F.Cu")
     (tstamp 754bb9d4-d605-4fe2-81d3-228743acab5d)
-    (at 29.525 77.15)
+    (at 39.525 87.15)
     (path "/00000000-0000-0000-0000-000000000431")
     (attr through_hole)
     (fp_text reference "K_43" (at 0 3.175) (layer "Dwgs.User")
@@ -1467,7 +1468,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 7640d527-426e-4031-91c4-8430bf71162e)
-    (at 58.1 39.05)
+    (at 68.1 49.05)
     (path "/00000000-0000-0000-0000-000000000161")
     (attr through_hole)
     (fp_text reference "K_16" (at 0 3.175) (layer "Dwgs.User")
@@ -1517,7 +1518,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 76dab4d9-9a51-4d3b-9420-ff4aa49da022)
-    (at 153.35 39.05)
+    (at 163.35 49.05)
     (path "/00000000-0000-0000-0000-000000000211")
     (attr through_hole)
     (fp_text reference "K_21" (at 0 3.175) (layer "Dwgs.User")
@@ -1567,7 +1568,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 7e52a9fc-250d-49b2-8003-8eb13ed3d5a9)
-    (at 210.5 77.15)
+    (at 220.5 87.15)
     (path "/00000000-0000-0000-0000-000000000521")
     (attr through_hole)
     (fp_text reference "K_52" (at 0 3.175) (layer "Dwgs.User")
@@ -1617,7 +1618,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 7e8d26aa-e290-4193-ad22-dff78eae662c)
-    (at 191.45 20)
+    (at 201.45 30)
     (path "/00000000-0000-0000-0000-000000000091")
     (attr through_hole)
     (fp_text reference "K_9" (at 0 3.175) (layer "Dwgs.User")
@@ -1667,7 +1668,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 7f74e4ab-24af-45aa-a9c0-f635b4b2a1f3)
-    (at 115.25 39.05)
+    (at 125.25 49.05)
     (path "/00000000-0000-0000-0000-000000000191")
     (attr through_hole)
     (fp_text reference "K_19" (at 0 3.175) (layer "Dwgs.User")
@@ -1717,7 +1718,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 7fa3dfb8-f229-4ae7-93ce-e1039ab23335)
-    (at 115.25 20)
+    (at 125.25 30)
     (path "/00000000-0000-0000-0000-000000000051")
     (attr through_hole)
     (fp_text reference "K_5" (at 0 3.175) (layer "Dwgs.User")
@@ -1767,7 +1768,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 8184798b-c419-4a3e-9742-c2b372f53458)
-    (at 229.55 77.15)
+    (at 239.55 87.15)
     (path "/00000000-0000-0000-0000-000000000531")
     (attr through_hole)
     (fp_text reference "K_53" (at 0 3.175) (layer "Dwgs.User")
@@ -1817,7 +1818,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 84710ea5-e4c5-48b4-9562-12ec8aceb650)
-    (at 286.7 86.675)
+    (at 296.7 96.675)
     (path "/00000000-0000-0000-0000-000000000561")
     (attr through_hole)
     (fp_text reference "K_56" (at 0 3.175) (layer "Dwgs.User")
@@ -1867,7 +1868,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 872a3c8d-c19c-435e-87c0-b8da19276ea1)
-    (at 210.5 20)
+    (at 220.5 30)
     (path "/00000000-0000-0000-0000-000000000101")
     (attr through_hole)
     (fp_text reference "K_10" (at 0 3.175) (layer "Dwgs.User")
@@ -1917,7 +1918,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 881005d4-2a17-41cd-b98b-496b8a5d0b6b)
-    (at 229.55 39.05)
+    (at 239.55 49.05)
     (path "/00000000-0000-0000-0000-000000000251")
     (attr through_hole)
     (fp_text reference "K_25" (at 0 3.175) (layer "Dwgs.User")
@@ -1967,7 +1968,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 8cb4d97f-13d0-494c-8766-56a927678100)
-    (at 58.1 20)
+    (at 68.1 30)
     (path "/00000000-0000-0000-0000-000000000021")
     (attr through_hole)
     (fp_text reference "K_2" (at 0 3.175) (layer "Dwgs.User")
@@ -2017,7 +2018,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 95e769ef-8025-4fe4-9d75-fab935420644)
-    (at 96.2 77.15)
+    (at 106.2 87.15)
     (path "/00000000-0000-0000-0000-000000000461")
     (attr through_hole)
     (fp_text reference "K_46" (at 0 3.175) (layer "Dwgs.User")
@@ -2067,7 +2068,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp 9ab9210f-b5d2-479c-a64c-8a57ced3eb62)
-    (at 172.4 20)
+    (at 182.4 30)
     (path "/00000000-0000-0000-0000-000000000081")
     (attr through_hole)
     (fp_text reference "K_8" (at 0 3.175) (layer "Dwgs.User")
@@ -2117,7 +2118,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp a1abb55d-4d84-4b39-a1d8-8b8731aa1ab0)
-    (at 229.55 20)
+    (at 239.55 30)
     (path "/00000000-0000-0000-0000-000000000111")
     (attr through_hole)
     (fp_text reference "K_11" (at 0 3.175) (layer "Dwgs.User")
@@ -2167,7 +2168,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp a2c631ff-fc09-47a3-89d2-ea6a3c5091f5)
-    (at 172.4 39.05)
+    (at 182.4 49.05)
     (path "/00000000-0000-0000-0000-000000000221")
     (attr through_hole)
     (fp_text reference "K_22" (at 0 3.175) (layer "Dwgs.User")
@@ -2217,7 +2218,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp a6e48630-93d8-4acf-beb8-bf7280127d97)
-    (at 248.6 86.675)
+    (at 258.6 96.675)
     (path "/00000000-0000-0000-0000-000000000551")
     (attr through_hole)
     (fp_text reference "K_55" (at 0 3.175) (layer "Dwgs.User")
@@ -2267,7 +2268,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp ad57b30a-d56b-43ca-92f4-4dcbeaf75ad9)
-    (at 210.5 58.1)
+    (at 220.5 68.1)
     (path "/00000000-0000-0000-0000-000000000391")
     (attr through_hole)
     (fp_text reference "K_39" (at 0 3.175) (layer "Dwgs.User")
@@ -2317,7 +2318,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp af6c8498-9c97-4fd9-80d6-b90c381f6116)
-    (at 286.7 39.05)
+    (at 296.7 49.05)
     (path "/00000000-0000-0000-0000-000000000281")
     (attr through_hole)
     (fp_text reference "K_28" (at 0 3.175) (layer "Dwgs.User")
@@ -2367,7 +2368,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-2U-NoLED" (layer "F.Cu")
     (tstamp badd4698-b24f-4f5e-a6ad-8471f83f0dc9)
-    (at 277.175 58.1)
+    (at 287.175 68.1)
     (path "/00000000-0000-0000-0000-000000000421")
     (attr through_hole)
     (fp_text reference "K_42" (at 0 3.175) (layer "Dwgs.User")
@@ -2421,7 +2422,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp bce087a9-b72a-4af0-81c0-a552e3a34b8d)
-    (at 267.65 20)
+    (at 277.65 30)
     (path "/00000000-0000-0000-0000-000000000131")
     (attr through_hole)
     (fp_text reference "K_13" (at 0 3.175) (layer "Dwgs.User")
@@ -2471,7 +2472,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp c11e1301-8d2a-4556-b5ec-dbc016f1116c)
-    (at 286.7 20)
+    (at 296.7 30)
     (path "/00000000-0000-0000-0000-000000000141")
     (attr through_hole)
     (fp_text reference "K_14" (at 0 3.175) (layer "Dwgs.User")
@@ -2521,7 +2522,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-3U-NoLED" (layer "F.Cu")
     (tstamp c2ed4347-0afe-4957-8ed4-d82022809604)
-    (at 162.875 96.2)
+    (at 172.875 106.2)
     (path "/00000000-0000-0000-0000-000000000611")
     (attr through_hole)
     (fp_text reference "K_61" (at 0 3.175) (layer "Dwgs.User")
@@ -2575,7 +2576,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1.25U-NoLED" (layer "F.Cu")
     (tstamp cde28fe0-65c6-4ab2-b8a2-bbdfc2a2fe11)
-    (at 203.35625 96.2)
+    (at 213.35625 106.2)
     (path "/00000000-0000-0000-0000-000000000621")
     (attr through_hole)
     (fp_text reference "K_62" (at 0 3.175) (layer "Dwgs.User")
@@ -2625,7 +2626,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp d4d288ab-d6f6-4c22-b7f1-528c990225ec)
-    (at 248.6 20)
+    (at 258.6 30)
     (path "/00000000-0000-0000-0000-000000000121")
     (attr through_hole)
     (fp_text reference "K_12" (at 0 3.175) (layer "Dwgs.User")
@@ -2675,7 +2676,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp d60da852-877d-4f6d-816f-f7871f7baa08)
-    (at 96.2 58.1)
+    (at 106.2 68.1)
     (path "/00000000-0000-0000-0000-000000000331")
     (attr through_hole)
     (fp_text reference "K_33" (at 0 3.175) (layer "Dwgs.User")
@@ -2725,7 +2726,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp d7c75fb5-4a08-4d35-803b-0c088d6244b0)
-    (at 20 58.1)
+    (at 30 68.1)
     (path "/00000000-0000-0000-0000-000000000291")
     (attr through_hole)
     (fp_text reference "K_29" (at 0 3.175) (layer "Dwgs.User")
@@ -2775,7 +2776,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp d9db8e2a-293f-4d86-9233-c4c8f64c7931)
-    (at 248.6 39.05)
+    (at 258.6 49.05)
     (path "/00000000-0000-0000-0000-000000000261")
     (attr through_hole)
     (fp_text reference "K_26" (at 0 3.175) (layer "Dwgs.User")
@@ -2825,7 +2826,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1.25U-NoLED" (layer "F.Cu")
     (tstamp dba07e69-bc91-4e8b-885e-deefaccaed2a)
-    (at 227.16875 96.2)
+    (at 237.16875 106.2)
     (path "/00000000-0000-0000-0000-000000000631")
     (attr through_hole)
     (fp_text reference "K_63" (at 0 3.175) (layer "Dwgs.User")
@@ -2875,7 +2876,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp dd754e21-2812-4440-915d-5876b7704d3b)
-    (at 267.65 96.2)
+    (at 277.65 106.2)
     (path "/00000000-0000-0000-0000-000000000641")
     (attr through_hole)
     (fp_text reference "K_64" (at 0 3.175) (layer "Dwgs.User")
@@ -2925,7 +2926,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp ddeb8da4-c8ed-4615-a287-aaf6584563f4)
-    (at 153.35 58.1)
+    (at 163.35 68.1)
     (path "/00000000-0000-0000-0000-000000000361")
     (attr through_hole)
     (fp_text reference "K_36" (at 0 3.175) (layer "Dwgs.User")
@@ -2975,7 +2976,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp e1a25eea-0599-48ce-9756-afaf28eb6784)
-    (at 153.35 77.15)
+    (at 163.35 87.15)
     (path "/00000000-0000-0000-0000-000000000491")
     (attr through_hole)
     (fp_text reference "K_49" (at 0 3.175) (layer "Dwgs.User")
@@ -3025,7 +3026,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp e1e47811-5df1-4255-9009-0c809dd52310)
-    (at 134.3 20)
+    (at 144.3 30)
     (path "/00000000-0000-0000-0000-000000000061")
     (attr through_hole)
     (fp_text reference "K_6" (at 0 3.175) (layer "Dwgs.User")
@@ -3075,7 +3076,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1.25U-NoLED" (layer "F.Cu")
     (tstamp e3dbf1ed-2661-4c2c-b93d-7ad6e9322d66)
-    (at 55.71875 96.2)
+    (at 65.71875 106.2)
     (path "/00000000-0000-0000-0000-000000000581")
     (attr through_hole)
     (fp_text reference "K_58" (at 0 3.175) (layer "Dwgs.User")
@@ -3125,7 +3126,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp e71a742b-1c7a-4527-b936-390e522f8528)
-    (at 134.3 77.15)
+    (at 144.3 87.15)
     (path "/00000000-0000-0000-0000-000000000481")
     (attr through_hole)
     (fp_text reference "K_48" (at 0 3.175) (layer "Dwgs.User")
@@ -3175,7 +3176,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp eeb28143-e2eb-4a5f-99c7-61f526f2a8b5)
-    (at 96.2 20)
+    (at 106.2 30)
     (path "/00000000-0000-0000-0000-000000000041")
     (attr through_hole)
     (fp_text reference "K_4" (at 0 3.175) (layer "Dwgs.User")
@@ -3225,7 +3226,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp eed2225e-b35d-4eeb-8133-301ecf2fd585)
-    (at 20 20)
+    (at 30 30)
     (path "/00000000-0000-0000-0000-000000000001")
     (attr through_hole)
     (fp_text reference "K_0" (at 0 3.175) (layer "Dwgs.User")
@@ -3275,7 +3276,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp f4ed5749-5455-4d85-93ef-723d373a4999)
-    (at 77.15 77.15)
+    (at 87.15 87.15)
     (path "/00000000-0000-0000-0000-000000000451")
     (attr through_hole)
     (fp_text reference "K_45" (at 0 3.175) (layer "Dwgs.User")
@@ -3325,7 +3326,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp f8e519e4-e865-4f9b-a5b4-d2679c0b6598)
-    (at 58.1 77.15)
+    (at 68.1 87.15)
     (path "/00000000-0000-0000-0000-000000000441")
     (attr through_hole)
     (fp_text reference "K_44" (at 0 3.175) (layer "Dwgs.User")
@@ -3375,7 +3376,7 @@
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
     (tstamp fe43ce33-1345-48a5-927b-1613b92df08a)
-    (at 96.2 39.05)
+    (at 106.2 49.05)
     (path "/00000000-0000-0000-0000-000000000181")
     (attr through_hole)
     (fp_text reference "K_18" (at 0 3.175) (layer "Dwgs.User")
@@ -3425,7 +3426,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 04386ee9-2269-4d8d-9c73-0e38f6dcaedc)
-    (at 104.725 77.65 90)
+    (at 114.725 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000460")
@@ -3491,7 +3492,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 0a9fe1ac-3f55-486a-815d-b20d1975b2ed)
-    (at 199.975 39.55 90)
+    (at 209.975 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000230")
@@ -3557,7 +3558,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 0b686d09-5a55-44a0-83ac-c26764c5b0aa)
-    (at 276.175 20.5 90)
+    (at 286.175 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000130")
@@ -3623,7 +3624,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 17a3c954-d225-4bb1-b4c4-745b2897252a)
-    (at 180.925 77.65 90)
+    (at 190.925 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000500")
@@ -3689,7 +3690,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 1a9bcb19-f84f-47b7-9bb0-0bcd6f68acb8)
-    (at 238.075 58.6 90)
+    (at 248.075 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000400")
@@ -3755,7 +3756,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 1b228a75-5b8b-4800-8195-4b3a848f085c)
-    (at 47.575 58.6 90)
+    (at 57.575 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000300")
@@ -3821,7 +3822,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 1c3d2523-c30a-4ff9-adee-d7c3f9ba2d7c)
-    (at 142.825 39.55 90)
+    (at 152.825 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000200")
@@ -3887,7 +3888,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 1d92ff4f-a88a-40d3-afd7-140e0f655f90)
-    (at 123.775 39.55 90)
+    (at 133.775 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000190")
@@ -3953,7 +3954,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 217a9389-5de7-42b4-9351-12e7b12c1844)
-    (at 85.675 39.55 90)
+    (at 95.675 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000170")
@@ -4019,7 +4020,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 25b58a92-cde4-4300-846b-6ef50853d2c0)
-    (at 42.8125 96.7 90)
+    (at 52.8125 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000570")
@@ -4085,7 +4086,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 2f4c2af5-0812-438c-8fa5-c8188fdea255)
-    (at 47.575 20.5 90)
+    (at 57.575 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000010")
@@ -4151,7 +4152,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 3053f5b5-047e-4687-b14a-afbcf7c5d731)
-    (at 47.575 77.65 90)
+    (at 57.575 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000430")
@@ -4217,7 +4218,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 30a8f524-3f77-4650-b1b2-e9d414a9720b)
-    (at 238.075 39.55 90)
+    (at 248.075 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000250")
@@ -4283,7 +4284,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 41fac499-bfb8-41d4-b3c0-0b80e0214d02)
-    (at 142.825 77.65 90)
+    (at 152.825 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000480")
@@ -4349,7 +4350,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 43956631-116b-42dd-ae30-365327a7bffe)
-    (at 276.175 77.65 90)
+    (at 286.175 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000540")
@@ -4415,7 +4416,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 439ed5d8-147d-497c-a06e-1dbbe8dc4cad)
-    (at 190.45 96.7 90)
+    (at 200.45 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000610")
@@ -4481,7 +4482,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 4498a57f-d99d-4160-a628-33d0d4ae76f4)
-    (at 199.975 77.65 90)
+    (at 209.975 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000510")
@@ -4547,7 +4548,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 55947db1-dd46-4fe9-b31f-c9ce5bcb7c83)
-    (at 238.075 20.5 90)
+    (at 248.075 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000110")
@@ -4613,7 +4614,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 5ab198f5-8a5b-4820-a3ff-8799b5dea886)
-    (at 28.525 58.6 90)
+    (at 38.525 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000290")
@@ -4679,7 +4680,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 62485475-2bb2-4ed6-8809-06caa9698088)
-    (at 85.675 58.6 90)
+    (at 95.675 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000320")
@@ -4745,7 +4746,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 63733a07-27ab-4e24-8a5a-bd418c2ac94b)
-    (at 133.3 96.7 90)
+    (at 143.3 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000600")
@@ -4811,7 +4812,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 65f66d40-a6bc-4a06-8bf6-9d54a8186d87)
-    (at 161.875 58.6 90)
+    (at 171.875 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000360")
@@ -4877,7 +4878,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 682518f9-19ea-48d1-92c9-28c02e10ebb2)
-    (at 142.825 58.6 90)
+    (at 152.825 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000350")
@@ -4943,7 +4944,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 685f3fc8-69cb-48b8-aaae-5d9de99d79a9)
-    (at 295.225 20.5 90)
+    (at 305.225 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000140")
@@ -5009,7 +5010,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 70ecd3b2-b40f-4afe-89b0-f77a35dbff0f)
-    (at 47.575 39.55 90)
+    (at 57.575 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000150")
@@ -5075,7 +5076,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 75284a52-a4a8-4173-acf2-50409899603c)
-    (at 219.025 58.6 90)
+    (at 229.025 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000390")
@@ -5141,7 +5142,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 76ad5577-9909-40d0-a4a8-fe1ff9c06afe)
-    (at 104.725 20.5 90)
+    (at 114.725 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000040")
@@ -5207,7 +5208,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 77319ed0-ad81-4a16-ac01-a269b2919853)
-    (at 85.675 20.5 90)
+    (at 95.675 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000030")
@@ -5273,7 +5274,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 7be302a1-470e-4690-89f3-f2bc53423f55)
-    (at 66.625 58.6 90)
+    (at 76.625 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000310")
@@ -5339,7 +5340,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 7f7e6c01-e2e6-4a3c-93e4-ded1b38f00de)
-    (at 180.925 20.5 90)
+    (at 190.925 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000080")
@@ -5405,7 +5406,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 80b679e1-00d8-4a75-af4d-535680122f56)
-    (at 295.225 58.6 90)
+    (at 305.225 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000420")
@@ -5471,7 +5472,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 814ddf19-729d-4fe2-8b2a-23a568f45112)
-    (at 66.625 77.65 90)
+    (at 76.625 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000440")
@@ -5537,7 +5538,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 819967ca-8523-4f32-9658-04abe22780f3)
-    (at 238.075 96.7 90)
+    (at 248.075 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000630")
@@ -5603,7 +5604,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 86c944bd-1617-432e-a66b-2a6e77141964)
-    (at 161.875 39.55 90)
+    (at 171.875 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000210")
@@ -5669,7 +5670,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 88d3e3d1-e021-4eba-8f05-ac54155d2ac2)
-    (at 219.025 77.65 90)
+    (at 229.025 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000520")
@@ -5735,7 +5736,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 925a0797-b25a-4860-819a-d136e3ae5fb0)
-    (at 142.825 20.5 90)
+    (at 152.825 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000060")
@@ -5801,7 +5802,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 92d5e9f6-4438-46ee-a0a4-2961c8c9289a)
-    (at 161.875 20.5 90)
+    (at 171.875 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000070")
@@ -5867,7 +5868,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 9335758f-4c6a-417e-9794-ecddfba66a0a)
-    (at 276.175 96.7 90)
+    (at 286.175 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000640")
@@ -5933,7 +5934,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 9c613fe4-6653-4d3c-bfec-9fb8571a21f4)
-    (at 180.925 58.6 90)
+    (at 190.925 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000370")
@@ -5999,7 +6000,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp a670f1ec-20ce-4fd9-a862-0890a75f96c6)
-    (at 219.025 39.55 90)
+    (at 229.025 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000240")
@@ -6065,7 +6066,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp a926fe41-13ea-4ec5-8cfd-fb32c4345812)
-    (at 123.775 77.65 90)
+    (at 133.775 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000470")
@@ -6131,7 +6132,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp afba74c5-ee1b-449c-9fea-a19906eab3d9)
-    (at 90.4375 96.7 90)
+    (at 100.4375 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000590")
@@ -6197,7 +6198,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp b2b4408a-380a-473a-ad01-41fa34264de4)
-    (at 214.2625 96.7 90)
+    (at 224.2625 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000620")
@@ -6263,7 +6264,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp b45d3c31-616c-47ed-ad5c-2907de8de3a5)
-    (at 276.175 39.55 90)
+    (at 286.175 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000270")
@@ -6329,7 +6330,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp b5e445c2-7848-415e-865a-91cccf38be4c)
-    (at 85.675 77.65 90)
+    (at 95.675 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000450")
@@ -6395,7 +6396,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp b6c007bc-3e5f-479c-a72b-bf7769d69767)
-    (at 66.625 20.5 90)
+    (at 76.625 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000020")
@@ -6461,7 +6462,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp b87e827f-e0e5-4590-be4c-3d0e4c0602bd)
-    (at 257.125 39.55 90)
+    (at 267.125 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000260")
@@ -6527,7 +6528,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp be587fb9-2743-4788-a3f5-8de8ac71509e)
-    (at 66.625 39.55 90)
+    (at 76.625 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000160")
@@ -6593,7 +6594,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp bed5295c-f3d0-4dfc-8174-0d3f12b282e6)
-    (at 66.625 96.7 90)
+    (at 76.625 106.7 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000580")
@@ -6659,7 +6660,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp bf71b581-bd7f-44c7-91a2-57c794335b4e)
-    (at 295.225 39.55 90)
+    (at 305.225 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000280")
@@ -6725,7 +6726,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp c1c617fd-ac08-45fa-a3a5-ee1a39695323)
-    (at 199.975 58.6 90)
+    (at 209.975 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000380")
@@ -6791,7 +6792,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp c3bbadcc-9a47-43e8-84bc-80c72d8578f2)
-    (at 295.225 87.175 90)
+    (at 305.225 97.175 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000560")
@@ -6857,7 +6858,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp c4c7537f-9ac9-4155-861a-fa6b31f66155)
-    (at 104.725 58.6 90)
+    (at 114.725 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000330")
@@ -6923,7 +6924,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp c866f00a-9e19-41f0-94c5-84bd9af68428)
-    (at 257.125 58.6 90)
+    (at 267.125 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000410")
@@ -6989,7 +6990,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp ce04780a-ef98-42b7-be2f-af6b6d687c8a)
-    (at 161.875 77.65 90)
+    (at 171.875 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000490")
@@ -7055,7 +7056,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp d0f1161f-9d4d-490c-b086-7e5baeda6f24)
-    (at 257.125 87.175 90)
+    (at 267.125 97.175 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000550")
@@ -7121,7 +7122,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp d1ee35a4-0d66-45a2-99d9-c20dc7e9a54f)
-    (at 180.925 39.55 90)
+    (at 190.925 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000220")
@@ -7187,7 +7188,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp d7b46eb2-161f-4b56-8a63-01bca496bd1a)
-    (at 238.075 77.65 90)
+    (at 248.075 87.65 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000530")
@@ -7253,7 +7254,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp dfa9df7c-3b92-4d79-996c-1c0fed62e946)
-    (at 123.775 58.6 90)
+    (at 133.775 68.6 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000340")
@@ -7319,7 +7320,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp e9427f36-629e-4779-8d53-57b2d2f84b82)
-    (at 123.775 20.5 90)
+    (at 133.775 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000050")
@@ -7385,7 +7386,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp ee26d110-a397-482f-982e-cb8a7412a2ee)
-    (at 199.975 20.5 90)
+    (at 209.975 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000090")
@@ -7451,7 +7452,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp ef5a7d90-27f2-4d03-9917-9303c8850450)
-    (at 104.725 39.55 90)
+    (at 114.725 49.55 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000180")
@@ -7517,7 +7518,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp f2420816-4608-4046-8090-d2e1ae22155b)
-    (at 28.525 20.5 90)
+    (at 38.525 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000000")
@@ -7583,7 +7584,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp f4c9eb3d-602d-47fb-8720-f8ea3b471649)
-    (at 257.125 20.5 90)
+    (at 267.125 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000120")
@@ -7649,7 +7650,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp f96ccd9c-46d8-4173-8d75-02ecdddbf0cf)
-    (at 219.025 20.5 90)
+    (at 229.025 30.5 90)
     (descr "SOD-123")
     (tags "SOD-123")
     (path "/00000000-0000-0000-0000-000000000100")
