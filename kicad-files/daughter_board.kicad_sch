@@ -2355,6 +2355,9 @@
     (property "Package" "F0805" (at 142.494 149.606 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Vendor Part Number" "LCSC C1017" (at 142.494 149.606 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e8256350-4535-4612-8347-93fe56884315))
     (pin "2" (uuid 461ad9c7-93f7-418d-8da7-22fe98de4a5f))
     (instances
