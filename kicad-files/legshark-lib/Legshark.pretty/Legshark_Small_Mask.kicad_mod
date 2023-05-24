@@ -1,10 +1,10 @@
-(footprint "Legshark_Logo_SMall" (version 20221018) (generator pcbnew)
+(footprint "Legshark_Small_Mask" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (fp_text reference "REF**" (at -0.050781 -1.847958 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp dda08415-6ed2-4d0c-b726-35c3218327d0)
   )
-  (fp_text value "Legshark_Logo_SMall" (at 0 2 unlocked) (layer "F.Fab") hide
+  (fp_text value "Legshark_Small_Mask" (at 0 2 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4e561e92-7558-43a2-aeb3-3fdfae52fff4)
   )
