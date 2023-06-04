@@ -2,7 +2,7 @@
 
 > Version 2.1
 
-![keyboard-layout](images/keyboard-layout-v2.1.jpg)
+![keyboard-layout](images/keyboard-layout-v2.2.jpg)
 
 65% ortholinear keyboard using STM32 controller.
 
@@ -22,7 +22,7 @@ The purpose of this keyboard is contain all of the features I would like to have
 	[{c:"#5795d4",a:7},"CAP","M",{c:"#cccccc",f:6},"A","S","D","F","G","H","J","K","L",{a:5,f:4},":\n;","\"\n'",{c:"#5795d4",a:7,w:2},"ENTER"],
 	[{c:"#c9a88f",w:2},"SHIFT",{c:"#cccccc",f:6},"Z","X","C","V","B","N","M",{a:5,f:4},"<\n,",">\n.","?\n/",{x:1,c:"#c9a88f",a:7,f:9},"↑"],
 	[{y:-0.5,x:12},"←",{x:1},"→"],
-	[{y:-0.5,f:4,w:1.75},"CTRL",{w:1.25},"WIN",{w:1.25},"ALT",{c:"#cc5656",w:2.25},"BACKSPACE",{c:"#60c560",w:3},"SPACE",{c:"#c9a88f",w:1.25},"ALT",{w:1.25},"FN",{x:1,f:9},"↓"]
+	[{y:-0.5,f:4,w:1.25},"CTRL",{w:1.25},"WIN",{w:1.25},"ALT",{c:"#cc5656",w:2.75},"BACKSPACE",{c:"#60c560",w:3},"SPACE",{c:"#c9a88f",w:1.25},"ALT",{w:1.25},"FN",{x:1,f:9},"↓"]
 </details>
 
 
