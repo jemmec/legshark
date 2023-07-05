@@ -1,6 +1,6 @@
 {
     "manufacturer": "jemmec",
-    "keyboard_name": "legshark65",
+    "keyboard_name": "LS65",
     "maintainer": "jemmec",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
