@@ -6,7 +6,7 @@
 
 ![keyboard-layout Rev2](images/keyboard-layout_rev2.png)
 
-Revision 2 brings will bring more customizable layout options and various optimizaitons over the original board.
+Revision 2 will bring more customizable layout options and various optimizaitons over the original board.
 
 The purpose of this keyboard is contain all of the features I would like to have in an ortholinear keyboard (in order of importance):
 
