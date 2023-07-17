@@ -28,6 +28,20 @@ The purpose of this keyboard is contain all of the features I would like to have
 	[{y:-0.5,x:6,c:"#d6d6d6",w:6.25},"SPACE",{c:"#c9a88f",w:1.25},"ALT",{x:1.75,f:9},"↓"]
 </details>
 
+```
+[{x:2.25,c:"#5795d4",t:"#383838",st:"KS-3-Tea",a:7,f:4},"ESC",{c:"#cccccc",a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{c:"#5795d4",a:7},"DEL"],
+[{c:"#cccccc"},"","",{x:0.25,c:"#c9a88f",w:2},"TAB",{c:"#cccccc",f:6},"Q","W","E","R","T","Y","U","I","O","P",{a:5,f:4},"{\n[","}\n]","|\n\\"],
+[{c:"#c9a88f",a:7,w:2,d:true},"<p>alternative tab</p>",{x:0.25,c:"#5795d4"},"CAP","L1",{c:"#cccccc",f:6},"A","S","D","F","G","H","J","K","L",{a:5,f:4},":\n;","\"\n'",{c:"#5795d4",a:7,w:2},"ENTER",{x:0.25,c:"#cccccc"},"",""],
+["","",{x:0.25,c:"#c9a88f",w:2},"SHIFT",{c:"#cccccc",f:6},"Z","X","C","V","B","N","M",{a:5,f:4},"<\n,",">\n.","?\n/",{c:"#c9a88f",a:7,f:9},"↑",{c:"#cccccc",f:4},"","",{x:0.25,c:"#c9a88f",w:2,d:true},"<p>alternative enter</p>"],
+[{w:2,d:true},"<p>alternative shift</p>",{x:1.25,w:1.25},"CTRL","WIN",{w:1.25},"ALT",{c:"#d6d6d6",w:2.25},"SPACE",{w:3},"SPACE",{c:"#c9a88f",w:1.25},"ALT",{f:9},"←","↓","→"],
+[{y:0.25,x:6.75,c:"#d6d6d6",f:4,w:6.25},"SPACE",{c:"#c9a88f",w:1.25},"ALT"],
+[{y:-0.5,x:16.5,f:9},"↑"],
+[{y:-0.75,x:4.25,f:4,w:2,d:true},"<p>alternative space bars</p>"],
+[{y:-0.75,x:6.75,c:"#d6d6d6",w:7},"SPACE",{c:"#c9a88f",w:1.25},"ALT",{x:0.5,f:9},"←",{x:1},"→",{f:4,w:2,d:true},"<p>alternative arrow keys</p>"],
+[{y:-0.5,x:16.5,f:9},"↓"],
+[{y:-0.5,x:6.75,c:"#cc5656",f:4,w:2.75},"BACKSPACE",{c:"#d6d6d6",w:3},"SPACE",{c:"#c9a88f",w:1.25},"ALT",{w:1.25},"FN"]
+```
+
 ---
 ## Legacy
 ## Revision 1
