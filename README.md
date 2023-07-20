@@ -30,13 +30,25 @@ The purpose of this keyboard is contain all of the features I would like to have
 
 ```
 [{x:2.75,c:"#b0a59e",t:"#383838",st:"KS-3-Tea",a:7,f:4},"ESC",{c:"#cccccc",a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{c:"#b0a59e",a:7},"DEL"],
-[{c:"#cccccc"},"","",{x:0.75,c:"#b0a59e",a:3,w:2},"TAB\n\n\n\n2u",{c:"#cccccc",a:7,f:6},"Q","W","E","R","T","Y","U","I","O","P",{a:5,f:4},"{\n[","}\n]","|\n\\"],
-[{c:"#c9a88f",a:7,w:2,d:true},"<p>alternative tab</p>",{x:0.75,c:"#b0a59e"},"CAP","L1",{c:"#cccccc",f:6},"A","S","D",{a:5},"\n_\n\n\n\n\nF",{a:7},"G","H",{a:5},"\n_\n\n\n\n\nJ",{a:7},"K","L",{a:5,f:4},":\n;","\"\n'",{c:"#b0a59e",a:3,w:2},"ENTER\n\n\n\n2u",{x:0.75,c:"#cccccc",a:7},"",""],
-["","",{x:0.75,c:"#b0a59e",a:3,w:2},"SHIFT\n\n\n\n2u",{c:"#cccccc",a:7,f:6},"Z","X","C","V","B","N","M",{a:5,f:4},"<\n,",">\n.","?\n/",{c:"#82b0a9",a:7,f:9},"↑",{c:"#b0a59e",f:4},"","",{x:0.75,c:"#c9a88f",w:2,d:true},"<p>alternative enter</p>"],
-[{w:2,d:true},"<p>alternative shift</p>",{x:1.75,c:"#b0a59e",a:3,w:1.25},"CTRL\n\n\n\n1.25u",{w:1.25},"\n\n\n\n1.25u",{w:1.25},"ALT\n\n\n\n1.25u",{c:"#d6d6d6",w:2.25},"\n\n\n\n2.25u",{w:2.75},"\n\n\n\n2.75u",{c:"#b0a59e",w:1.25},"ALT\n\n\n\n1.25u",{c:"#82b0a9",a:7,f:9},"←","↓","→"],
-[{x:3.75,c:"#b0a59e",f:4},"CTRL",{a:3,w:1.5},"\n\n\n\n1.5u",{c:"#d6d6d6",w:7},"\n\n\n\n7u",{c:"#b0a59e",w:1.5},"ALT\n\n\n\n1.5u"],
-[{y:-0.5,x:0.25,c:"#c9a88f",a:7,w:1.75,d:true},"<p>alternative space bars</p>"],
-[{y:-0.5,x:6.25,c:"#d6d6d6",a:3,w:6.25},"\n\n\n\n6.25u"]
+[{x:0.5,c:"#cccccc"},"","",{x:0.25,c:"#b0a59e",a:3,w:2},"TAB\n\n\n\n2u",{c:"#cccccc",a:7,f:6},"Q","W","E","R","T","Y","U","I","O","P",{a:5,f:4},"{\n[","}\n]","|\n\\"],
+[{x:0.5,a:3,w:2},"\n\n\n\n2u",{x:0.25,c:"#b0a59e",a:7},"CAP","L1",{c:"#cccccc",f:6},"A","S","D",{a:5},"\n_\n\n\n\n\nF",{a:7},"G","H",{a:5},"\n_\n\n\n\n\nJ",{a:7},"K","L",{a:5,f:4},":\n;","\"\n'",{c:"#b0a59e",a:3,w:2},"ENTER\n\n\n\n2u",{x:0.25,c:"#cccccc",a:7},"",""],
+[{x:0.5},"","",{x:0.25,c:"#b0a59e",a:3,w:2},"SHIFT\n\n\n\n2u",{c:"#cccccc",a:7,f:6},"Z","X","C","V","B","N","M",{a:5,f:4},"<\n,",">\n.","?\n/",{c:"#82b0a9",a:7,f:9},"↑",{c:"#b0a59e",f:4},"","",{x:0.25,c:"#cccccc",a:3,w:2},"\n\n\n\n2u"],
+[{x:3.75,c:"#b0a59e",a:7,w:1.5},"CTRL","",{x:1.5,c:"#d6d6d6",a:3,w:2},"\n\n\n\n2u",{w:3},"\n\n\n\n3u",{c:"#b0a59e",a:7},"RALT",{c:"#82b0a9",f:9},"←","↓","→"],
+[{y:1,x:3.75,c:"#b0a59e",f:4},"CTRL","","LALT",{c:"#d6d6d6",a:3,w:7},"\n\n\n\n7u"],
+[{x:3.75,c:"#b0a59e",a:7},"CTRL","","",{x:1,c:"#d6d6d6",a:3,w:3},"\n\n\n\n3u",{w:2},"\n\n\n\n2u",{c:"#b0a59e",a:7},"RALT"],
+[{x:3.75},"CTRL","","",{x:1,c:"#d6d6d6",a:3,w:2},"\n\n\n\n2u",{w:3},"\n\n\n\n3u",{c:"#b0a59e",a:7},"RALT"],
+[{y:1,x:3.75},"CTRL","","LALT",{c:"#000000",g:true,sm:"alps",st:""},"",{c:"#d6d6d6",g:false,sm:"",st:"KS-3-Tea",a:3,w:2},"\n\n\n\n2u",{w:3},"\n\n\n\n3u",{c:"#000000",g:true,sm:"alps",st:"",a:7},""],
+[{x:3.75,c:"#b0a59e",g:false,sm:"",st:"KS-3-Tea",w:1.5},"CTRL",{c:"#000000",g:true,sm:"alps",st:""},"",{x:1.5,c:"#d6d6d6",g:false,sm:"",st:"KS-3-Tea",a:3,w:2},"\n\n\n\n2u",{w:3},"\n\n\n\n3u",{c:"#b0a59e",a:7},"RALT"],
+[{y:1,x:3.75,a:3,w:1.5},"CTRL\n\n\n\n1.25u",{a:7},"",{a:3,w:1.25},"LALT\n\n\n\n1.25u",{c:"#d6d6d6",w:2.75},"\n\n\n\n2.75u",{w:2.75},"\n\n\n\n2.75u",{c:"#000000",g:true,sm:"alps",st:"",a:7,w:0.75},""],
+[{x:3.75,c:"#b0a59e",g:false,sm:"",st:"KS-3-Tea",a:3,w:1.25},"CTRL\n\n\n\n1.25u",{a:7},"",{a:3,w:1.25},"LALT\n\n\n\n1.25u",{c:"#d6d6d6",w:3},"\n\n\n\n3u",{w:3},"\n\n\n\n3u",{c:"#000000",g:true,sm:"alps",st:"",a:7,w:0.5},""],
+[{x:3.75,c:"#b0a59e",g:false,sm:"",st:"KS-3-Tea",a:3,w:1.25},"CTRL\n\n\n\n1.25u",{a:7,w:1.25},"",{a:3,w:1.25},"LALT\n\n\n\n1.25u",{c:"#d6d6d6",w:2.75},"\n\n\n\n2.75u",{w:2.75},"\n\n\n\n2.75u",{c:"#000000",g:true,sm:"alps",st:"",a:7,w:0.75},""],
+[{y:1,x:3.75,c:"#b0a59e",g:false,sm:"",st:"KS-3-Tea"},"CTRL",{a:3,w:1.5},"LALT\n\n\n\n1.5u",{c:"#d6d6d6",w:7},"\n\n\n\n7u",{c:"#000000",g:true,sm:"alps",st:"",a:7,w:0.5},""],
+[{x:3.75,c:"#b0a59e",g:false,sm:"",st:"KS-3-Tea",a:3,w:1.25},"CTRL\n\n\n\n1.25u",{w:1.25},"LALT\n\n\n\n1.25u",{c:"#d6d6d6",w:6.25},"\n\n\n\n6.25u",{c:"#b0a59e",w:1.25},"RALT\n\n\n\n1.25u"],
+[{x:3.75,w:1.25},"CTRL\n\n\n\n1.25u",{w:1.25},"\n\n\n\n1.25u",{w:1.25},"LALT\n\n\n\n1.25u",{c:"#d6d6d6",w:2.25},"\n\n\n\n2.25u",{w:2.75},"\n\n\n\n2.75u",{c:"#b0a59e",w:1.25},"RALT\n\n\n\n1.25u"],
+[{rx:0.25,y:4,x:6,a:7,w:1.5},"LALT"],
+[{y:2,x:6.5},"LALT"],
+[{x:6.5},"LALT"],
+[{y:2,x:6,w:1.5},"LALT"]
 
 ```
 
