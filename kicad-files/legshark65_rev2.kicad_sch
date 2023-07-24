@@ -404,6 +404,71 @@
         )
       )
     )
+    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_Schottky" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode Schottky" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Schottky diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_Schottky_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_Schottky_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:D_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at -1.27 2.032 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -650,6 +715,49 @@
         (pin power_in line (at 0 7.62 270) (length 2.54)
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Regulator_Linear:MCP1700-3302E_SOT23" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -3.81 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MCP1700-3302E_SOT23" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 0 5.715 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "regulator linear ldo" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-23" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MCP1700-3302E_SOT23_0_1"
+        (rectangle (start -5.08 1.905) (end 5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "MCP1700-3302E_SOT23_1_1"
+        (pin power_in line (at 0 -7.62 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at 7.62 0 180) (length 2.54)
+          (name "VO" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -7.62 0 0) (length 2.54)
+          (name "VI" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1174,6 +1282,9 @@
   (junction (at 147.32 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 228820ed-2c7c-4f3e-b2b9-03b489abcbe8)
   )
+  (junction (at 102.87 288.29) (diameter 0) (color 0 0 0 0)
+    (uuid 229380d7-4533-4533-bf7d-89edaffbe98b)
+  )
   (junction (at 135.89 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 23245d6f-3b79-4edf-8b2e-b31d797a4054)
   )
@@ -1260,6 +1371,9 @@
   )
   (junction (at 204.47 298.45) (diameter 0) (color 0 0 0 0)
     (uuid 4db7ceed-78e4-4358-a90b-b6be0720b226)
+  )
+  (junction (at 55.88 288.29) (diameter 0) (color 0 0 0 0)
+    (uuid 4e8c9f36-38ff-4850-b817-bfc15b4f98d9)
   )
   (junction (at 226.06 213.36) (diameter 0) (color 0 0 0 0)
     (uuid 5064092b-56ff-4d7d-9266-331fec052806)
@@ -1456,6 +1570,9 @@
   (junction (at 135.89 86.36) (diameter 0) (color 0 0 0 0)
     (uuid c4a3f260-ebf6-4f30-88a8-7996be154d3f)
   )
+  (junction (at 92.71 288.29) (diameter 0) (color 0 0 0 0)
+    (uuid c647c36b-15dd-4289-9477-7701ae0bb5fe)
+  )
   (junction (at 389.89 80.01) (diameter 0) (color 0 0 0 0)
     (uuid c65f41b6-8a21-4f7d-9b34-26a438b75726)
   )
@@ -1479,6 +1596,9 @@
   )
   (junction (at 186.69 137.16) (diameter 0) (color 0 0 0 0)
     (uuid ce955d90-a472-4a8a-9e1e-dad3103ad180)
+  )
+  (junction (at 49.53 288.29) (diameter 0) (color 0 0 0 0)
+    (uuid d3405ba5-5e5c-454d-b254-685c1bc93df7)
   )
   (junction (at 313.69 111.76) (diameter 0) (color 0 0 0 0)
     (uuid d43de86c-eca7-4ef4-9c6a-f9aa974c602c)
@@ -1658,6 +1778,10 @@
     (stroke (width 0) (type default))
     (uuid 0b8ba4f3-7bf1-4713-ab49-ba26dfa4745b)
   )
+  (wire (pts (xy 55.88 288.29) (xy 55.88 278.13))
+    (stroke (width 0) (type default))
+    (uuid 0be6f4bb-daa0-4558-be6d-81f4d2cf927c)
+  )
   (wire (pts (xy 110.49 105.41) (xy 110.49 106.68))
     (stroke (width 0) (type default))
     (uuid 0cd2b660-97b1-4363-99a0-79775832c581)
@@ -1770,6 +1894,10 @@
     (stroke (width 0) (type default))
     (uuid 16b4c322-7505-41d9-89a8-69cc3e8bf361)
   )
+  (wire (pts (xy 49.53 299.72) (xy 49.53 298.45))
+    (stroke (width 0) (type default))
+    (uuid 17564da1-adef-4720-9b01-df3aa69a9cc0)
+  )
   (wire (pts (xy 199.39 160.02) (xy 199.39 162.56))
     (stroke (width 0) (type default))
     (uuid 17d199c3-9132-455d-8580-87a825060e22)
@@ -1850,6 +1978,10 @@
     (stroke (width 0) (type default))
     (uuid 1f7018df-c32d-4966-841b-9fb04656cbc6)
   )
+  (wire (pts (xy 92.71 299.72) (xy 92.71 298.45))
+    (stroke (width 0) (type default))
+    (uuid 2058048a-7b6b-41f6-b31f-a5f6f96221f8)
+  )
   (wire (pts (xy 248.92 125.73) (xy 248.92 100.33))
     (stroke (width 0) (type default))
     (uuid 206c6ef2-cbfb-4aa8-9519-5e3b3b3ee432)
@@ -1861,6 +1993,10 @@
   (wire (pts (xy 161.29 105.41) (xy 161.29 106.68))
     (stroke (width 0) (type default))
     (uuid 233533da-032d-4091-a610-91347b892ce6)
+  )
+  (wire (pts (xy 80.137 288.29) (xy 92.71 288.29))
+    (stroke (width 0) (type default))
+    (uuid 23d4e28a-7f13-412a-89ee-e5573c075aad)
   )
   (wire (pts (xy 288.29 105.41) (xy 288.29 106.68))
     (stroke (width 0) (type default))
@@ -2041,6 +2177,10 @@
   (wire (pts (xy 161.29 29.21) (xy 161.29 30.48))
     (stroke (width 0) (type default))
     (uuid 4636aee9-a5b9-4e11-85a5-18dcdf135370)
+  )
+  (wire (pts (xy 92.71 288.29) (xy 92.71 278.13))
+    (stroke (width 0) (type default))
+    (uuid 48d38bf5-5d71-4065-98e5-f6f859b5021a)
   )
   (wire (pts (xy 233.045 130.81) (xy 237.49 130.81))
     (stroke (width 0) (type default))
@@ -2274,6 +2414,10 @@
     (stroke (width 0) (type default))
     (uuid 6d9f1781-cb45-432d-90fb-cdc8393783db)
   )
+  (wire (pts (xy 49.53 288.29) (xy 49.53 290.83))
+    (stroke (width 0) (type default))
+    (uuid 6de2b93f-c437-44eb-9827-773dcd91e6e6)
+  )
   (wire (pts (xy 364.49 35.56) (xy 389.89 35.56))
     (stroke (width 0) (type default))
     (uuid 6eb1f54a-1ab1-49a2-a76d-070b2faf7324)
@@ -2294,6 +2438,10 @@
     (stroke (width 0) (type default))
     (uuid 70eff3ac-1b2c-451e-ae17-c58724e95427)
   )
+  (wire (pts (xy 76.2 278.13) (xy 92.71 278.13))
+    (stroke (width 0) (type default))
+    (uuid 70f12ce2-ada0-4ba1-b1ff-24e0f66e462f)
+  )
   (wire (pts (xy 123.825 204.47) (xy 125.73 204.47))
     (stroke (width 0) (type default))
     (uuid 711e5475-ff8e-48c6-8254-fb0554645a74)
@@ -2309,6 +2457,10 @@
   (wire (pts (xy 213.36 231.14) (xy 231.14 231.14))
     (stroke (width 0) (type default))
     (uuid 71c08497-2435-40a3-bdab-fc95d23d2b98)
+  )
+  (wire (pts (xy 92.71 288.29) (xy 102.87 288.29))
+    (stroke (width 0) (type default))
+    (uuid 7234bfdd-66e8-4ba1-a425-109b6839f5fc)
   )
   (wire (pts (xy 85.09 54.61) (xy 85.09 55.88))
     (stroke (width 0) (type default))
@@ -2333,6 +2485,10 @@
   (wire (pts (xy 375.92 74.93) (xy 375.92 49.53))
     (stroke (width 0) (type default))
     (uuid 746e26f9-2a70-4d58-ba82-2923b9b863ad)
+  )
+  (wire (pts (xy 102.87 288.29) (xy 107.95 288.29))
+    (stroke (width 0) (type default))
+    (uuid 7499559c-ede8-4e9a-9bbf-43b25cc9b87a)
   )
   (wire (pts (xy 313.69 35.56) (xy 339.09 35.56))
     (stroke (width 0) (type default))
@@ -2494,6 +2650,10 @@
     (stroke (width 0) (type default))
     (uuid 93cf02c3-9071-4b14-beb8-6e1d22ad0116)
   )
+  (wire (pts (xy 102.87 288.29) (xy 102.87 290.83))
+    (stroke (width 0) (type default))
+    (uuid 94cd8c37-3d73-49ab-b58f-b7b6e1c78fe7)
+  )
   (wire (pts (xy 212.09 35.56) (xy 237.49 35.56))
     (stroke (width 0) (type default))
     (uuid 96da0937-9f0e-42ad-85fb-2365312ae2d0)
@@ -2590,6 +2750,10 @@
     (stroke (width 0) (type default))
     (uuid a2c6126c-9130-422d-a75c-68d56dd2c494)
   )
+  (wire (pts (xy 55.88 278.13) (xy 68.58 278.13))
+    (stroke (width 0) (type default))
+    (uuid a2d44e07-41d9-4768-a784-fdc6f9219837)
+  )
   (wire (pts (xy 313.69 29.21) (xy 313.69 30.48))
     (stroke (width 0) (type default))
     (uuid a2d717d6-db22-46de-b3ea-eb08a95fb385)
@@ -2633,6 +2797,10 @@
   (wire (pts (xy 115.57 74.93) (xy 121.92 74.93))
     (stroke (width 0) (type default))
     (uuid aa470c92-2f5d-440b-8590-6a105ed33726)
+  )
+  (wire (pts (xy 92.71 288.29) (xy 92.71 290.83))
+    (stroke (width 0) (type default))
+    (uuid ac9a71ab-70fc-4a70-90f7-08f8f25914ef)
   )
   (wire (pts (xy 135.89 137.16) (xy 186.69 137.16))
     (stroke (width 0) (type default))
@@ -2698,6 +2866,10 @@
     (stroke (width 0) (type default))
     (uuid b886f4d9-0b79-41af-a2f0-03c8f128fd44)
   )
+  (wire (pts (xy 49.53 288.29) (xy 55.88 288.29))
+    (stroke (width 0) (type default))
+    (uuid b8f8c20c-b342-40ca-bcd5-738ff166a057)
+  )
   (wire (pts (xy 104.14 158.75) (xy 107.95 158.75))
     (stroke (width 0) (type default))
     (uuid b92b7294-1b84-4a6a-aa80-cd64122f138b)
@@ -2717,6 +2889,10 @@
   (wire (pts (xy 293.37 100.33) (xy 299.72 100.33))
     (stroke (width 0) (type default))
     (uuid ba950f45-530d-4751-a936-aabbe82f4781)
+  )
+  (wire (pts (xy 72.517 295.91) (xy 72.517 297.18))
+    (stroke (width 0) (type default))
+    (uuid bb15544c-e90d-4c67-9a6b-3031500483cd)
   )
   (wire (pts (xy 81.28 156.21) (xy 77.47 156.21))
     (stroke (width 0) (type default))
@@ -2745,6 +2921,10 @@
   (wire (pts (xy 318.77 49.53) (xy 325.12 49.53))
     (stroke (width 0) (type default))
     (uuid bff1aff4-1c88-4b08-a201-52357756e282)
+  )
+  (wire (pts (xy 55.88 299.72) (xy 55.88 298.45))
+    (stroke (width 0) (type default))
+    (uuid c20d092e-e2c8-4f10-9214-9171e72cb69d)
   )
   (wire (pts (xy 237.49 130.81) (xy 237.49 132.08))
     (stroke (width 0) (type default))
@@ -2782,9 +2962,17 @@
     (stroke (width 0) (type default))
     (uuid c5b7b728-f69f-42d9-8916-4fbd18aedea9)
   )
+  (wire (pts (xy 55.88 288.29) (xy 64.897 288.29))
+    (stroke (width 0) (type default))
+    (uuid c67a40fc-bf99-4f59-91b6-f17ea29350cc)
+  )
   (wire (pts (xy 59.69 137.16) (xy 85.09 137.16))
     (stroke (width 0) (type default))
     (uuid c6f5488e-df1e-41c6-a3e0-68aa8792c022)
+  )
+  (wire (pts (xy 55.88 288.29) (xy 55.88 290.83))
+    (stroke (width 0) (type default))
+    (uuid c7350b38-7c7b-45fd-ac0c-9d4ece0296e4)
   )
   (wire (pts (xy 39.37 97.79) (xy 39.37 100.33))
     (stroke (width 0) (type default))
@@ -2809,6 +2997,10 @@
   (wire (pts (xy 325.12 100.33) (xy 325.12 74.93))
     (stroke (width 0) (type default))
     (uuid c9e48ac6-40f2-4bcd-8b69-7fa1378814d3)
+  )
+  (wire (pts (xy 44.45 288.29) (xy 49.53 288.29))
+    (stroke (width 0) (type default))
+    (uuid c9fffe27-4422-4f9c-a2cd-33dcce6ad036)
   )
   (wire (pts (xy 115.57 100.33) (xy 121.92 100.33))
     (stroke (width 0) (type default))
@@ -2881,6 +3073,10 @@
   (wire (pts (xy 45.72 16.51) (xy 45.72 24.13))
     (stroke (width 0) (type default))
     (uuid d2f4abab-5c44-4b9d-9bb2-1e4d7315a032)
+  )
+  (wire (pts (xy 102.87 299.72) (xy 102.87 298.45))
+    (stroke (width 0) (type default))
+    (uuid d2fc67bd-058d-43bb-a1c6-b4dac8931bc7)
   )
   (wire (pts (xy 59.69 130.81) (xy 59.69 132.08))
     (stroke (width 0) (type default))
@@ -3281,10 +3477,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "3V3" (shape output) (at 56.515 233.68 90) (fields_autoplaced)
+  (global_label "5V" (shape output) (at 56.515 233.68 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0d65a944-6b16-4aaa-b119-04d25128f982)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 56.515 227.9208 90)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 56.515 229.1303 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -3414,6 +3610,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "5V" (shape input) (at 44.45 288.29 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 7909c502-b87c-45b5-9e14-7a4bcf8a0802)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 39.2461 288.29 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "3V3" (shape input) (at 57.785 215.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7db78793-b064-4f1b-9209-b8b325926188)
@@ -3498,6 +3701,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "3V3" (shape input) (at 107.95 288.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid aaa17528-ff1f-4d68-b353-bf8f9d0eb689)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.3634 288.29 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "col0" (shape input) (at 45.72 16.51 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid acfbb8e7-1f82-4d64-b23e-f1584f11e386)
@@ -3540,10 +3750,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "3V3" (shape output) (at 50.165 267.335 180) (fields_autoplaced)
+  (global_label "5V" (shape output) (at 50.165 267.335 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ccfab915-218b-466a-9759-54e329c1c1b3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 44.4058 267.335 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 45.6153 267.335 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -3643,7 +3853,7 @@
     (pin "1" (uuid cc7e8ad3-99c9-4beb-a6ed-71995dfab626))
     (pin "2" (uuid 4b17f3fa-7ba2-4feb-aee5-21db1c64c0e1))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_11") (unit 1)
         )
@@ -3687,7 +3897,7 @@
     (pin "1" (uuid e90fd32e-6cb7-414b-bbed-97d251d3b297))
     (pin "2" (uuid 6a36aa09-ad89-411e-a9d4-4e5d46cc0341))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C14") (unit 1)
         )
@@ -3741,7 +3951,7 @@
     (pin "1" (uuid 5b790463-6779-4909-b505-a0a39edcdfd0))
     (pin "2" (uuid 863b93a4-7d54-435c-91d2-aeea44db6b57))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "SW1") (unit 1)
         )
@@ -3777,9 +3987,44 @@
     (pin "1" (uuid 212d94bd-36f5-4750-aca6-43481c954fc3))
     (pin "2" (uuid 6347cd73-a828-46b8-8aff-7a56120d12ff))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_61") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 92.71 299.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 04752604-f01e-44c9-8d21-b25e28e7b966)
+    (property "Reference" "#PWR027" (at 92.71 306.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 92.71 303.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 92.71 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 92.71 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7bf0ef85-fe35-4733-9a6b-203f7ad5ca58))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -3803,7 +4048,7 @@
     (pin "1" (uuid 8328df75-5d46-4348-aac9-e4beba44bb2e))
     (pin "2" (uuid 34f20788-405b-410e-b639-5fa9a566b2c0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_0") (unit 1)
         )
@@ -3829,7 +4074,7 @@
     (pin "1" (uuid 14109d9b-440a-47b6-8a62-81b7ee216d06))
     (pin "2" (uuid f5cd4d25-2b35-4d67-8650-572788be81c3))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_18") (unit 1)
         )
@@ -3855,7 +4100,7 @@
     (pin "1" (uuid a0f1061d-6dec-4cc3-b89f-d3463f12ae6f))
     (pin "2" (uuid 8bf85b2c-6c06-48f6-a3bf-5a971e1c10f0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_55") (unit 1)
         )
@@ -3880,7 +4125,7 @@
     )
     (pin "1" (uuid acb4ce0b-7fd8-470b-84bf-fcbc9f37039e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR09") (unit 1)
         )
@@ -3916,7 +4161,7 @@
     (pin "1" (uuid d678925b-fe8a-4672-a6d2-033378fd217d))
     (pin "2" (uuid 8686c42e-e534-4b86-8bb9-d778ed7b032b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_17") (unit 1)
         )
@@ -3941,7 +4186,7 @@
     )
     (pin "1" (uuid 3e381e81-5d65-4fc5-ad97-a58dc7877de0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR013") (unit 1)
         )
@@ -3977,7 +4222,7 @@
     (pin "1" (uuid 19d99d26-35b8-4ee7-b115-79b1d1c808b8))
     (pin "2" (uuid 40f58bd2-d5c5-4325-9012-6073d0c6a0d9))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_38") (unit 1)
         )
@@ -4003,7 +4248,7 @@
     (pin "1" (uuid 50e296bc-d222-46ac-a809-b0d4ddc21776))
     (pin "2" (uuid bfa45b10-a597-45fe-ae4d-d0f2d0df202f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_8") (unit 1)
         )
@@ -4029,7 +4274,7 @@
     (pin "1" (uuid d25608b8-e127-4ac1-8286-ba749c84180e))
     (pin "2" (uuid c4a8b99f-c2da-4039-9a1e-f450fd58843e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_5") (unit 1)
         )
@@ -4054,7 +4299,7 @@
     )
     (pin "1" (uuid c8c67b74-7e28-4dbe-b4c9-e9505010872f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR012") (unit 1)
         )
@@ -4089,7 +4334,7 @@
     )
     (pin "1" (uuid 1bd17d79-276c-4139-90a3-afe7f03a4df9))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR08") (unit 1)
         )
@@ -4125,7 +4370,7 @@
     (pin "1" (uuid ebaf2afd-fead-485a-b2b7-884d6d25fc8e))
     (pin "2" (uuid 0bd8aa84-9d0c-41f9-9e0a-41caf4428157))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_6") (unit 1)
         )
@@ -4169,7 +4414,7 @@
     (pin "1" (uuid 053df051-39ea-4b7f-bfc7-0cef0f8e1a5d))
     (pin "2" (uuid 39a9deb3-784d-4555-9aef-786381f5c2bd))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C2") (unit 1)
         )
@@ -4205,7 +4450,7 @@
     (pin "1" (uuid 8b8f2191-908a-4037-a46b-c07c1b050536))
     (pin "2" (uuid 568229c2-fd13-4101-8f28-5d1ecfdb82e6))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_17") (unit 1)
         )
@@ -4231,7 +4476,7 @@
     (pin "1" (uuid cd5b01bd-457c-4867-b794-6e0c31620d53))
     (pin "2" (uuid c4976835-4f19-4072-9c76-f82541c2540d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_45") (unit 1)
         )
@@ -4257,7 +4502,7 @@
     (pin "1" (uuid 91277aaf-f733-4af3-8539-5fd4d4e8a9d4))
     (pin "2" (uuid ceb4c6f3-97f3-4444-a003-80e4a512b1f0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_29") (unit 1)
         )
@@ -4265,23 +4510,23 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 260.985 216.535 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 243.84 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f0f114f-061e-4013-b81f-5f50cf9fadb9)
-    (property "Reference" "H3" (at 264.16 215.9 0)
+    (property "Reference" "H3" (at 247.015 188.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LS Logo" (at 264.16 218.44 0)
+    (property "Value" "LS Logo" (at 247.015 191.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Legshark:Legshark_Mask" (at 260.985 216.535 0)
+    (property "Footprint" "Legshark:Legshark_Mask" (at 243.84 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 260.985 216.535 0)
+    (property "Datasheet" "~" (at 243.84 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "H3") (unit 1)
         )
@@ -4312,7 +4557,7 @@
     (pin "1" (uuid fef38890-4c31-48e4-9b4a-8455bde99aa1))
     (pin "2" (uuid 8d65af59-f150-449d-84f8-ac71ab42ea83))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_68") (unit 1)
         )
@@ -4338,7 +4583,7 @@
     (pin "1" (uuid 51712d09-2095-41a9-98ae-d16c26100bd7))
     (pin "2" (uuid ade836ac-2763-49e3-8c1c-b600b72fe3fd))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_50") (unit 1)
         )
@@ -4382,7 +4627,7 @@
     (pin "1" (uuid d672b254-8cba-45d8-9663-a5846771dd33))
     (pin "2" (uuid c802d1e1-417d-4fef-92b8-fbf30273fa6c))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C9") (unit 1)
         )
@@ -4485,7 +4730,7 @@
     (pin "8" (uuid 8c706889-9126-4504-a2e8-687d562a156a))
     (pin "9" (uuid 6cc474cb-82a0-4c0e-9122-1bda277a6c37))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "U1") (unit 1)
         )
@@ -4521,7 +4766,7 @@
     (pin "1" (uuid eab21e6c-ed16-46df-9654-c0e33e40fd66))
     (pin "2" (uuid 0a145163-7966-4cdf-b533-00ae20d7456d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_46") (unit 1)
         )
@@ -4547,7 +4792,7 @@
     (pin "1" (uuid 48d3d1ad-7962-4cab-b4cf-4ab894360d8c))
     (pin "2" (uuid 32315ca0-e363-432a-b510-3d19a66c1537))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_43") (unit 1)
         )
@@ -4573,7 +4818,7 @@
     (pin "1" (uuid 14408971-e777-41a4-94fe-673e6c734acf))
     (pin "2" (uuid 34ec0085-b419-4962-a3c9-8de1b43ad205))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_15") (unit 1)
         )
@@ -4599,7 +4844,7 @@
     (pin "1" (uuid cfdf6f47-bcc5-4e6f-8741-acc5a06926e4))
     (pin "2" (uuid 562b077a-8180-4b6c-be5b-dc8b197cc47b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_66") (unit 1)
         )
@@ -4624,7 +4869,7 @@
     )
     (pin "1" (uuid 8ed427b1-c1e7-4256-ac1c-b0b16945d519))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR03") (unit 1)
         )
@@ -4660,7 +4905,7 @@
     (pin "1" (uuid fdf413b8-92b6-494d-828c-03ea5432c451))
     (pin "2" (uuid ef6e159c-c281-42eb-b42e-a6b5a4ac53ca))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_41") (unit 1)
         )
@@ -4685,7 +4930,7 @@
     )
     (pin "1" (uuid f1e9df8e-1e3d-4995-9c83-acaee1dddeb6))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR06") (unit 1)
         )
@@ -4721,7 +4966,7 @@
     (pin "1" (uuid df353c52-408c-480c-a7a9-4576a0ff4add))
     (pin "2" (uuid 207b58eb-de4d-4a18-bf06-4e3dba7b4ce5))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_30") (unit 1)
         )
@@ -4747,7 +4992,7 @@
     (pin "1" (uuid 9adb9533-38f2-40f9-ac10-a75f0303bfd0))
     (pin "2" (uuid 0dd388bd-cdf3-4701-bded-fd4afe2c0d0b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_65") (unit 1)
         )
@@ -4773,7 +5018,7 @@
     (pin "1" (uuid 928e8452-d7f8-47bf-b271-a8c9496be09d))
     (pin "2" (uuid 34abb6c2-2172-472e-b333-a0516f239675))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_58") (unit 1)
         )
@@ -4781,23 +5026,23 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 260.985 201.93 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 243.84 174.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3143f4dc-089c-4b41-8c7a-cded6ba023c4)
-    (property "Reference" "H1" (at 264.16 201.295 0)
+    (property "Reference" "H1" (at 247.015 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "JM Logo" (at 264.16 203.835 0)
+    (property "Value" "JM Logo" (at 247.015 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Legshark:jm_logo" (at 260.985 201.93 0)
+    (property "Footprint" "Legshark:jm_logo" (at 243.84 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 260.985 201.93 0)
+    (property "Datasheet" "~" (at 243.84 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "H1") (unit 1)
         )
@@ -4828,7 +5073,7 @@
     (pin "1" (uuid 5929878b-940a-4cfd-a635-a6778c57470d))
     (pin "2" (uuid bdbc587e-64ea-4ac2-a439-c64b5a910cc9))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_19") (unit 1)
         )
@@ -4854,7 +5099,7 @@
     (pin "1" (uuid 8bf452b7-4aa1-49fc-9d65-23953ff6c223))
     (pin "2" (uuid 0214b003-a1ee-4d32-9a8f-0f83206025c9))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_43") (unit 1)
         )
@@ -4880,7 +5125,7 @@
     (pin "1" (uuid 953c16fc-28e4-4836-a9f4-bb6a8676eeee))
     (pin "2" (uuid d31fa4b4-11a6-4361-8b86-81523c6cd792))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_27") (unit 1)
         )
@@ -4906,7 +5151,7 @@
     (pin "1" (uuid 9b077697-92f3-4760-8f99-0fd866d1cc0f))
     (pin "2" (uuid 5872a06d-3bdd-4f99-b774-d8d1d8b1152f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_7") (unit 1)
         )
@@ -4932,7 +5177,7 @@
     (pin "1" (uuid 9294f7fc-33f8-4bac-bfa7-180730b891aa))
     (pin "2" (uuid 67f1b951-6eec-416b-b42a-28d40edf6a85))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_48") (unit 1)
         )
@@ -4958,7 +5203,7 @@
     (pin "1" (uuid 78ed9ed9-1a22-4f6d-83b2-77b159f56f21))
     (pin "2" (uuid 158e23f8-7843-465f-9a69-b450b6317910))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_67") (unit 1)
         )
@@ -4984,7 +5229,7 @@
     (pin "1" (uuid a726cea6-b5e5-49a5-9524-5d70802875f2))
     (pin "2" (uuid 328c9580-d4cc-4543-b468-7c3fbcf316a7))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_21") (unit 1)
         )
@@ -5010,7 +5255,7 @@
     (pin "1" (uuid 25c8753f-a7ea-4c3c-b50b-d8906c80be76))
     (pin "2" (uuid 1e838f7b-6cbd-47bd-8b23-226e84dcab2f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_42") (unit 1)
         )
@@ -5036,7 +5281,7 @@
     (pin "1" (uuid fcbafff7-61f4-4c7f-8874-a0f49ad8744c))
     (pin "2" (uuid 05dca112-f40b-492d-b1e2-b3971d0f2cd1))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_8") (unit 1)
         )
@@ -5062,7 +5307,7 @@
     (pin "1" (uuid 0d6a45d0-1b77-4488-805f-0a7dcbc0bc0d))
     (pin "2" (uuid 4403f337-8950-4a33-ac58-d37cdbcdc798))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_81") (unit 1)
         )
@@ -5106,7 +5351,7 @@
     (pin "1" (uuid 373afc7d-2ce6-4bd1-8288-08b013e2db04))
     (pin "2" (uuid c9aec3a8-57ce-4c14-addc-721c2a8a9102))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R6") (unit 1)
         )
@@ -5144,7 +5389,7 @@
     (pin "3" (uuid 321bf1ac-a958-4771-9108-290bc9a8e479))
     (pin "4" (uuid aabf1328-7d5c-4ed8-a880-f69105f0ac84))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "J2") (unit 1)
         )
@@ -5202,7 +5447,7 @@
     (pin "7" (uuid 118f0773-d2d6-494f-98db-1efc1da8b3e8))
     (pin "8" (uuid 3b3082c1-121b-4a24-86e0-95dba84e7272))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "U3") (unit 1)
         )
@@ -5238,7 +5483,7 @@
     (pin "1" (uuid 2093a3a1-891f-49c1-985f-b1956f51bdad))
     (pin "2" (uuid ba109387-b7ba-48dc-aac5-bfa9163b3076))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_3") (unit 1)
         )
@@ -5287,7 +5532,7 @@
     (pin "3" (uuid bbe5426d-238e-40a7-86b2-b8d8737ec2c8))
     (pin "4" (uuid 6e25344b-2d34-43ff-b2f0-575c1b665d50))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "Y1") (unit 1)
         )
@@ -5323,7 +5568,7 @@
     (pin "1" (uuid dfd3a81c-a62d-4766-9699-245fb37a9f69))
     (pin "2" (uuid 2e905816-675c-41b7-8a43-f5bfc625488a))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_33") (unit 1)
         )
@@ -5349,7 +5594,7 @@
     (pin "1" (uuid ef4ce4de-fce6-4058-862d-7fe6499be42d))
     (pin "2" (uuid 7bc600a9-3ecd-4c4f-bf7f-14b6a22a7752))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_39") (unit 1)
         )
@@ -5375,7 +5620,7 @@
     (pin "1" (uuid 0c9343ae-6d8c-4b78-9ab4-c66c174fa841))
     (pin "2" (uuid c6887d0b-a0b2-4258-97cc-8a4ab77a2ca7))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_0") (unit 1)
         )
@@ -5409,7 +5654,7 @@
     (pin "8" (uuid ba2a6ad6-2dc6-4a91-ab07-64070287eb1a))
     (pin "9" (uuid 37900f8e-7572-4156-b53c-823c2a64f7cc))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "J1") (unit 1)
         )
@@ -5440,7 +5685,7 @@
     (pin "1" (uuid 906a28a7-bc51-47b7-8f08-1809bc2e2802))
     (pin "2" (uuid 2c2097d7-822f-4c0f-b5a5-ba723ba4298c))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_12") (unit 1)
         )
@@ -5484,7 +5729,7 @@
     (pin "1" (uuid 53e1aaae-58b1-405b-bd33-de02fad5178c))
     (pin "2" (uuid 5bc8724d-a956-4152-9e1a-de7ddfce27af))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C11") (unit 1)
         )
@@ -5520,7 +5765,7 @@
     (pin "1" (uuid f67dbda8-3ba4-4ec3-8539-52ae8649216c))
     (pin "2" (uuid 2e7a8231-c93d-48f8-9982-edb9968eec3e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_62") (unit 1)
         )
@@ -5546,7 +5791,7 @@
     (pin "1" (uuid d5944618-3e2d-43df-9c69-bb274ec620d6))
     (pin "2" (uuid ba815e50-a041-4549-b669-012e5dd3c4f0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_36") (unit 1)
         )
@@ -5571,7 +5816,7 @@
     )
     (pin "1" (uuid 39f86a42-7a92-4e78-9b70-d986fa929a13))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR05") (unit 1)
         )
@@ -5628,7 +5873,7 @@
     (pin "1" (uuid c8227241-b7de-41c1-8c19-20a3223b1783))
     (pin "2" (uuid 9eb52b67-d0f8-4edf-9868-9959c95c9579))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C16") (unit 1)
         )
@@ -5664,7 +5909,7 @@
     (pin "1" (uuid de3cee1b-d11a-4201-8a42-758a7106c1e2))
     (pin "2" (uuid b8d8ff96-5050-4b41-b5d3-3a340accc2a0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_28") (unit 1)
         )
@@ -5689,7 +5934,7 @@
     )
     (pin "1" (uuid 8d70a0e5-f4ce-4a47-ac51-c59efb13d823))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR018") (unit 1)
         )
@@ -5725,7 +5970,7 @@
     (pin "1" (uuid 5f8d47a3-1d22-4021-b5bc-5ed1d0b9e7dc))
     (pin "2" (uuid a73c0cea-06ca-4d39-8645-c337006feb81))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_59") (unit 1)
         )
@@ -5751,7 +5996,7 @@
     (pin "1" (uuid d5d20342-33e9-4a67-a1e0-868ecaba2536))
     (pin "2" (uuid d9ebdd52-29c1-49a3-8595-776ceb108537))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_41") (unit 1)
         )
@@ -5777,7 +6022,7 @@
     (pin "1" (uuid cb0dd58b-0957-494f-b93b-900356d6f79c))
     (pin "2" (uuid d1a9a030-d623-4bd2-a38c-d8392b66b931))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_42") (unit 1)
         )
@@ -5802,7 +6047,7 @@
     )
     (pin "1" (uuid 51651323-8276-4158-a355-1cccc13b7087))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR014") (unit 1)
         )
@@ -5838,7 +6083,7 @@
     (pin "1" (uuid d07ce603-39bb-4a8f-8dc6-4e505fe06230))
     (pin "2" (uuid 4ff9ddeb-bb02-4e0c-bd44-d0ec28e1bb6f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_2") (unit 1)
         )
@@ -5864,7 +6109,7 @@
     (pin "1" (uuid 501a3df3-be11-401c-8843-fa7545f9fa80))
     (pin "2" (uuid a53efa0e-b85e-4bea-afd1-bb1961dd5d08))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_44") (unit 1)
         )
@@ -5890,7 +6135,7 @@
     (pin "1" (uuid af2328c7-d508-4fd3-9330-78d51d74b64f))
     (pin "2" (uuid 2436253b-8026-45ef-bec7-5953122f6c1a))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_20") (unit 1)
         )
@@ -5934,7 +6179,7 @@
     (pin "1" (uuid c7a8d5e6-5579-4e10-8167-19bdf8332625))
     (pin "2" (uuid 8f15d200-e76b-4e55-bdbb-ed9037e61f87))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R11") (unit 1)
         )
@@ -5970,7 +6215,7 @@
     (pin "1" (uuid 7268a1ab-ee10-437b-9dcb-c221d4b96dca))
     (pin "2" (uuid 000e00ee-60b5-4092-b712-e7ab54ad177d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_22") (unit 1)
         )
@@ -5996,7 +6241,7 @@
     (pin "1" (uuid 7a204230-abe2-472b-900b-0e8090b14d59))
     (pin "2" (uuid af895df8-d4fa-4fc5-9738-21808a9b22c1))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_67") (unit 1)
         )
@@ -6022,7 +6267,7 @@
     (pin "1" (uuid 3d3efb1b-46c3-49eb-93ae-fa980594131a))
     (pin "2" (uuid df699ab2-e09d-4458-ac2d-dba16d315fc3))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_65") (unit 1)
         )
@@ -6048,7 +6293,7 @@
     (pin "1" (uuid 16fefdde-dcdf-4703-aaec-3faf39f65c66))
     (pin "2" (uuid 2c12838e-aabf-409b-b245-7e51045e25c9))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_31") (unit 1)
         )
@@ -6074,7 +6319,7 @@
     (pin "1" (uuid 52c2378e-1f41-4589-a95b-12e7c192ddb6))
     (pin "2" (uuid aea80394-7298-44ff-927b-5491768dcd78))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_14") (unit 1)
         )
@@ -6100,7 +6345,7 @@
     (pin "1" (uuid d2720bd0-e237-489d-84f9-1da2e5590927))
     (pin "2" (uuid 0194aa57-1fab-43ce-89c4-f0006e556cca))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_46") (unit 1)
         )
@@ -6126,7 +6371,7 @@
     (pin "1" (uuid 8810012d-3fdf-4be8-a113-1ba33450184d))
     (pin "2" (uuid e6ef8c2a-9790-43f2-9aff-4ec098b4028f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_37") (unit 1)
         )
@@ -6152,9 +6397,44 @@
     (pin "1" (uuid 3cc34f86-9140-4dd1-992e-7360c5791960))
     (pin "2" (uuid 42294adb-a05b-4ee5-aae2-0ae0aae3b762))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 49.53 299.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6948db27-f4d0-43cb-9ceb-44d31d73cb2b)
+    (property "Reference" "#PWR024" (at 49.53 306.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 49.53 303.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 49.53 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 49.53 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b074e748-3882-4c34-ac3c-85a3d9685381))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -6178,7 +6458,7 @@
     (pin "1" (uuid de34f0ee-f21c-410b-8a5c-db0ef307968b))
     (pin "2" (uuid 10cb8595-5c51-456b-b4fc-13ac20474e1f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_77") (unit 1)
         )
@@ -6203,7 +6483,7 @@
     )
     (pin "1" (uuid 57ccc7f3-023c-49a0-9996-40dee25e2b1d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR020") (unit 1)
         )
@@ -6242,7 +6522,7 @@
     (pin "1" (uuid 57525d12-b1bd-4522-9b10-496775813680))
     (pin "2" (uuid 0e232fb7-7dee-4e8f-9363-a147496466d2))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R5") (unit 1)
         )
@@ -6278,7 +6558,7 @@
     (pin "1" (uuid 8b3ced4f-694a-4159-8465-f73f58e4e3ad))
     (pin "2" (uuid 3e121fbb-d359-4645-9bbb-3722e36e2ab0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_51") (unit 1)
         )
@@ -6303,7 +6583,7 @@
     )
     (pin "1" (uuid 382ec09a-1a09-4920-9cf1-49534bab900c))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR016") (unit 1)
         )
@@ -6338,7 +6618,7 @@
     )
     (pin "1" (uuid ee3880bb-aadd-4e48-95c5-63fae5433d92))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR019") (unit 1)
         )
@@ -6374,7 +6654,7 @@
     (pin "1" (uuid d569ce57-191b-4bc1-ab20-8d1ce98072e0))
     (pin "2" (uuid edbf89d5-a9e6-442a-8f93-473517a5d876))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_10") (unit 1)
         )
@@ -6400,7 +6680,7 @@
     (pin "1" (uuid fedf0e52-3edb-47c3-82e6-75e483992b56))
     (pin "2" (uuid 05af6cb3-09e6-48b9-b213-b5eb8c9a9bed))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_26") (unit 1)
         )
@@ -6426,7 +6706,7 @@
     (pin "1" (uuid 7b80e920-549b-4d72-bf71-02b3523f6572))
     (pin "2" (uuid 668956b5-b42a-47ad-afa0-26c4d655ecfc))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_13") (unit 1)
         )
@@ -6452,7 +6732,7 @@
     (pin "1" (uuid a9852e61-15c7-4f65-aa4a-5878b5aee533))
     (pin "2" (uuid f3110c0f-613c-4554-8172-d0757e35b5e2))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_60") (unit 1)
         )
@@ -6478,7 +6758,7 @@
     (pin "1" (uuid 36242900-b019-4293-a9b3-ae9e50c614b1))
     (pin "2" (uuid 69bac765-5a1d-47b1-ac42-28eef64c7d6d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_51") (unit 1)
         )
@@ -6504,7 +6784,7 @@
     (pin "1" (uuid d36290bf-9dcc-4d5a-85b2-765c93112c2a))
     (pin "2" (uuid 3ee27aa6-4668-4a24-b505-81de6fcfa090))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_63") (unit 1)
         )
@@ -6530,7 +6810,7 @@
     (pin "1" (uuid 2c3f9675-8b20-4e0d-b2a6-73bf72a726a8))
     (pin "2" (uuid 5983e411-73b7-4539-ad61-67ed344a8527))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_27") (unit 1)
         )
@@ -6556,7 +6836,7 @@
     (pin "1" (uuid e03d5725-a926-4c27-83c0-4ee54ce15df1))
     (pin "2" (uuid 414f9621-48d3-40ec-ab89-11dc10cf17d0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_23") (unit 1)
         )
@@ -6581,7 +6861,7 @@
     )
     (pin "1" (uuid ec76d8f7-e089-42f6-84b2-301c8eee5ff5))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR022") (unit 1)
         )
@@ -6617,7 +6897,7 @@
     (pin "1" (uuid eb1253c9-3f2b-4c18-ac54-d4b86cde1afe))
     (pin "2" (uuid 8763b927-9348-4f15-b65c-9405e8904144))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_54") (unit 1)
         )
@@ -6643,7 +6923,7 @@
     (pin "1" (uuid b7ceacfc-26d2-415b-93ff-589b5cdffdb4))
     (pin "2" (uuid 53ab109f-73fa-447c-bc83-f243c075fd48))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_23") (unit 1)
         )
@@ -6669,9 +6949,63 @@
     (pin "1" (uuid 2bba221b-0c92-41bf-bc14-d722a7b234b8))
     (pin "2" (uuid e9e6d6e9-80b3-477d-871e-65f8971bd6d4))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 49.53 294.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 79080d9f-fdc4-41c8-accc-f97b20f56d9b)
+    (property "Reference" "C3" (at 44.45 293.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1uF " (at 44.45 295.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 50.4952 298.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111513_FH--Guangdong-Fenghua-Advanced-Tech-0603B105K500NT_C90540.pdf" (at 49.53 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "50V 1uF X7R ±10% 0603" (at 35.052 295.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Package" "0603" (at 49.53 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "" (at 49.53 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "0603B105K500NT" (at 49.53 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Guangdong Fenghua Advanced Tech" (at 49.53 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor Part Number" "LCSC C90540" (at 49.53 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3891267c-9bc7-4fb3-a446-d58bfc2b40cc))
+    (pin "2" (uuid 164d36e6-02a7-448b-9891-095be6459231))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -6695,7 +7029,7 @@
     (pin "1" (uuid 70fda3a3-6af8-4375-99b7-b32b930dca23))
     (pin "2" (uuid 35b30206-a31a-4fbb-8447-d6ddf0d7072e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_19") (unit 1)
         )
@@ -6721,7 +7055,7 @@
     (pin "1" (uuid 44317436-df69-47e4-9683-8d22dc690d14))
     (pin "2" (uuid f9bb8404-ebe4-4392-bef1-78e5bf77563d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_28") (unit 1)
         )
@@ -6747,7 +7081,7 @@
     (pin "1" (uuid f550af16-548e-4618-b944-04f029f7a437))
     (pin "2" (uuid 308be8f5-f16c-44f8-ae59-8ca73b1d3919))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_74") (unit 1)
         )
@@ -6773,9 +7107,60 @@
     (pin "1" (uuid cf30025c-7c94-4653-9eae-76085aac7bf9))
     (pin "2" (uuid 8d54507f-b5dd-4963-aa94-85ada1735dc7))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 55.88 294.64 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7dc57982-98eb-4384-81db-ed13f3eb2599)
+    (property "Reference" "R4" (at 58.42 294.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k" (at 55.88 294.64 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 57.658 294.64 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 55.88 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "" (at 55.88 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0402" (at 55.88 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "125mW Thick Film Resistors ±1% 100kΩ 0402" (at 55.88 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "YAGEO" (at 55.88 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor Part Number" "LCSC C606167" (at 55.88 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9ff52556-50e3-4683-bc9a-dba7c70defbc))
+    (pin "2" (uuid 23e406ad-faa5-44da-8992-5179d9d03549))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -6799,7 +7184,7 @@
     (pin "1" (uuid b0b9104d-d781-48a6-a36d-316b503ebbaa))
     (pin "2" (uuid 14d5da0e-d059-4955-b54d-c9ef6971b727))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_14") (unit 1)
         )
@@ -6825,9 +7210,60 @@
     (pin "1" (uuid 7771e758-99ad-4aa9-834f-37320fa40a0c))
     (pin "2" (uuid 9c898b72-3d9d-4133-b83c-d88759821799))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 92.71 294.64 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 809b2962-30fe-4bec-9e25-afbeffc1285a)
+    (property "Reference" "R9" (at 95.25 294.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k" (at 92.71 294.64 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 94.488 294.64 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 92.71 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "" (at 92.71 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "0402" (at 92.71 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "125mW Thick Film Resistors ±1% 100kΩ 0402" (at 92.71 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "YAGEO" (at 92.71 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor Part Number" "LCSC C606167" (at 92.71 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c6740fa8-ee88-4cae-af56-8b51740e04ec))
+    (pin "2" (uuid 4511258c-24b7-4819-8254-903107b12b42))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "R9") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -6851,7 +7287,7 @@
     (pin "1" (uuid 7d9e89cc-d2e8-4804-9dd6-a066ffd055f8))
     (pin "2" (uuid ad2e33ea-cd51-419b-af0a-457c51c061a8))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_47") (unit 1)
         )
@@ -6877,7 +7313,7 @@
     (pin "1" (uuid 98c7a32a-beb4-4072-894b-3dfe05d5e7a3))
     (pin "2" (uuid edc9eb9d-3303-4246-acc1-3675203dc1d8))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_49") (unit 1)
         )
@@ -6903,7 +7339,7 @@
     (pin "1" (uuid 9f7be927-728f-46e9-86e8-7b7cc27e02ce))
     (pin "2" (uuid 6afe4e9e-99ee-4fd1-956d-62617107d5b4))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_30") (unit 1)
         )
@@ -6929,7 +7365,7 @@
     (pin "1" (uuid dcb95ac9-3554-4dba-bbc9-d619fb071288))
     (pin "2" (uuid aada2464-b213-48da-830b-9464f3089d8d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_60") (unit 1)
         )
@@ -6955,7 +7391,7 @@
     (pin "1" (uuid 7933164d-eaf6-499f-9fd3-9572d5cb2dd4))
     (pin "2" (uuid 35275d1e-e68e-4995-9e95-c928b916c5cb))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_78") (unit 1)
         )
@@ -6981,7 +7417,7 @@
     (pin "1" (uuid bc9592df-a85a-4743-881c-768809cd320a))
     (pin "2" (uuid e7b3ce2f-365c-44b6-8cd1-4a53636ac381))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_55") (unit 1)
         )
@@ -7007,7 +7443,7 @@
     (pin "1" (uuid 9e4131b5-1442-4995-bf53-7dcd4440fa30))
     (pin "2" (uuid 95ea5dd2-6e3c-4bdf-ab77-c15bafaf3adf))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_57") (unit 1)
         )
@@ -7033,9 +7469,57 @@
     (pin "1" (uuid 2466fe69-69db-4273-a13d-acc6c692edfb))
     (pin "2" (uuid 5b9659f0-5e3e-4b30-b05b-c4696f2de4d6))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_48") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 72.39 278.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8d103986-b786-4ccd-8283-7302a8bcd7dd)
+    (property "Reference" "D1" (at 72.0725 273.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "B5819W-SL" (at 72.0725 275.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 72.39 278.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 72.39 278.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "SOD-123" (at 72.39 278.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor Part Number" "LCSC C8598" (at 72.39 278.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Changjiang Electronics Tech" (at 72.39 278.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "1A SOD-123 Schottky Barrier Diodes" (at 72.39 278.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 903547cb-25a4-4f07-a306-9eb14228dac8))
+    (pin "2" (uuid 733d966c-1e05-4a17-a182-1388d56ec958))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -7059,7 +7543,7 @@
     (pin "1" (uuid 8fb82c50-be8a-40ff-888c-84dec9438711))
     (pin "2" (uuid 75f38e2a-6587-48cf-873c-d37caf682b94))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_34") (unit 1)
         )
@@ -7085,7 +7569,7 @@
     (pin "1" (uuid 4a0495c4-619d-4814-bf90-962248f1be5b))
     (pin "2" (uuid 7150cf66-5cac-4ab9-9acb-11d22857e6fd))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_4") (unit 1)
         )
@@ -7111,7 +7595,7 @@
     (pin "1" (uuid 7a2e7e80-1e4d-4f19-8c7d-f8e14d989ea4))
     (pin "2" (uuid bc548afe-3f14-426c-aca3-e957099a94ec))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_40") (unit 1)
         )
@@ -7155,7 +7639,7 @@
     (pin "1" (uuid 94686619-2692-474e-95e9-6cd77a40f46b))
     (pin "2" (uuid 3be84566-c471-4fb8-9a55-d1728f9fcd45))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C15") (unit 1)
         )
@@ -7191,7 +7675,7 @@
     (pin "1" (uuid 9b85e560-ee63-4656-814f-e4236e127403))
     (pin "2" (uuid 9f63c3bf-404e-40bf-aa83-ddbf4d2908f5))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_72") (unit 1)
         )
@@ -7235,7 +7719,7 @@
     (pin "1" (uuid c40ee76e-05fa-4d3c-b7f5-5e0fb89e2bef))
     (pin "2" (uuid c1f3cb08-f989-42af-85a8-d03d55e6537f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C7") (unit 1)
         )
@@ -7271,9 +7755,44 @@
     (pin "1" (uuid 1253ec87-c9a3-4bda-8940-8e69824ecf24))
     (pin "2" (uuid 24389a05-94d6-4884-a4f4-0226bc7f7855))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 72.517 297.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 981779d1-1676-45dc-9e69-f6b64ec693e9)
+    (property "Reference" "#PWR026" (at 72.517 303.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 72.517 300.99 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.517 297.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.517 297.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3960a484-b29c-49d5-926c-3d65ee6dd938))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -7302,7 +7821,7 @@
     (pin "3" (uuid a5f41c78-ca95-4744-859c-68316f199df5))
     (pin "4" (uuid 0bc77f63-da8a-4507-97f4-5ad0154c647e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "T2") (unit 1)
         )
@@ -7338,7 +7857,7 @@
     (pin "1" (uuid e9da65db-887e-4b80-802c-32f0878404ca))
     (pin "2" (uuid 9e57d358-75ae-48b3-bd1e-1d8d2adf0df1))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_53") (unit 1)
         )
@@ -7363,7 +7882,7 @@
     )
     (pin "1" (uuid 286ffa03-32ac-475c-bace-db4e137b49f4))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR017") (unit 1)
         )
@@ -7417,7 +7936,7 @@
     (pin "1" (uuid ad46e9c0-8367-4f76-a0f9-2932a95bcae8))
     (pin "2" (uuid 75f4d10c-c394-4b7c-82d0-90621ab5467d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R15") (unit 1)
         )
@@ -7453,7 +7972,7 @@
     (pin "1" (uuid 329e8365-c35f-4187-9454-4e815b688461))
     (pin "2" (uuid 2be3d787-0dc2-4fa2-908f-d89f1584de1c))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_70") (unit 1)
         )
@@ -7479,7 +7998,7 @@
     (pin "1" (uuid 32904cf1-aba9-4af7-a33e-70b3092cc2f4))
     (pin "2" (uuid b5b42f30-a3e8-489d-9d3d-a0233b67b625))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_68") (unit 1)
         )
@@ -7508,7 +8027,7 @@
     (pin "1" (uuid 0446216c-ec16-4d64-9a52-b1df4deb9d71))
     (pin "2" (uuid 10ba0746-16c9-4ca4-b468-80d4efbb7361))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R2") (unit 1)
         )
@@ -7544,7 +8063,7 @@
     (pin "1" (uuid e45fc489-1ea5-4904-9690-dd1870e9915a))
     (pin "2" (uuid c1f8a06e-a730-4f1b-9e46-d19dacc3d47e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_52") (unit 1)
         )
@@ -7569,7 +8088,7 @@
     )
     (pin "1" (uuid 9b3ad8b1-d1f6-45cd-9a50-eba59c5fe5ed))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR011") (unit 1)
         )
@@ -7605,7 +8124,7 @@
     (pin "1" (uuid 4beb4760-86fd-4b99-ace2-431cb1369bce))
     (pin "2" (uuid 1de7d272-7119-4d42-abe0-f9bb44b7102a))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_35") (unit 1)
         )
@@ -7631,7 +8150,7 @@
     (pin "1" (uuid 5a5e74e5-0b2d-494a-98b1-b1a42bd73f42))
     (pin "2" (uuid 5be50f9e-93ee-49c4-bfce-8357e2268d4a))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_20") (unit 1)
         )
@@ -7657,7 +8176,7 @@
     (pin "1" (uuid 264ddc5d-0d31-4afb-8b94-3fd942a4f947))
     (pin "2" (uuid eaf0b098-74a9-4865-a3a4-c52971072545))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_3") (unit 1)
         )
@@ -7683,7 +8202,7 @@
     (pin "1" (uuid 7a3e0b41-8c6b-43d4-b81c-a2d9a30d9466))
     (pin "2" (uuid 5cb6b075-ec35-45b6-a45e-04fa8c5eeb87))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_69") (unit 1)
         )
@@ -7691,23 +8210,23 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 260.985 208.915 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 243.84 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a85d5a3a-2fc5-416f-8436-8343e57118f5)
-    (property "Reference" "H2" (at 264.16 208.28 0)
+    (property "Reference" "H2" (at 247.015 180.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LS65 Logo" (at 264.16 210.82 0)
+    (property "Value" "LS65 Logo" (at 247.015 183.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Legshark:ls65_logo" (at 260.985 208.915 0)
+    (property "Footprint" "Legshark:ls65_logo" (at 243.84 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 260.985 208.915 0)
+    (property "Datasheet" "~" (at 243.84 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "H2") (unit 1)
         )
@@ -7738,7 +8257,7 @@
     (pin "1" (uuid 7c91db3c-a7f6-4ddf-baf7-27e7c9d09768))
     (pin "2" (uuid 812d1ed8-6c79-4677-a1ff-693a2975f744))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_1") (unit 1)
         )
@@ -7764,7 +8283,7 @@
     (pin "1" (uuid 0062020b-b05d-41dc-8149-ae6256d5fd4d))
     (pin "2" (uuid 810d0511-6c50-4ff7-91cf-1da33cace750))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_53") (unit 1)
         )
@@ -7790,7 +8309,7 @@
     (pin "1" (uuid e9dd05ce-f230-4cad-8d3e-4a48c43415c2))
     (pin "2" (uuid 1703c154-4bca-4df7-9c05-da00238ba147))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_12") (unit 1)
         )
@@ -7816,7 +8335,7 @@
     (pin "1" (uuid 5478a21b-6987-4084-9ad4-3f83ebea4a84))
     (pin "2" (uuid 1ae937eb-7bd7-4d5b-972a-e4c24c869ead))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_56") (unit 1)
         )
@@ -7864,7 +8383,7 @@
     (pin "5" (uuid 4acc0668-fc05-4322-b797-9bd96c4d9fb5))
     (pin "6" (uuid c7e1a940-4895-4f77-88ba-1515e77087fa))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "SW2") (unit 1)
         )
@@ -7899,7 +8418,7 @@
     )
     (pin "1" (uuid c0961fe5-ab7c-466a-a463-668c84599c41))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR023") (unit 1)
         )
@@ -7935,7 +8454,7 @@
     (pin "1" (uuid 5b2a6e29-0580-4145-9bb6-f8b8ddbcfcc9))
     (pin "2" (uuid 68d74336-cdcb-4aa7-b934-78d4fb17be9a))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_54") (unit 1)
         )
@@ -7960,7 +8479,7 @@
     )
     (pin "1" (uuid 5600cb1d-ffcc-478b-9166-bdc0c5a9329b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR04") (unit 1)
         )
@@ -7996,7 +8515,7 @@
     (pin "1" (uuid 113f1999-1c7e-47e1-ae6c-c378bbe5ae3d))
     (pin "2" (uuid 9bd17568-1381-4928-ba09-6be47f40f7da))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_59") (unit 1)
         )
@@ -8021,7 +8540,7 @@
     )
     (pin "1" (uuid 24d950c7-a65d-4381-a972-f55ec865161f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR07") (unit 1)
         )
@@ -8057,7 +8576,7 @@
     (pin "1" (uuid 42077819-d84f-4c62-b08b-a4efd9cfc60d))
     (pin "2" (uuid c7b023ac-7da3-4f56-93aa-a71ae5675621))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_40") (unit 1)
         )
@@ -8082,7 +8601,7 @@
     )
     (pin "1" (uuid faf8db0f-7fdf-4060-bf43-ce7e1d4d49ae))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR010") (unit 1)
         )
@@ -8118,7 +8637,7 @@
     (pin "1" (uuid 6fc442d3-bb6f-46c0-a28a-e0dc7a796024))
     (pin "2" (uuid a6eafe50-caa8-4477-8ed5-76c3d70e1a54))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_49") (unit 1)
         )
@@ -8162,7 +8681,7 @@
     (pin "1" (uuid 0a9c91c8-e94f-4c68-ab70-450afc74cd9f))
     (pin "2" (uuid 73d2f420-9a29-424f-9308-c603deca23b6))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C1") (unit 1)
         )
@@ -8198,7 +8717,7 @@
     (pin "1" (uuid 4c407ef6-2231-41a8-a4eb-9cc9cc6cfca6))
     (pin "2" (uuid 00bdb4b4-569d-48b2-8e53-2dcc4be0cee4))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_6") (unit 1)
         )
@@ -8242,7 +8761,7 @@
     (pin "1" (uuid 32d685fb-3ffe-4e9f-af66-f040c57e993c))
     (pin "2" (uuid 0fe45a1a-66de-4fc7-8493-77dda8a02940))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C13") (unit 1)
         )
@@ -8278,7 +8797,7 @@
     (pin "1" (uuid b46501ab-7dee-4cb3-8c40-1ab0f268503d))
     (pin "2" (uuid 83e295d1-2448-4ed2-9806-dacbea33acbc))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_16") (unit 1)
         )
@@ -8303,7 +8822,7 @@
     )
     (pin "1" (uuid e2768139-b03e-4271-b961-7d5e6333bdde))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR015") (unit 1)
         )
@@ -8338,7 +8857,7 @@
     )
     (pin "1" (uuid b5b78f3d-9b4b-4f7e-be2c-1a288441bf38))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR02") (unit 1)
         )
@@ -8374,7 +8893,7 @@
     (pin "1" (uuid 92934204-296b-406c-9d2a-c31e4d7fdc6f))
     (pin "2" (uuid 98011777-d123-406c-b9d7-80b42f381405))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_61") (unit 1)
         )
@@ -8418,7 +8937,7 @@
     (pin "1" (uuid b8527af8-fc0b-4672-82a2-3716e872767c))
     (pin "2" (uuid f1750e5e-ec33-4647-9ed5-2adcb86be015))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R7") (unit 1)
         )
@@ -8457,7 +8976,7 @@
     (pin "1" (uuid 9025f899-86d5-489b-9b76-8a038ce4e6cd))
     (pin "2" (uuid 08204584-dc18-4033-b15e-c07eb1bf7c40))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R1") (unit 1)
         )
@@ -8492,7 +9011,7 @@
     )
     (pin "1" (uuid 13c7fb24-3765-425f-9548-b3f60bfc08f3))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR021") (unit 1)
         )
@@ -8505,6 +9024,41 @@
       (project "legshark65_rev1"
         (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
           (reference "#PWR019") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 55.88 299.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cc38882e-aaf9-4359-bf0c-cda8b74172cc)
+    (property "Reference" "#PWR025" (at 55.88 306.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 55.88 303.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 55.88 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 55.88 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca44fd5d-9c77-4603-b68d-0137cd14f3e1))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -8528,7 +9082,7 @@
     (pin "1" (uuid d4906458-47ab-47ac-89ba-36ba759f0ebc))
     (pin "2" (uuid 052aeb89-bfb0-4892-99ee-b0eda77bd17a))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_52") (unit 1)
         )
@@ -8554,7 +9108,7 @@
     (pin "1" (uuid 9c1f8492-14f4-4ae6-a928-6ae437f862ac))
     (pin "2" (uuid 4f3187f8-6d40-4159-8515-f976edabd5f6))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_37") (unit 1)
         )
@@ -8580,7 +9134,7 @@
     (pin "1" (uuid 764b6d27-0cd5-4768-bb4d-bfb90093d336))
     (pin "2" (uuid 0b1f8c11-41f2-4324-b932-5245f2c9185c))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_36") (unit 1)
         )
@@ -8609,7 +9163,7 @@
     (pin "1" (uuid fd3fdcab-1f17-4999-bcae-ccbbbea87468))
     (pin "2" (uuid ed754a22-eb93-4fd4-a85b-ebb54d77aa48))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R3") (unit 1)
         )
@@ -8645,7 +9199,7 @@
     (pin "1" (uuid 510abf59-0f54-495c-b02e-61ab05644e7d))
     (pin "2" (uuid 28cd5d92-7e7f-435c-b946-eff66695ce0b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_50") (unit 1)
         )
@@ -8671,7 +9225,7 @@
     (pin "1" (uuid b195fe72-2622-455b-8e8d-c4afa1e59710))
     (pin "2" (uuid 94b70f4c-5cae-40a0-a6f1-5504c85c04e7))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_25") (unit 1)
         )
@@ -8697,7 +9251,7 @@
     (pin "1" (uuid a153c024-05d9-4ed0-95c1-7c410260c716))
     (pin "2" (uuid 8a719f48-c9a5-4d9a-8a75-258ec94602f1))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_45") (unit 1)
         )
@@ -8723,7 +9277,7 @@
     (pin "1" (uuid 711df862-48d7-4fa5-be09-87841b4ec363))
     (pin "2" (uuid eff2fa1d-15cb-451c-be18-71ee18241146))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_39") (unit 1)
         )
@@ -8749,9 +9303,64 @@
     (pin "1" (uuid 8f610393-7e2e-4b84-9c38-a53ea879c434))
     (pin "2" (uuid 746bde99-9cb3-44b7-a112-8d7a629e63ad))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_64") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Regulator_Linear:MCP1700-3302E_SOT23") (at 72.517 288.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d5d2317f-3699-4ec4-86ae-cd940ae5d00a)
+    (property "Reference" "U2" (at 72.517 281.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MCP1700T-3302E/TT" (at 72.517 283.845 0)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 72.517 282.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" (at 72.517 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "MCP1700T-3302E/TT" (at 72.517 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Microchip" (at 72.517 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "SOT-23" (at 72.517 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "" (at 72.517 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "3.3V fixed linear dropout regulator" (at 72.517 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor Part Number" "LCSC C39051" (at 72.517 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8485d629-f5f7-4f4e-96e7-58510b637509))
+    (pin "2" (uuid f63006c7-32ff-433d-acfd-699d4eddf2c9))
+    (pin "3" (uuid 6da632e1-2685-42b7-a9b7-19b72c6de248))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "apollo87h"
+        (path "/cac53280-0cb3-46d1-85a6-feb33ccfa3b3"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -8775,7 +9384,7 @@
     (pin "1" (uuid f7f55741-c0c9-41f4-84fc-a45826acb71a))
     (pin "2" (uuid 6c4f175b-f35d-4bbc-8cdb-f1a19b47d40b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_26") (unit 1)
         )
@@ -8801,7 +9410,7 @@
     (pin "1" (uuid 97bcc982-a535-403e-a19d-ddb6637ba835))
     (pin "2" (uuid 487d0b33-cde9-4edd-9f04-9fb41df46c60))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_13") (unit 1)
         )
@@ -8827,7 +9436,7 @@
     (pin "1" (uuid dd30b463-b030-45c8-ae01-1d47ce524c68))
     (pin "2" (uuid cf5d1400-0c34-4101-9fa7-a7db6d851ed3))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_32") (unit 1)
         )
@@ -8871,7 +9480,7 @@
     (pin "1" (uuid 6f5a92ec-6d88-4676-8352-ce11bedf92f2))
     (pin "2" (uuid ea1cc802-eba2-4daa-9719-a150f5115385))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C17") (unit 1)
         )
@@ -8907,7 +9516,7 @@
     (pin "1" (uuid 107c45ef-6c09-41b0-aeb5-0d878635ec79))
     (pin "2" (uuid 8603bd32-803c-4b32-b1a5-cccb9e6996fe))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_34") (unit 1)
         )
@@ -8933,7 +9542,7 @@
     (pin "1" (uuid c7cbf2e7-c06d-4c17-9c01-1a10a951f2d2))
     (pin "2" (uuid cc517c22-def2-485f-bf20-4fd77ce7d689))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_31") (unit 1)
         )
@@ -8977,7 +9586,7 @@
     (pin "1" (uuid 1e8c1a7c-6702-4ccb-b709-f04ecf813480))
     (pin "2" (uuid 32f15e22-3ce1-455b-82d5-7a4b36d53b1e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C12") (unit 1)
         )
@@ -9013,7 +9622,7 @@
     (pin "1" (uuid a48d1949-9fb6-478b-9f60-fd51811e8b14))
     (pin "2" (uuid b8dff637-b9a9-4f30-b8de-07953ee1639e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_57") (unit 1)
         )
@@ -9039,7 +9648,7 @@
     (pin "1" (uuid bca0272e-23a1-458a-b1f1-746c593b866a))
     (pin "2" (uuid 4f1febc1-9751-4a00-99de-73f26e281f45))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_69") (unit 1)
         )
@@ -9065,7 +9674,7 @@
     (pin "1" (uuid 2851c78b-a9bd-4619-9f61-e93764397316))
     (pin "2" (uuid 480f5e97-7505-489a-9564-5f18c3934bde))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_38") (unit 1)
         )
@@ -9091,7 +9700,7 @@
     (pin "1" (uuid 539f4126-13d1-4d64-ba05-6f679ce7735a))
     (pin "2" (uuid 9c620a04-6500-49a4-8bc6-88d38abbf3f2))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_47") (unit 1)
         )
@@ -9117,7 +9726,7 @@
     (pin "1" (uuid f4cb8830-abed-435f-8f45-ce48fffa3cf3))
     (pin "2" (uuid 6bb294ce-0edf-4a93-b05d-6b4bcc60fc35))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_32") (unit 1)
         )
@@ -9143,7 +9752,7 @@
     (pin "1" (uuid 38dd28fd-2bc7-4165-afd0-b2dee08881f4))
     (pin "2" (uuid 5c389f8f-a213-462a-ac2b-b264ac2a1b98))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_56") (unit 1)
         )
@@ -9169,7 +9778,7 @@
     (pin "1" (uuid ec85e290-7bae-4cc4-9ab4-2e35b0f67f4b))
     (pin "2" (uuid e27a6276-c83d-438f-8511-0c54f5cd4c00))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_21") (unit 1)
         )
@@ -9213,7 +9822,7 @@
     (pin "1" (uuid 41612672-1a0b-4b50-93ad-073f291d0f2c))
     (pin "2" (uuid e8c677c5-1e09-40aa-bfd8-3a560bd7c037))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "R8") (unit 1)
         )
@@ -9249,7 +9858,7 @@
     (pin "1" (uuid a97c57b4-9c64-4052-bb8a-23334ae1b535))
     (pin "2" (uuid cdf51479-e4aa-43bc-85b9-11405195db8a))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_22") (unit 1)
         )
@@ -9275,7 +9884,7 @@
     (pin "1" (uuid 400221dd-6ea9-41bb-ab61-90a1f634a6cc))
     (pin "2" (uuid a4b11d32-1fa7-48c9-b6f2-efaf336842b6))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_18") (unit 1)
         )
@@ -9301,7 +9910,7 @@
     (pin "1" (uuid d3c56ae0-c778-4784-955f-7a46b1b7b15d))
     (pin "2" (uuid be5fcbfc-982a-4974-a3be-e131e4cac8f2))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_16") (unit 1)
         )
@@ -9327,7 +9936,7 @@
     (pin "1" (uuid fddcf68f-019f-4258-8b0c-46a62365b40b))
     (pin "2" (uuid 2a2efee4-ec80-4127-8aaf-254af90e56f3))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_62") (unit 1)
         )
@@ -9353,7 +9962,7 @@
     (pin "1" (uuid 5eeb94fc-93ea-4a54-a0a1-f86ceff122a2))
     (pin "2" (uuid 9724058e-cf0c-41d2-9eec-dfd31e556b0d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_58") (unit 1)
         )
@@ -9379,7 +9988,7 @@
     (pin "1" (uuid 626f794a-c158-48c6-8993-8d2b93b37e3c))
     (pin "2" (uuid 21358001-4ac9-45bd-959a-651c8f6663e0))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_2") (unit 1)
         )
@@ -9405,7 +10014,7 @@
     (pin "1" (uuid 070a4f88-7fe5-49d1-a762-3f35651fcc45))
     (pin "2" (uuid a672243b-dd48-4711-b4cc-3c450c462fc7))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_25") (unit 1)
         )
@@ -9431,7 +10040,7 @@
     (pin "1" (uuid 675602d1-f791-4290-8f9d-7ecc390eef31))
     (pin "2" (uuid 2fa713d3-31f8-4ae8-a34b-bc13959ea097))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_70") (unit 1)
         )
@@ -9457,7 +10066,7 @@
     (pin "1" (uuid d380571d-7c0e-4b21-b563-a6dbb84611fc))
     (pin "2" (uuid 282806dd-87fc-4927-85d4-4026c1594271))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_64") (unit 1)
         )
@@ -9483,9 +10092,63 @@
     (pin "1" (uuid ed6ca01f-8508-46f1-8908-9d198c4edfa1))
     (pin "2" (uuid 1aef1068-7875-4cc4-9625-cc4dabbb458b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_35") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 102.87 294.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f0026e7c-7701-481b-89d4-16964ed71c26)
+    (property "Reference" "C5" (at 97.79 293.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1uF " (at 97.79 295.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 103.8352 298.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811111513_FH--Guangdong-Fenghua-Advanced-Tech-0603B105K500NT_C90540.pdf" (at 102.87 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "50V 1uF X7R ±10% 0603" (at 113.157 297.18 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Package" "0603" (at 102.87 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "" (at 102.87 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "0603B105K500NT" (at 102.87 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Guangdong Fenghua Advanced Tech" (at 102.87 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor Part Number" "LCSC C90540" (at 102.87 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba0eed9d-666d-493d-84f9-de243a1538a5))
+    (pin "2" (uuid f40146c0-ed66-4ef7-b181-a864d5dae505))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -9509,7 +10172,7 @@
     (pin "1" (uuid b132dd79-d2a2-4859-8d57-27164448d47f))
     (pin "2" (uuid d6b20e49-208a-4210-9919-5c89ea13aa8d))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_5") (unit 1)
         )
@@ -9535,7 +10198,7 @@
     (pin "1" (uuid 60427453-7d9c-4d07-b156-280a19b38203))
     (pin "2" (uuid 854f8799-dd15-4112-8fd0-c8364a55b333))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_7") (unit 1)
         )
@@ -9561,7 +10224,7 @@
     (pin "1" (uuid 6184ddd2-f71e-464a-8107-39dc452fcc1d))
     (pin "2" (uuid 9de9d726-7540-4f21-8d00-7107b8befcdd))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_15") (unit 1)
         )
@@ -9587,7 +10250,7 @@
     (pin "1" (uuid 3eea1e81-e942-4484-9e30-0552640ab6a1))
     (pin "2" (uuid 7ad3eabd-0bf1-445a-9a5d-c92b06856928))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_33") (unit 1)
         )
@@ -9613,7 +10276,7 @@
     (pin "1" (uuid 7c9527e2-a2de-4704-a5dd-3da1407b6fd6))
     (pin "2" (uuid 17e52648-048b-49a8-9ebf-6ed03a865aba))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_44") (unit 1)
         )
@@ -9639,7 +10302,7 @@
     (pin "1" (uuid 9653daa3-bea9-44eb-a225-65456b641bfa))
     (pin "2" (uuid 72383252-e591-47d3-b5ee-e0c2058edf26))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_9") (unit 1)
         )
@@ -9665,9 +10328,44 @@
     (pin "1" (uuid 7249b4e4-8b3a-40ac-b445-8cbc531644fa))
     (pin "2" (uuid 7ebdef05-a1a6-4c73-ac88-7b3418c3501e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_66") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 102.87 299.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f83d9913-e172-4956-a8f9-40834676221d)
+    (property "Reference" "#PWR028" (at 102.87 306.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 102.87 303.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 102.87 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 102.87 299.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dbf0845b-0948-4827-b5fc-ec151937b9d3))
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+      (project "old_layout"
+        (path "/2fda2561-53ed-4930-8b41-858e0e3dd5f4"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "db_rev1"
+        (path "/5fbc77d5-0b17-4c7b-9496-7422d8d21889"
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -9691,7 +10389,7 @@
     (pin "1" (uuid b1da009a-897a-4291-afbb-9788cd9e8d25))
     (pin "2" (uuid 43b94851-65c0-4cc6-b09b-f91b4172dcd7))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_80") (unit 1)
         )
@@ -9717,7 +10415,7 @@
     (pin "1" (uuid 8cec6c70-29a1-4761-b2f9-7e131be8fb48))
     (pin "2" (uuid 80a1589a-27f2-46d9-9b9b-a8a78e77b9bb))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_10") (unit 1)
         )
@@ -9743,7 +10441,7 @@
     (pin "1" (uuid 099574b9-c294-4b62-a861-17fde06976ae))
     (pin "2" (uuid dbc39702-f057-4c29-8b1a-7d441ba4c2b7))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_79") (unit 1)
         )
@@ -9787,7 +10485,7 @@
     (pin "1" (uuid b4aba76f-b297-4159-b4b2-2439c484a8ab))
     (pin "2" (uuid eb2a933f-d7b0-4913-aa97-e217514bbe5b))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C10") (unit 1)
         )
@@ -9823,7 +10521,7 @@
     (pin "1" (uuid 691e25b4-f38b-4f78-bb0b-f616824338a4))
     (pin "2" (uuid 58d9a108-8568-41e4-854a-fcc9f061fb1e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_29") (unit 1)
         )
@@ -9848,7 +10546,7 @@
     )
     (pin "1" (uuid 99446d4e-d10e-4355-a81a-5f262786f867))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "#PWR01") (unit 1)
         )
@@ -9884,7 +10582,7 @@
     (pin "1" (uuid 26a8cfcf-635a-48db-846e-b45c8f4a4974))
     (pin "2" (uuid b9c38186-61b0-4834-8a84-e7b808e54c6f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_63") (unit 1)
         )
@@ -9910,7 +10608,7 @@
     (pin "1" (uuid 0c508c43-a36f-439b-bcaf-fd3ff924a763))
     (pin "2" (uuid 9f343aec-2deb-4584-90f2-128df003703e))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_76") (unit 1)
         )
@@ -9954,7 +10652,7 @@
     (pin "1" (uuid e33737b6-b0fe-4152-893f-27e5eb0fbaad))
     (pin "2" (uuid 9d8a7682-357a-4b18-83e8-3cf71c66ff78))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "C6") (unit 1)
         )
@@ -9990,7 +10688,7 @@
     (pin "1" (uuid 02d7e888-f7cb-4732-9ef0-f76581c63f2a))
     (pin "2" (uuid a9144b86-d1c2-416a-9ec1-24204f75868f))
     (instances
-      (project "keyboard"
+      (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "D_9") (unit 1)
         )
