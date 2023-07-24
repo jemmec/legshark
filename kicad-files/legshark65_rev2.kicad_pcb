@@ -44,6 +44,7 @@
     )
     (pad_to_mask_clearance 0)
     (aux_axis_origin 9.525 9.525)
+    (grid_origin 9.525 9.525)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
@@ -16434,6 +16435,19 @@
   (segment (start 116.84 80.645) (end 126.365 80.645) (width 0.5) (layer "B.Cu") (net 92) (tstamp cfd05c57-c950-4c8a-ab3a-48d1c98f4743))
   (segment (start 164.465 80.645) (end 173.99 80.645) (width 0.5) (layer "B.Cu") (net 93) (tstamp c8e389ad-03f5-425f-bbf9-fc8f17c6de6e))
 
+  (zone (net 22) (net_name "GND") (layers "F&B.Cu") (tstamp 6ad8ad69-de5d-40ff-a9f4-7f9cfb98a894) (hatch edge 0.5)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy -2.38125 -2.38125)
+        (xy 288.13125 -2.38125)
+        (xy 288.13125 97.63125)
+        (xy -2.38125 97.63125)
+      )
+    )
+  )
   (group "" (id 11be46ce-dac0-4760-b84c-234ba0bcab25)
     (members
       4099e37c-f66d-42d2-8293-4f6c56286ade
