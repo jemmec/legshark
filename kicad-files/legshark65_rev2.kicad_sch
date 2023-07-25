@@ -7656,7 +7656,7 @@
     (property "Value" "KEYSW" (at 213.36 129.54 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "MX_Only:MXOnly-7U-ReversedStabilizers-NoLED" (at 213.36 127 0)
+    (property "Footprint" "Legshark:Legshark_MXOnly-7U-3U-ReversedStabilizers-NoLED" (at 213.36 127 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 213.36 127 0)
