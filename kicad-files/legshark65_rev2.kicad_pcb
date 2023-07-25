@@ -370,7 +370,7 @@
       (net 34 "Net-(D_6-A)") (pinfunction "ROW") (pintype "passive") (tstamp a1afdd52-cfe9-4b1c-b233-648488e07b90))
   )
 
-  (footprint "MX_Only:MXOnly-1U-NoLED" (layer "F.Cu")
+  (footprint "MX_Only:MXOnly-1U-NoLED" locked (layer "F.Cu")
     (tstamp 0c4a61ca-e820-4351-ac57-0f30b5a635af)
     (at 228.6 85.725)
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -409,12 +409,12 @@
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp c8499a51-e790-4e37-b03b-f47fae5f4888))
     (fp_line (start 9.525 9.525) (end -9.525 9.525)
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 61aefb24-46f9-48d5-bdfb-6e1214dec1cc))
-    (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 94d479b7-0fc5-4136-8282-10b341a9f9d6))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 5d7646ca-5b75-4f06-8aa3-a7b259b045eb))
-    (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp f1bc73e9-d262-48bc-922d-3fa795191c44))
-    (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "" np_thru_hole circle locked (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 94d479b7-0fc5-4136-8282-10b341a9f9d6))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 5d7646ca-5b75-4f06-8aa3-a7b259b045eb))
+    (pad "" np_thru_hole circle locked (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp f1bc73e9-d262-48bc-922d-3fa795191c44))
+    (pad "1" thru_hole circle locked (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 13 "col12") (pinfunction "COL") (pintype "passive") (tstamp 9bd5823b-94f0-4eb0-bc53-e71313361f3b))
-    (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "2" thru_hole circle locked (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 96 "Net-(D_68-A)") (pinfunction "ROW") (pintype "passive") (tstamp 257ee231-f2f6-4dab-b5ea-1c45fc4ca9ab))
   )
 
@@ -466,7 +466,7 @@
       (net 77 "Net-(D_49-A)") (pinfunction "ROW") (pintype "passive") (tstamp 5e940e12-f4d0-4420-ab15-22bc005bf40b))
   )
 
-  (footprint "MX_Only:MXOnly-1.5U-NoLED" (layer "F.Cu")
+  (footprint "MX_Only:MXOnly-1.5U-NoLED" locked (layer "F.Cu")
     (tstamp 1753980a-46e9-4994-8e23-b49cc9fda5b1)
     (at 252.4125 85.725)
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -505,12 +505,12 @@
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 0738e8a9-4bb6-49f5-b64a-f1bade057eb1))
     (fp_line (start 14.2875 -9.525) (end 14.2875 9.525)
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 3ff928f7-f611-46f0-9fa4-e5245388e457))
-    (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 929d590a-2467-411e-80d9-a6b6d8200f44))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp f5e5b18f-69e7-4b19-8653-967908cea744))
-    (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 3335f975-f9a4-44b1-92ae-c9d4b8e3e9bc))
-    (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "" np_thru_hole circle locked (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 929d590a-2467-411e-80d9-a6b6d8200f44))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp f5e5b18f-69e7-4b19-8653-967908cea744))
+    (pad "" np_thru_hole circle locked (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 3335f975-f9a4-44b1-92ae-c9d4b8e3e9bc))
+    (pad "1" thru_hole circle locked (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 14 "col13") (pinfunction "COL") (pintype "passive") (tstamp ee953b4a-f216-4410-93a9-709ad95c8825))
-    (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "2" thru_hole circle locked (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 97 "Net-(D_69-A)") (pinfunction "ROW") (pintype "passive") (tstamp eb25d96a-c12a-49ee-996b-dbc3108f0638))
   )
 
@@ -802,7 +802,7 @@
       (net 87 "Net-(D_59-A)") (pinfunction "ROW") (pintype "passive") (tstamp 0ed57388-7d83-4801-b9af-c64ff4780573))
   )
 
-  (footprint "MX_Only:MXOnly-1.5U-NoLED" (layer "F.Cu")
+  (footprint "MX_Only:MXOnly-1.5U-NoLED" locked (layer "F.Cu")
     (tstamp 267c5b04-5d9d-4680-8448-56a13c5000e5)
     (at 204.7875 85.725)
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -841,12 +841,12 @@
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp beb067fb-7f55-456d-8313-a6f27e3d0384))
     (fp_line (start 14.2875 -9.525) (end 14.2875 9.525)
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 3d83e07f-f11e-4da7-9808-c97f5be26d8c))
-    (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 290f3bf2-6e47-48e1-ad52-f48761375013))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 93091b22-e545-4389-8f53-10d31c74ff1b))
-    (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 6e795185-07da-47f2-949f-222a70fec7cb))
-    (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "" np_thru_hole circle locked (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 290f3bf2-6e47-48e1-ad52-f48761375013))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 93091b22-e545-4389-8f53-10d31c74ff1b))
+    (pad "" np_thru_hole circle locked (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 6e795185-07da-47f2-949f-222a70fec7cb))
+    (pad "1" thru_hole circle locked (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 11 "col10") (pinfunction "COL") (pintype "passive") (tstamp 793c38c0-de20-4064-8ef4-a8862172c6fd))
-    (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "2" thru_hole circle locked (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 94 "Net-(D_66-A)") (pinfunction "ROW") (pintype "passive") (tstamp 1b3fc052-c86a-498c-9b81-9934f2585805))
   )
 
@@ -4924,7 +4924,7 @@
       (net 91 "Net-(D_63-A)") (pinfunction "ROW") (pintype "passive") (tstamp bfdcafce-6cba-4212-86b1-2daabe08687c))
   )
 
-  (footprint "MX_Only:MXOnly-1U-NoLED" (layer "F.Cu")
+  (footprint "MX_Only:MXOnly-1U-NoLED" locked (layer "F.Cu")
     (tstamp 9d7e260f-92d4-4285-b9b7-3e423894512b)
     (at 104.775 85.725)
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -4963,12 +4963,12 @@
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 49696a0d-a829-4b81-93ff-5b413de70371))
     (fp_line (start 9.525 9.525) (end -9.525 9.525)
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 53fec43f-9f42-4174-bf03-e6b9b6af8a0e))
-    (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 0ec0db25-85ef-4fef-a9d0-6ef15aeda68b))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 35032ce8-6038-4224-b5f2-dbcd1047e892))
-    (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 3550acbe-a38d-4800-ba9d-e95678b751da))
-    (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "" np_thru_hole circle locked (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 0ec0db25-85ef-4fef-a9d0-6ef15aeda68b))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 35032ce8-6038-4224-b5f2-dbcd1047e892))
+    (pad "" np_thru_hole circle locked (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 3550acbe-a38d-4800-ba9d-e95678b751da))
+    (pad "1" thru_hole circle locked (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 6 "col5") (pinfunction "COL") (pintype "passive") (tstamp c6680e7f-3d57-475d-b120-8570f8a31a1a))
-    (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "2" thru_hole circle locked (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 138 "Net-(D_71-A)") (pinfunction "ROW") (pintype "passive") (tstamp 1f2e6fe0-e232-4b0c-b2e4-5f4ef5a50061))
   )
 
@@ -8578,7 +8578,7 @@
       (net 60 "Net-(D_32-A)") (pinfunction "ROW") (pintype "passive") (tstamp ee960961-ac72-46f8-a01c-e777490a8d33))
   )
 
-  (footprint "MX_Only:MXOnly-1U-NoLED" (layer "F.Cu")
+  (footprint "MX_Only:MXOnly-1U-NoLED" locked (layer "F.Cu")
     (tstamp c3c4f4d0-c7a6-4c3e-8034-0c006175b522)
     (at 180.975 85.725)
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -8617,12 +8617,12 @@
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp 3600c55f-be1d-4ba3-ad3a-32a4505e95e2))
     (fp_line (start 9.525 9.525) (end -9.525 9.525)
       (stroke (width 0.15) (type solid)) (layer "Dwgs.User") (tstamp ec8d9c78-3d44-4a4c-8fa3-27ec696b6041))
-    (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 24b6cbcf-7deb-4d25-b2b8-9a0ae3512d4f))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 825dccd1-30ad-434f-aafa-088410499e5c))
-    (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp bed801f8-4a49-4ab9-92f2-6bd507758ec7))
-    (pad "1" thru_hole circle (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "" np_thru_hole circle locked (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 24b6cbcf-7deb-4d25-b2b8-9a0ae3512d4f))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers "*.Cu" "*.Mask") (tstamp 825dccd1-30ad-434f-aafa-088410499e5c))
+    (pad "" np_thru_hole circle locked (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp bed801f8-4a49-4ab9-92f2-6bd507758ec7))
+    (pad "1" thru_hole circle locked (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 10 "col9") (pinfunction "COL") (pintype "passive") (tstamp 65c191b7-843b-4cd1-8315-7efe484509c9))
-    (pad "2" thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
+    (pad "2" thru_hole circle locked (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers "*.Cu" "B.Mask")
       (net 139 "Net-(D_72-A)") (pinfunction "ROW") (pintype "passive") (tstamp 96b0c919-430a-4f81-a382-066c6ad6b5bd))
   )
 
@@ -9391,15 +9391,15 @@
     (property "ki_keywords" "diode")
     (path "/60df1201-0174-41b4-9d75-7af3ca207aae")
     (attr smd)
-    (fp_text reference "D_31" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_31" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4a3769dd-e91e-4c7a-b545-9eb2b2f2c67e)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0356fda6-34e5-47e1-8d09-82045dd2613a)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7f2c5e27-2589-4737-be00-5224124cc663)
     )
@@ -9459,15 +9459,15 @@
     (property "ki_keywords" "diode")
     (path "/8edaaeae-414a-4d93-9116-615ad74ae80d")
     (attr smd)
-    (fp_text reference "D_4" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_4" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0d371247-70c0-4f72-992b-aa76af13709d)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3b08129e-dbf0-4799-8bd3-8b65cfc217d4)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 05da5c2c-41c7-4afb-9014-2d6e279d44ac)
     )
@@ -9608,15 +9608,15 @@
     (property "ki_keywords" "diode")
     (path "/fd5114b7-0285-4c0d-a1e6-6f96fb18a9bf")
     (attr smd)
-    (fp_text reference "D_29" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_29" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 33dd4256-a466-4ff7-84ac-7ab1aa55422e)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 27d3063e-633c-48b2-8491-f47e6b66fae9)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e253e035-3e21-4b04-adeb-4ba10bf2ca9b)
     )
@@ -9680,7 +9680,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 897bd717-5677-4a7d-a504-2b7988eeabed)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3f326006-7a9a-430c-93ad-b608a2f00810)
     )
@@ -9740,15 +9740,15 @@
     (property "ki_keywords" "diode")
     (path "/7f547719-36de-4d19-bb8d-993dc051d4a6")
     (attr smd)
-    (fp_text reference "D_14" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_14" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 559d7d76-157c-4839-b8c0-cf096f45f008)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 012a4caa-9473-48b2-8e03-8c1ad47f711e)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp afc6deb9-03ea-4126-988a-fd416fabe12f)
     )
@@ -9808,15 +9808,15 @@
     (property "ki_keywords" "diode")
     (path "/e68d2597-76fa-4c09-9a16-628dd38dc70b")
     (attr smd)
-    (fp_text reference "D_62" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_62" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c0e169cb-34a3-4f75-ac42-2e5653e3d7ea)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp db20506a-7b48-47ff-8be1-bdf549de20ab)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7ebd9bd5-394d-4a61-8d6d-445e8ea5ed97)
     )
@@ -9876,15 +9876,15 @@
     (property "ki_keywords" "diode")
     (path "/f3b9d01b-dfc8-4fcf-93c4-de5678647757")
     (attr smd)
-    (fp_text reference "D_15" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_15" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ee53b291-bfc4-4dff-8a7a-3c1283d266da)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0f430645-b679-4745-89f4-eb9211c6a735)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a1ab419e-7c53-453a-93fd-98e606a70ba5)
     )
@@ -10004,15 +10004,15 @@
     (property "ki_keywords" "diode")
     (path "/272b0670-017a-40e1-8a0e-2977a04f78f7")
     (attr smd)
-    (fp_text reference "D_43" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_43" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d61769f7-4adb-47c8-b887-ad39751fae5c)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp add5b16f-ac0d-4251-9bcb-5b5c72e647a9)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9132f046-e634-46f5-954e-9e4635775785)
     )
@@ -10182,15 +10182,15 @@
     (property "ki_keywords" "diode")
     (path "/5063404e-2f88-40cd-b348-3c32d70e0f3c")
     (attr smd)
-    (fp_text reference "D_28" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_28" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1e980ff9-b64f-4e22-b0ef-89b7f4e1869a)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8d92358a-5589-4905-83d4-967baf653652)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ea4be38a-27e7-4a6b-8e46-971428d36a86)
     )
@@ -10250,15 +10250,15 @@
     (property "ki_keywords" "diode")
     (path "/a4c06aad-6db8-4424-8b75-e5c894d8ea76")
     (attr smd)
-    (fp_text reference "D_35" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_35" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5e892fa4-8a26-4b24-88fd-64579025ae18)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp dcf3669e-540e-4c04-b957-a52a8c7899e6)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp db146aad-a6e0-40d0-bd53-95243fc2df9f)
     )
@@ -10318,15 +10318,15 @@
     (property "ki_keywords" "diode")
     (path "/2d374f49-259e-42d2-98e0-3e3bc46d8b0b")
     (attr smd)
-    (fp_text reference "D_30" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_30" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d0f28810-373c-4372-b001-d81486071a7f)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 62975fcd-24b5-48d6-b608-15d82ad09da1)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e842fe74-5e11-411e-9c9d-d3eba5c947a7)
     )
@@ -10386,15 +10386,15 @@
     (property "ki_keywords" "diode")
     (path "/1f122c3e-02b3-4f0a-9c6f-967092a2e355")
     (attr smd)
-    (fp_text reference "D_68" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_68" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1238bdd2-81c0-4bad-b232-90d48df08ebe)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp de4df7a4-af5a-458f-888a-cc0cafe6dfff)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5c208a12-2a48-40dc-a267-415db9cfde04)
     )
@@ -10454,15 +10454,15 @@
     (property "ki_keywords" "diode")
     (path "/e47ff206-8637-4e2b-abd2-f140806e19aa")
     (attr smd)
-    (fp_text reference "D_22" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_22" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f3f43e2c-b3ed-410d-93e7-709de0967601)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp df4e45d9-506e-4f1a-a988-85f74478ec23)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4fa98006-5339-448c-b704-1b2512e3a882)
     )
@@ -10581,15 +10581,15 @@
     (property "ki_keywords" "diode")
     (path "/eb6725af-cb2d-4117-be4d-cc42315f35f1")
     (attr smd)
-    (fp_text reference "D_25" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_25" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ea5ffb6f-b7fd-4957-978a-32e3ff3a028f)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2eb86889-33c4-46f4-a809-60de3c3bdb07)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6bae6e6d-7a9d-4f4d-af9d-ec82423569d6)
     )
@@ -10649,15 +10649,15 @@
     (property "ki_keywords" "diode")
     (path "/45c8b0f4-bf16-4769-af58-1ad6f584d8d4")
     (attr smd)
-    (fp_text reference "D_0" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_0" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4d1cd2a1-fa95-4273-9ece-4370a421a9cb)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ad2b5a24-6a65-4e8d-801a-fcb8d3daa461)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 257c74d7-85cc-462f-bd68-ce1e35d148a8)
     )
@@ -10777,15 +10777,15 @@
     (property "ki_keywords" "diode")
     (path "/f7d278be-96fc-4b7b-82de-ad7b32a32c42")
     (attr smd)
-    (fp_text reference "D_66" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_66" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0b3a6827-17ba-4b85-be22-98c08473ffa3)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8c7d813a-cd4d-4cf7-a39c-e752435d7753)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e0e3b949-55f8-4152-a848-347b1ca2c8ee)
     )
@@ -10905,15 +10905,15 @@
     (property "ki_keywords" "diode")
     (path "/1d65c20b-2c5e-485c-8ce4-53a4767f6f5a")
     (attr smd)
-    (fp_text reference "D_45" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_45" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 694de65e-7729-46b6-9d3b-8f74a7bb072d)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fd7f77eb-0d41-42e5-bd8a-42efffeaf5ec)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fb4354c8-2ddb-4bfd-93b4-ee0cafd29a6f)
     )
@@ -10973,15 +10973,15 @@
     (property "ki_keywords" "diode")
     (path "/5113c39e-14dc-4787-ac0e-47b239a18aa5")
     (attr smd)
-    (fp_text reference "D_59" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_59" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp cea12722-4dba-4f86-97b9-3b54ea43848b)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4c63f48a-1b91-46bc-a302-df0e155329e0)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e7e531da-c45d-499d-b399-903421933eba)
     )
@@ -11045,7 +11045,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2c6539e0-ca3e-4a38-bffe-a2a0562ce197)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6e119952-3346-4dad-bc87-cc1411bbe771)
     )
@@ -11105,15 +11105,15 @@
     (property "ki_keywords" "diode")
     (path "/83d1f665-8965-41a7-ae0b-1ed8fae1449d")
     (attr smd)
-    (fp_text reference "D_60" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_60" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 21ec9324-b671-4b81-b4da-9c9d8ef3a1d9)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3362c030-5b05-427b-9f0b-e508cc1ad933)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c7fef8d0-6b52-4ff2-bcab-fb780fe0b5a7)
     )
@@ -11173,15 +11173,15 @@
     (property "ki_keywords" "diode")
     (path "/033659ba-061c-4279-affa-13b34dde5840")
     (attr smd)
-    (fp_text reference "D_61" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_61" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a9dfa7af-beb5-47ef-a9f7-3f5a6ca024b1)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3901264e-e57c-4331-bd47-3f39ab27b900)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 74d62acd-165c-4d82-bd66-630ee5cdebd2)
     )
@@ -11301,15 +11301,15 @@
     (property "ki_keywords" "diode")
     (path "/3580ac35-01b7-4f11-888e-0492beb53384")
     (attr smd)
-    (fp_text reference "D_21" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_21" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ff14372d-5f5a-41c3-9a62-2186911b595e)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 61f5550b-c1dd-4a34-a477-249a2367af80)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 10e76532-214c-457e-8474-bd3f9d0d895a)
     )
@@ -11489,15 +11489,15 @@
     (property "ki_keywords" "diode")
     (path "/42838473-22b6-4e44-9b69-25eb1f56a914")
     (attr smd)
-    (fp_text reference "D_33" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_33" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 69a198ba-8032-40f4-86c7-8122566af008)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 023fcab6-4e11-4b06-a27a-b3f2df0124c6)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c9ccdc28-0381-4310-86c5-764e29dd8472)
     )
@@ -11617,15 +11617,15 @@
     (property "ki_keywords" "diode")
     (path "/194d9022-1843-4085-9bd5-6c28d8f11e42")
     (attr smd)
-    (fp_text reference "D_6" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_6" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 468bd361-f65d-42ec-b87b-48c21b566763)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ae1e61f1-8a07-44e0-a64f-f425550d0509)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5a5a985e-374c-4afe-b174-a8e3fc61e351)
     )
@@ -11855,15 +11855,15 @@
     (property "ki_keywords" "diode")
     (path "/ce92be7e-0d75-483f-94a5-e8af834fc720")
     (attr smd)
-    (fp_text reference "D_36" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_36" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1d568a55-2783-4468-81ef-f07e180cc445)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4f943593-46e2-4cca-a1db-4ea115129159)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4a381de1-7a54-46d7-aeb7-2d6f47f6214c)
     )
@@ -12070,15 +12070,15 @@
     (property "ki_keywords" "diode")
     (path "/77278bf9-6717-48dc-8c44-1fe695d183d7")
     (attr smd)
-    (fp_text reference "D_24" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_24" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9c0b324d-d2c8-43d6-aca8-79e242d2d978)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 19f76607-7b41-40a8-a948-5f2c2abc65e1)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 15aa0884-da50-41d6-94d4-08e8645e4edd)
     )
@@ -12138,15 +12138,15 @@
     (property "ki_keywords" "diode")
     (path "/73ed5566-b608-4cf2-aa78-149ef76bf7e8")
     (attr smd)
-    (fp_text reference "D_27" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_27" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 37b2e1f5-e8ba-47e5-b97b-588a32d10244)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 47b31d35-db58-4f6c-98ac-676bb5f609ee)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f82f096e-2e02-4561-bae5-e61889540f9a)
     )
@@ -12337,15 +12337,15 @@
     (property "ki_keywords" "diode")
     (path "/8720efd1-ab2b-486d-8692-bab13a228d0c")
     (attr smd)
-    (fp_text reference "D_55" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_55" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2600cdfc-8fb1-4a80-9822-f126b761e7af)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d2269d89-1c0b-407b-a2b3-3b42080fc85a)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c1dc62c0-8879-4783-828b-a66d24b2217e)
     )
@@ -12405,15 +12405,15 @@
     (property "ki_keywords" "diode")
     (path "/42282d2e-5bf5-4bae-b600-4786fe74b34c")
     (attr smd)
-    (fp_text reference "D_3" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_3" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 26197db0-d371-460a-919b-a2fa46112443)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 777515cf-c378-4c1e-baa6-d55df1f367ba)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp cb011244-0825-42e1-916e-876563060f94)
     )
@@ -12473,15 +12473,15 @@
     (property "ki_keywords" "diode")
     (path "/a0ce7ca5-0276-42be-b237-46be8fab681c")
     (attr smd)
-    (fp_text reference "D_52" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_52" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2fc436f3-badc-4819-ad0b-aeac37472e65)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e2aad289-31d7-4993-8985-6f6eb0103e33)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e64268c5-3d1a-4c78-a9d9-470db661e014)
     )
@@ -12541,15 +12541,15 @@
     (property "ki_keywords" "diode")
     (path "/6ea402a9-9458-40fa-98cf-92931d082ee5")
     (attr smd)
-    (fp_text reference "D_26" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_26" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 745ab68b-a465-44d0-8a27-4ec2973897ef)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9e06d0cf-0e8e-4ba6-812a-87520577bcaa)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp deb4c6d7-ecca-4a99-b33b-0eac2c93e217)
     )
@@ -12609,15 +12609,15 @@
     (property "ki_keywords" "diode")
     (path "/b5cb8039-8295-4155-bd40-ab3016eef62c")
     (attr smd)
-    (fp_text reference "D_54" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_54" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e2802a58-802f-4206-a5b9-f4e09dd31068)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b664d8b2-c191-491c-a6ab-31becf4280ac)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d1088eb5-b84f-450a-809f-48ba4a49d42c)
     )
@@ -12819,15 +12819,15 @@
     (property "ki_keywords" "diode")
     (path "/5ed7d179-9b33-4203-b0c6-7ad93e275a14")
     (attr smd)
-    (fp_text reference "D_65" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_65" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c0766f77-25ca-46bb-97fb-09abcb51e895)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d41407af-7cb0-4fbc-81a1-6f8410fe4fb9)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 925f57cd-66d8-4216-8670-b312991318a6)
     )
@@ -12887,15 +12887,15 @@
     (property "ki_keywords" "diode")
     (path "/f1766582-bc6c-42eb-8cb0-7c8cddd9b284")
     (attr smd)
-    (fp_text reference "D_5" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_5" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6087d85a-4664-411d-874b-b3d28dd80f61)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e231ce7f-1525-4ccb-85b3-503a3460deee)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 03159d66-3547-40cf-9782-7ece6c685408)
     )
@@ -12955,15 +12955,15 @@
     (property "ki_keywords" "diode")
     (path "/8cda319b-f5a4-42ce-9c06-cb08f7364fb3")
     (attr smd)
-    (fp_text reference "D_48" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_48" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp da229853-8475-4f1d-a13b-791761fccc1c)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a1b0e540-55ae-4ce5-9038-25b90a714d05)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp cce2ccad-4df7-45ec-881e-e0e26fa53701)
     )
@@ -13078,15 +13078,15 @@
     (property "ki_keywords" "diode")
     (path "/2b6cd2c0-66dd-4c99-88ba-dc90cab4ec1e")
     (attr smd)
-    (fp_text reference "D_41" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_41" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 024c8753-c73c-4ce3-8193-4377f95faa93)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1cffcb62-538b-4ca5-9353-6ca708c8b421)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f1778315-b64e-4fa4-ab76-f08e2604ca0e)
     )
@@ -13146,15 +13146,15 @@
     (property "ki_keywords" "diode")
     (path "/a920b94d-26ba-432f-9448-4f5ca31c735e")
     (attr smd)
-    (fp_text reference "D_1" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_1" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2c474b3a-555e-4097-a2d6-107f1d1c6d0c)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 09989a58-5baf-449f-9b92-c17df8b95b33)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1a5175ad-b1d6-4087-9424-9a82ea9972fc)
     )
@@ -13214,15 +13214,15 @@
     (property "ki_keywords" "diode")
     (path "/2e5bb70e-b81f-4290-8812-4ad2612218bf")
     (attr smd)
-    (fp_text reference "D_58" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_58" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 84f91f95-f231-4401-a5dd-e35c2183c680)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a986630e-2eda-4350-b344-3666a681d971)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e082d58f-f3b4-4954-a914-378e78e0eccd)
     )
@@ -13282,15 +13282,15 @@
     (property "ki_keywords" "diode")
     (path "/760947a7-5e1b-47be-b219-062beed011c2")
     (attr smd)
-    (fp_text reference "D_23" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_23" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5f3e0d06-c28f-49cf-a14b-28e3c0d66662)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 520d1b8e-810b-464e-b746-553898d89efc)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d4ec40af-25ba-4104-863b-d3c8168851b3)
     )
@@ -13350,15 +13350,15 @@
     (property "ki_keywords" "diode")
     (path "/de7ba84e-1c4c-40b1-a6ec-703beef30a07")
     (attr smd)
-    (fp_text reference "D_57" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_57" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6d20135a-d5e7-4e21-a871-8c765ce62a17)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c0427fc9-6bb6-460d-a0ba-a1069cb5106c)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7b568769-94db-4331-8717-05cd9a3e6217)
     )
@@ -13418,15 +13418,15 @@
     (property "ki_keywords" "diode")
     (path "/ed57c4b0-327e-4f46-ba28-eae1045eb431")
     (attr smd)
-    (fp_text reference "D_64" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_64" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 42a64a69-ede5-4c29-8e8e-07dca11cbc65)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f3291b85-e143-46ef-90a0-ba58d540d5a3)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 83aa6b78-3cac-4d84-a313-508359da5962)
     )
@@ -13486,15 +13486,15 @@
     (property "ki_keywords" "diode")
     (path "/d2fe86c6-03fb-4fd5-9804-61f84ed96933")
     (attr smd)
-    (fp_text reference "D_39" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_39" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9f19eb74-badb-4437-ba12-f1883e5bf1a6)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5399a6f9-312f-46fa-8645-f6a75f2d0450)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 686bb3ba-4ee4-43dd-ac94-3efc0d5e5cc3)
     )
@@ -13558,7 +13558,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 116b5677-a29e-4922-8184-2eb484a71772)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp aefbc57b-ac23-4aed-8313-bf6bc9a59087)
     )
@@ -13677,15 +13677,15 @@
     (property "ki_keywords" "diode")
     (path "/dfbfbb23-2bcd-49d4-b7ef-167723b65855")
     (attr smd)
-    (fp_text reference "D_32" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_32" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3c1247d3-ea3f-490f-ac4c-448ddb50a93b)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3bd2c202-b1f8-41e7-b66a-50574180c0ed)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 45084d59-9494-4f99-91fb-213648409ec9)
     )
@@ -13805,15 +13805,15 @@
     (property "ki_keywords" "diode")
     (path "/e5025ac4-b646-46a7-bf71-cb1db80afbc5")
     (attr smd)
-    (fp_text reference "D_18" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_18" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7f2ccb68-e839-486c-ab35-e73fe3fb8690)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9769a204-7d04-430a-b282-3dbcea6e3afa)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3aa10edb-ad83-4cf2-b013-86ecee5f8024)
     )
@@ -14194,15 +14194,15 @@
     (property "ki_keywords" "diode")
     (path "/9cffdf41-1e43-43c9-b0d3-49dcadd7565e")
     (attr smd)
-    (fp_text reference "D_70" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_70" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 16eab6a8-c94f-4220-95a3-1c52aef2ae7a)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2dd1fd4b-6f84-4ed7-847c-e4cf0973a864)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 67ca1e27-d349-4fd0-b663-1ecdcc0343e5)
     )
@@ -14262,15 +14262,15 @@
     (property "ki_keywords" "diode")
     (path "/5ef1ebbb-9143-4d25-87b3-a8e661fb2339")
     (attr smd)
-    (fp_text reference "D_71" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_71" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fe0d0a6c-58eb-43d3-b0b3-c8dd80c139b1)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 48e7366d-92fa-481f-a8ce-64704fefb9bc)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 75346c97-6a26-4c66-b2d1-61ec0c0c9195)
     )
@@ -14330,15 +14330,15 @@
     (property "ki_keywords" "diode")
     (path "/33e7a2c2-d3b1-4d13-9469-ea1415b0940b")
     (attr smd)
-    (fp_text reference "D_19" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_19" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a4f026d9-77ba-424e-9c6a-bf2c251f76f6)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 46ff1ad7-432a-4d13-a26d-8808c499c1aa)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp bf51d963-f795-466e-bfe4-a4965afb390c)
     )
@@ -14398,15 +14398,15 @@
     (property "ki_keywords" "diode")
     (path "/ff79fa92-0bf7-4f88-906b-cef7e2983f4b")
     (attr smd)
-    (fp_text reference "D_9" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_9" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5160ba68-b4b9-44fe-ac81-75493e01d553)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp df86644c-972e-4418-9a07-7f8767ad318d)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b5855017-2485-40f4-9629-36724892903b)
     )
@@ -14466,15 +14466,15 @@
     (property "ki_keywords" "diode")
     (path "/1cc11eed-0381-4a44-8684-ba36ce6bfcf2")
     (attr smd)
-    (fp_text reference "D_17" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_17" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 046404cc-ac6a-4e11-a68d-bf66f352896d)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 24995a53-611e-4d79-81aa-621ca073b5a6)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2d1dabbc-ea5d-4641-a17b-47a2a3925128)
     )
@@ -14589,15 +14589,15 @@
     (property "ki_keywords" "diode")
     (path "/372947b8-af00-46f4-a649-135a83f52ddd")
     (attr smd)
-    (fp_text reference "D_8" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_8" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0663ea13-1feb-4e4a-a370-c4ae51aa72b5)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 44f04525-b4b7-40e7-a56d-fd24dbb7958c)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3930f9a9-1993-4572-be16-5511aab765be)
     )
@@ -14781,7 +14781,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5398501a-5940-4885-aecf-e1d36e71b42a)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0c6a72fe-1665-4216-a02c-7cf8caf39741)
     )
@@ -14841,15 +14841,15 @@
     (property "ki_keywords" "diode")
     (path "/e96afe21-ee8c-4fc6-9e9c-c5cc3025aefc")
     (attr smd)
-    (fp_text reference "D_2" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_2" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp dbf5757e-ddea-4fac-9558-8f2f3de027d8)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9f215e42-e62f-4a19-9568-91475d104129)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b860e21e-9639-463f-8038-d77408a788bc)
     )
@@ -14909,15 +14909,15 @@
     (property "ki_keywords" "diode")
     (path "/bfb089f7-bcfe-4302-800b-763add93cdbf")
     (attr smd)
-    (fp_text reference "D_16" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_16" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f5d28664-f31c-4ab4-88e8-a453b850d113)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8bd8ee0f-4ab5-40d1-8780-1170711a23e1)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 09b5b56d-6e4f-41ab-af27-bb0e257afcff)
     )
@@ -15037,15 +15037,15 @@
     (property "ki_keywords" "diode")
     (path "/8dc2c2d2-5db2-45b1-95b9-e540eddfba7f")
     (attr smd)
-    (fp_text reference "D_34" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_34" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b8896f8a-de3f-4b5f-9a50-c987b5df35eb)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 14a4a5ae-8cb9-4ad7-b63e-f8c7d3c0da2e)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8d72b3f8-0c0e-49ce-bf71-cd705e08ee78)
     )
@@ -15105,15 +15105,15 @@
     (property "ki_keywords" "diode")
     (path "/5a5c6853-0560-43b4-ae34-4c5a38bb2d7d")
     (attr smd)
-    (fp_text reference "D_20" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_20" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp feecbf84-d7bd-4616-9710-80daa986099c)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ef6b68d5-fb12-4bd3-afa1-9ae82896bc2d)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d1e3db2f-c029-4ab4-b6ac-152671a4f717)
     )
@@ -15173,15 +15173,15 @@
     (property "ki_keywords" "diode")
     (path "/5345fc9b-7333-48bf-ade2-7597c2a903df")
     (attr smd)
-    (fp_text reference "D_42" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_42" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9c492ffb-13db-4ddc-a3ea-5f680263c1c9)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f8d6f1f9-0f31-40d7-97cd-a52e3c052629)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f8127ad9-fff9-4665-aeea-244a969e96b8)
     )
@@ -15336,15 +15336,15 @@
     (property "ki_keywords" "diode")
     (path "/5dce7eab-5ddf-42bf-8ed7-3e30f38feb42")
     (attr smd)
-    (fp_text reference "D_67" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_67" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2cb0c809-07ea-4f03-9e38-fc3c1fbf4c2a)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp be5ac831-fa43-47bd-8777-132e0379b286)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp af512f91-b006-4e3b-a477-4f9a00aa1fe7)
     )
@@ -15404,15 +15404,15 @@
     (property "ki_keywords" "diode")
     (path "/dece69c1-6b67-450f-9f18-37dadcdf1abc")
     (attr smd)
-    (fp_text reference "D_38" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_38" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4fcaefe7-9426-4cc8-8159-a8a1ce1b589e)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 719e68a3-0b80-4d5e-bd7a-6bc35aaa1c2a)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d3816766-c991-4547-80e6-d91ee262b856)
     )
@@ -15472,15 +15472,15 @@
     (property "ki_keywords" "diode")
     (path "/346867c5-a724-4a0e-a6c2-4177d1b9ebb4")
     (attr smd)
-    (fp_text reference "D_7" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_7" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 98c33fce-cab0-4c71-a87c-61d1994297e4)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c7306ddd-e606-4bfc-ad36-82bdddb82343)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e4bfbea4-ce9a-4c8c-8a4e-8d0a66d8b1f6)
     )
@@ -15540,15 +15540,15 @@
     (property "ki_keywords" "diode")
     (path "/df79bc41-c1b8-4fe4-8696-b9d60cfcd5ac")
     (attr smd)
-    (fp_text reference "D_47" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_47" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7dadb501-1cdd-4db4-87c1-d419fc5cfdbd)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp dfa0550a-c03d-47aa-b46e-f69b2eb7e641)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5498f235-9173-414a-8edb-a8d9d5514619)
     )
@@ -15608,15 +15608,15 @@
     (property "ki_keywords" "diode")
     (path "/660b51e3-9490-4305-b134-15a76ba5643e")
     (attr smd)
-    (fp_text reference "D_37" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_37" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 902821de-7d72-4882-b40f-b72e634f17b8)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a4ac520b-779e-41da-b7af-e8ec7c3798a9)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3b603c7e-afeb-4edc-9717-56292d6818df)
     )
@@ -15736,15 +15736,15 @@
     (property "ki_keywords" "diode")
     (path "/82d0aa56-bc32-4e51-ab7a-3b0989eb5039")
     (attr smd)
-    (fp_text reference "D_49" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_49" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 39715d30-108a-4691-975b-169a78d6b94c)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9b166f6a-a380-4348-9ac4-6dbd166da5b9)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7369a09d-854f-43f7-a2c7-ac4f18f49655)
     )
@@ -15804,15 +15804,15 @@
     (property "ki_keywords" "diode")
     (path "/b3b79c0c-ca3d-4684-a31d-e5597125d0f6")
     (attr smd)
-    (fp_text reference "D_56" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_56" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7384f1ba-9e0d-403e-98e0-393607b3fd8c)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f716e035-3367-40e3-a8af-b9c51a4798bb)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5137ca64-033f-4f61-a986-abc3355c495f)
     )
@@ -16261,15 +16261,15 @@
     (property "ki_keywords" "diode")
     (path "/deb84180-714a-47b7-99b1-f29ba25549ba")
     (attr smd)
-    (fp_text reference "D_69" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_69" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5defec6d-be76-4e6d-adf6-a98b000c0a94)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp be5ddd00-588c-4cf9-b75a-06be13690987)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 511654b8-a73a-4c55-ad72-a03c7ca0ee3c)
     )
@@ -16329,15 +16329,15 @@
     (property "ki_keywords" "diode")
     (path "/fef6652c-0f05-43dd-be19-7ef9c196de89")
     (attr smd)
-    (fp_text reference "D_63" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_63" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c297b52c-8b40-47ff-9d3d-87503ae1fbfe)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 655b7b1e-750c-4c0e-86d9-c8ed17f009a1)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 43a93a46-7722-4fd5-8b85-69dca7a574b2)
     )
@@ -16397,15 +16397,15 @@
     (property "ki_keywords" "diode")
     (path "/59361a91-eaea-4d8f-9d4d-83e3dd5d016e")
     (attr smd)
-    (fp_text reference "D_44" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_44" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9f6c8483-ebb8-40ed-9e72-c7443971cb37)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 29ea6bdc-4674-45e1-8048-b2679ab59dbe)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1dd22bb9-a42a-43c6-be5f-1b54a5f00974)
     )
@@ -16465,15 +16465,15 @@
     (property "ki_keywords" "diode")
     (path "/239e6fe0-cd96-4653-a1ab-5d7c7359a517")
     (attr smd)
-    (fp_text reference "D_46" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_46" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c2ce0873-e708-407d-8220-08abc2c84156)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 136bd12f-77c1-4d5b-a856-980079453a73)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 68f70e61-f73e-4fb3-b63b-62eb5a9b8578)
     )
@@ -16533,15 +16533,15 @@
     (property "ki_keywords" "diode")
     (path "/1f2a794e-19f5-467c-a77f-c66dc3097a1a")
     (attr smd)
-    (fp_text reference "D_50" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_50" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7f087451-81f7-4861-bda2-0b080d523c27)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6246a189-bf62-445f-8da1-fc7f29bfa5db)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e9c5626a-ab12-4297-a926-59deb18e2a0a)
     )
@@ -16601,15 +16601,15 @@
     (property "ki_keywords" "diode")
     (path "/6a47f721-9e9c-4cde-9c01-34afb2fd4c88")
     (attr smd)
-    (fp_text reference "D_51" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_51" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6f31120f-ac2d-4652-bc83-c77bb90015c0)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp db93c5e7-879b-402b-852b-1deeb7955ce8)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp df453b01-62ad-4ec3-9ba7-33f26893c3f2)
     )
@@ -16669,15 +16669,15 @@
     (property "ki_keywords" "diode")
     (path "/24c667f6-2e16-447b-b4ee-115136e12465")
     (attr smd)
-    (fp_text reference "D_72" (at 0 1.3 90) (layer "B.SilkS")
+    (fp_text reference "D_72" (at 0 1.3 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f0503150-7892-446a-8717-61b0ca9fcf07)
     )
-    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 38140ca1-04a9-4728-bf78-0647c714cd76)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 948ce5e5-2cea-4134-9415-474d487107a4)
     )
@@ -16737,15 +16737,15 @@
     (property "ki_keywords" "diode")
     (path "/acbee95a-6a9f-4185-8531-ac0a0d4ed0f7")
     (attr smd)
-    (fp_text reference "D_53" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_53" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5dd754fc-8e49-44df-a07b-2b6028653f7d)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e8d1f9a5-068b-4a01-a111-128d0d2c6f2b)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ede17d57-7ca4-47f5-9f69-5c4923f54448)
     )
@@ -16865,15 +16865,15 @@
     (property "ki_keywords" "diode")
     (path "/bb0e2719-9321-48d6-a5cd-9d05eae01f65")
     (attr smd)
-    (fp_text reference "D_40" (at 0 1.3 270) (layer "B.SilkS")
+    (fp_text reference "D_40" (at 0 1.3 270) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 44880e61-14bb-44c2-a205-fdea2c4697f7)
     )
-    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab")
+    (fp_text value "D" (at 0 -1.4 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c5956fd1-5f19-4bdb-bf78-4a32b4c894de)
     )
-    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 0 1.3 270) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b6b4f019-e957-4cef-bce5-d392a289ec46)
     )
