@@ -333,7 +333,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/6c7bd0da-1e49-4a57-b914-5b9d52f2b396")
     (attr exclude_from_pos_files)
-    (fp_text reference "H9" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H9" (at 0 -3.75) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 52277554-39a5-4731-808b-d065d032ea29)
     )
@@ -1411,7 +1411,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580" (layer "F.Cu")
     (tstamp 40a3e115-5180-438e-8631-8e6d0f2e1bed)
-    (at 171.45 38.1)
+    (at 190.5 38.1)
     (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
     (tags "mounting hole 3.2mm no annular m3 iso14580")
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -1420,7 +1420,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/02dc37b5-16e7-45f1-a00c-17fed4f39ee0")
     (attr exclude_from_pos_files)
-    (fp_text reference "H7" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H7" (at 0 -3.75) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 431e7b98-d4e5-4861-a0d2-f25bf456aacc)
     )
@@ -2226,7 +2226,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580" (layer "F.Cu")
     (tstamp 5f499d59-0377-4207-bb84-ea8cc5617493)
-    (at 114.3 38.1)
+    (at 95.25 38.1)
     (descr "Mounting Hole 3.2mm, no annular, M3, ISO14580")
     (tags "mounting hole 3.2mm no annular m3 iso14580")
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -2235,7 +2235,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/aff8b2b2-b03b-4df9-9ea4-12e2447787f8")
     (attr exclude_from_pos_files)
-    (fp_text reference "H6" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H6" (at 0 -3.75) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8059942d-c74c-43a5-bdde-3df4501685e5)
     )
@@ -2798,7 +2798,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/8f3e737c-611d-47d2-9e27-922c92e359b1")
     (attr exclude_from_pos_files)
-    (fp_text reference "H8" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H8" (at 0 -3.75) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 69556fe8-f3c9-47e3-b113-bdf9b19883ea)
     )
@@ -2973,7 +2973,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/bf60f7d4-4109-4471-8e7b-971234718812")
     (attr exclude_from_pos_files)
-    (fp_text reference "H4" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H4" (at 0 -3.75) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77818c73-6b68-4267-b4bd-0b6e1822a5b9)
     )
@@ -5133,7 +5133,7 @@
 
   (footprint "Legshark:ls65_logo" (layer "F.Cu")
     (tstamp 9f0783dd-65e2-4a51-bee5-af4459100422)
-    (at 233.3625 116.68125)
+    (at 233.3625 140.81125)
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Mounting Hole without connection")
@@ -9310,7 +9310,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/e6152ba0-75d9-40e5-8318-9b9d8d1f7d50")
     (attr exclude_from_pos_files)
-    (fp_text reference "H5" (at 0 -3.75) (layer "F.SilkS")
+    (fp_text reference "H5" (at 0 -3.75) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b98a2238-c3bc-4550-8c89-bd46d3b56158)
     )
@@ -9708,7 +9708,7 @@
 
   (footprint "Legshark:Surface Mount Slide Switch SPDT" (layer "B.Cu")
     (tstamp 03555131-7217-4ff4-8fc6-3a3c5e5a7c7e)
-    (at 154.84375 114.3 180)
+    (at 154.84375 138.43 180)
     (property "LCSC Part" "C221841")
     (property "Manufacturer" "C&K")
     (property "Manufacturer Part Number" "PCM12SMTR")
@@ -10125,7 +10125,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
     (tstamp 0dd32fea-2b3d-4fa8-a886-76f5deda4e91)
-    (at 163.48125 116.68125 180)
+    (at 163.48125 140.81125 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC Part" "C25804")
@@ -10253,7 +10253,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp 119c697c-1173-4397-9c2c-a13cdfe48a43)
-    (at 87.66875 122.75 180)
+    (at 87.66875 146.88 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C1591")
@@ -10313,7 +10313,7 @@
 
   (footprint "Legshark:Molex, PicoBlade, 53261, 4 Way, 1 Row, Right Angle PCB Header" (layer "B.Cu")
     (tstamp 1295c8b0-723b-47ee-930b-557062836864)
-    (at 87.76875 131.25 180)
+    (at 87.76875 155.38 180)
     (property "Description" "UNPOPULATE")
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
     (property "Sheetname" "")
@@ -10703,7 +10703,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tstamp 1d00f454-fc6c-4b47-ab27-d307a03a75e6)
-    (at 180.81875 111.97125 180)
+    (at 180.81875 136.10125 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC Part" "")
@@ -10898,7 +10898,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp 22e95db9-1866-4514-b699-bcaf308b2049)
-    (at 153.91875 109.5375 180)
+    (at 153.91875 133.6675 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C1591")
@@ -11422,7 +11422,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp 2f1250f4-0e43-46a6-9804-0f886025bd5a)
-    (at 87.66875 120.24 180)
+    (at 87.66875 144.37 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C108342")
@@ -11550,7 +11550,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp 2f6f7a44-bb76-4b7f-a785-cac0ea901dfd)
-    (at 145.21875 109.5375 180)
+    (at 145.21875 133.6675 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C1591")
@@ -11738,7 +11738,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "B.Cu")
     (tstamp 35613351-1063-4c88-822f-0f6897ae5813)
-    (at 179.36875 116.68125 180)
+    (at 179.36875 140.81125 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC Part" "")
@@ -11866,7 +11866,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
     (tstamp 3ce75961-7a20-49a4-85dc-225be4d1f5fe)
-    (at 107.73875 115.66 180)
+    (at 107.73875 139.79 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "UNPOPULATE")
@@ -11921,7 +11921,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
     (tstamp 4249f678-3750-4fd2-bfdf-53e32a40e8e7)
-    (at 107.73875 118.17 180)
+    (at 107.73875 142.3 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "UNPOPULATE")
@@ -11976,7 +11976,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp 4265d32e-f372-402f-a5d7-288d8b4fd0ca)
-    (at 92.01875 125.26 180)
+    (at 92.01875 149.39 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C1591")
@@ -12387,7 +12387,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
     (tstamp 54d6768d-0b5f-4ae1-ad07-e4f1cdc4624b)
-    (at 107.73875 123.19 180)
+    (at 107.73875 147.32 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC Part" "C25804")
@@ -12858,7 +12858,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "B.Cu")
     (tstamp 65fbfbdb-7348-47fc-bf02-aa46bc3423cb)
-    (at 184.24375 117.10125 180)
+    (at 184.24375 141.23125 180)
     (descr "SOD-123")
     (tags "SOD-123")
     (property "Manufacturer" "Changjiang Electronics Tech")
@@ -12932,7 +12932,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "B.Cu")
     (tstamp 6a7892d6-cb5f-474f-8fde-0c4ea2b89570)
-    (at 184.71875 113.20125 180)
+    (at 184.71875 137.33125 180)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "LCSC Part Number" "")
@@ -13204,7 +13204,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
     (tstamp 6fff3dbd-ff2a-4d70-965f-119663da114c)
-    (at 107.73875 113.15 180)
+    (at 107.73875 137.28 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "UNPOPULATE")
@@ -13799,7 +13799,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tstamp 86474e29-65b8-4289-a8b1-8ca76f11e51c)
-    (at 180.81875 113.96125 180)
+    (at 180.81875 138.09125 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC Part" "")
@@ -13926,7 +13926,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
     (tstamp 8800546b-0f85-4ce4-a2db-98827a9eac01)
-    (at 163.48125 114.17125 180)
+    (at 163.48125 138.30125 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC Part" "C22775")
@@ -14246,7 +14246,7 @@
 
   (footprint "acheron_Connectors:PinHeader_2x5_P2.54mm_Vertical" (layer "B.Cu")
     (tstamp 9a6abf2d-69da-4733-b142-5330aee6cf75)
-    (at 176.2125 138.1125 180)
+    (at 176.2125 162.2425 180)
     (descr "Through hole straight pin header, 1x14, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x14 2.54mm single row")
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -14715,7 +14715,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
     (tstamp a793fe1b-23ba-4653-a98b-0f580c82b272)
-    (at 107.73875 120.68 180)
+    (at 107.73875 144.81 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "UNPOPULATE")
@@ -14898,7 +14898,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp ac9eaf96-7146-4700-b2b0-bd4266049884)
-    (at 92.01875 127.77 180)
+    (at 92.01875 151.9 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C1589")
@@ -15158,7 +15158,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp ae95b98e-138f-43c6-96fb-8f12fde66d87)
-    (at 92.01875 122.75 180)
+    (at 92.01875 146.88 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C1591")
@@ -15422,7 +15422,7 @@
 
   (footprint "acheron_Connectors:PinHeader_1x4_P2.54mm_Vertical" (layer "B.Cu")
     (tstamp b6421dc4-d965-4535-bf3e-33e54dab2adb)
-    (at 183.35625 135.73125 180)
+    (at 183.35625 159.86125 180)
     (descr "Through hole straight pin header, 1x14, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x14 2.54mm single row")
     (property "Sheetfile" "legshark65_rev2.kicad_sch")
@@ -15857,7 +15857,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp ca8f1574-c744-4881-bf5b-177e98044ae8)
-    (at 92.01875 120.24 180)
+    (at 92.01875 144.37 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C1591")
@@ -16053,7 +16053,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "B.Cu")
     (tstamp cf9193b3-5f22-4a5a-b4e4-c409fabda397)
-    (at 179.36875 119.19125 180)
+    (at 179.36875 143.32125 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC Part" "")
@@ -16113,7 +16113,7 @@
 
   (footprint "acheron_Hardware:K2-1187SQ-A4SW-06" (layer "B.Cu")
     (tstamp d0dce204-477b-4adc-993d-284a88b86e19)
-    (at 154.0625 121.975 180)
+    (at 154.0625 146.105 180)
     (descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html")
     (tags "SPST Button Switch")
     (property "LCSC Part" "C92584")
@@ -16303,7 +16303,7 @@
 
   (footprint "acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder" (layer "B.Cu")
     (tstamp d19ed19a-7c67-4473-a71f-edc1acce8028)
-    (at 121.44375 112.8625 90)
+    (at 121.44375 136.9925 90)
     (descr "Tantalum Capacitor SMD Kemet-I (3216-10 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (property "Description" "")
@@ -16382,7 +16382,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "B.Cu")
     (tstamp de4b4e5a-38d6-4e63-bfee-fc6564ea2ab5)
-    (at 87.66875 125.26 180)
+    (at 87.66875 149.39 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "LCSC Part" "C108342")
@@ -17112,8 +17112,18 @@
     )
   )
 
-  (gr_line (start 90.4875 92.86875) (end 90.4875 92.86875)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 081808b3-a683-453c-8473-f88234f2c680))
+  (gr_line (start 92.86875 0) (end 89.092596 -3.367596)
+    (stroke (width 0.2) (type solid)) (layer "Eco1.User") (tstamp 1a0db1a9-86cc-49c9-b112-857c19997a72))
+  (gr_arc (start 44.257404 -3.367596) (mid 45.80247 -4.399976) (end 47.625 -4.7625)
+    (stroke (width 0.2) (type solid)) (layer "Eco1.User") (tstamp 29af6ebe-fbcd-412c-99fb-8acc4207b41b))
+  (gr_arc (start 85.725 -4.7625) (mid 87.54753 -4.399976) (end 89.092596 -3.367596)
+    (stroke (width 0.2) (type solid)) (layer "Eco1.User") (tstamp 9beab0de-b08d-401d-ae8e-06c80dded00b))
+  (gr_line (start 44.257404 -3.367596) (end 40.48125 0)
+    (stroke (width 0.2) (type solid)) (layer "Eco1.User") (tstamp b96bab80-3a75-4fd9-b2fe-bdf070f1e00f))
+  (gr_line (start 85.725 -4.7625) (end 47.625 -4.7625)
+    (stroke (width 0.2) (type default)) (layer "Eco1.User") (tstamp bcdba58a-5794-47a9-a578-162097b27efb))
+  (gr_circle (center 66.675 -2.38125) (end 68.275 -2.38125)
+    (stroke (width 0.2) (type default)) (fill none) (layer "Eco1.User") (tstamp c689fadd-cb3a-422b-9968-c25b39632eb5))
   (gr_arc (start 285.75 90.25) (mid 284.285546 93.785531) (end 280.75 95.25)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 0d551b74-326f-4d42-bddb-f9ee1f5a8837))
   (gr_arc (start 0 5) (mid 1.464466 1.464466) (end 5 0)
@@ -17138,8 +17148,6 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 412d22e4-187f-4d0e-bbce-108d5aff3936))
   (gr_arc (start 123.825008 96.993189) (mid 121.928993 96.531572) (end 120.457404 95.250015)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 4fb6aecd-ff13-4b6c-b6a9-666b5d66894b))
-  (gr_line (start 80.9625 92.86875) (end 80.9625 92.86875)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 5cd0ba61-67c7-49b6-99f4-d2ef1333f655))
   (gr_line (start 156.176146 95.250015) (end 146.242631 95.25)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 635ec37a-b835-4ad3-845a-3d5f228dedcf))
   (gr_arc (start 165.292623 95.249987) (mid 163.821019 96.531553) (end 161.924989 96.99318)
@@ -18897,6 +18905,16 @@
         (xy 288.13125 97.63125)
         (xy -2.38125 97.63125)
       )
+    )
+  )
+  (group "" (id aba232df-0a72-4c90-b072-3bc943d68f58)
+    (members
+      1a0db1a9-86cc-49c9-b112-857c19997a72
+      29af6ebe-fbcd-412c-99fb-8acc4207b41b
+      9beab0de-b08d-401d-ae8e-06c80dded00b
+      b96bab80-3a75-4fd9-b2fe-bdf070f1e00f
+      bcdba58a-5794-47a9-a578-162097b27efb
+      c689fadd-cb3a-422b-9968-c25b39632eb5
     )
   )
   (group "" (id 058a08ed-40cd-4865-8892-8e709f15a022)
