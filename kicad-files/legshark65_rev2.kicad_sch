@@ -4113,6 +4113,35 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 285.75 191.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 02dc37b5-16e7-45f1-a00c-17fed4f39ee0)
+    (property "Reference" "H7" (at 288.29 191.135 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mount" (at 288.29 193.675 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 285.75 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 285.75 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "legshark65_rev1"
+        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Small") (at 85.09 134.62 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 033659ba-061c-4279-affa-13b34dde5840)
@@ -6884,6 +6913,35 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 285.75 202.565 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6c7bd0da-1e49-4a57-b914-5b9d52f2b396)
+    (property "Reference" "H9" (at 288.29 201.93 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mount" (at 288.29 204.47 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 285.75 202.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 285.75 202.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "legshark65_rev1"
+        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 289.56 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e588573-9372-4c95-9495-1b5657480e52)
@@ -7851,6 +7909,35 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 285.75 196.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8f3e737c-611d-47d2-9e27-922c92e359b1)
+    (property "Reference" "H8" (at 288.29 196.215 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mount" (at 288.29 198.755 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 285.75 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 285.75 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "legshark65_rev1"
+        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 289.56 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fdda92f-0ccc-49de-be9a-ea8bf74c00ae)
@@ -8565,6 +8652,35 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 285.75 186.055 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid aff8b2b2-b03b-4df9-9ea4-12e2447787f8)
+    (property "Reference" "H6" (at 288.29 185.42 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mount" (at 288.29 187.96 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 285.75 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 285.75 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "legshark65_rev1"
+        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 340.36 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b011180b-0028-4e27-a3bf-874122114201)
@@ -9048,6 +9164,35 @@
       (project "legshark65_rev1"
         (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
           (reference "C13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 285.75 174.625 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bf60f7d4-4109-4471-8e7b-971234718812)
+    (property "Reference" "H4" (at 288.29 173.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mount" (at 288.29 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 285.75 174.625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 285.75 174.625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "legshark65_rev1"
+        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -10239,6 +10384,35 @@
       (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
           (reference "K_16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 285.75 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e6152ba0-75d9-40e5-8318-9b9d8d1f7d50)
+    (property "Reference" "H5" (at 288.29 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mount" (at 288.29 182.245 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 285.75 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 285.75 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "legshark65_rev1"
+        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
+          (reference "H3") (unit 1)
         )
       )
     )
