@@ -8644,35 +8644,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 243.84 181.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a85d5a3a-2fc5-416f-8436-8343e57118f5)
-    (property "Reference" "H2" (at 247.015 180.975 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LS65 Logo" (at 247.015 183.515 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Legshark:ls65_logo" (at 243.84 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 243.84 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "legshark65_rev2"
-        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "legshark65_rev1"
-        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:D_Small") (at 59.69 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a920b94d-26ba-432f-9448-4f5ca31c735e)
