@@ -18,21 +18,21 @@ The purpose of this keyboard is contain all of the features I would like to have
 ## Keyboard Layout Editor:
 
 ```
-[{x:2.75,c:"#a6a6a6",t:"#383838",st:"KS-3-Tea",a:7,f:4},"ESC",{c:"#cccccc",a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{c:"#a6a6a6",a:7},"DEL"],
-[{x:0.5,c:"#cccccc"},"","",{x:0.25,c:"#a6a6a6",a:3,w:2},"TAB\n\n\n\n2u",{c:"#cccccc",a:7,f:6},"Q","W","E","R","T","Y","U","I","O","P",{a:5,f:4},"{\n[","}\n]","|\n\\"],
-[{x:2.75,c:"#a6a6a6",a:7},"CAPS","FN",{c:"#cccccc",f:6},"A","S","D",{a:5},"\n_\n\n\n\n\nF",{a:7},"G","H",{a:5},"\n_\n\n\n\n\nJ",{a:7},"K","L",{a:5,f:4},":\n;","\"\n'",{c:"#a6a6a6",a:3,w:2},"ENTER\n\n\n\n2u",{x:0.25,c:"#cccccc",a:7},"",""],
-[{x:0.5},"","",{x:0.25,c:"#a6a6a6",a:3,w:2},"SHIFT\n\n\n\n2u",{c:"#cccccc",a:7,f:6},"Z","X","C","V","B","N","M",{a:5,f:4},"<\n,",">\n.","?\n/",{c:"#bf6060",a:7,f:9},"↑",{c:"#a6a6a6",f:4},"",""],
-[{x:3.75},"LCTL","","",{x:1,c:"#d6d6d6",a:3,w:2},"\n\n\n\n2u",{w:3},"\n\n\n\n3u",{c:"#a6a6a6",a:7},"RALT",{c:"#bf6060",f:9},"←","↓","→"],
-[{y:0.25,x:3.75,c:"#a6a6a6",f:4,w:1.5},"LCTL","",{x:8},"",{w:1.5},"RCTL"],
-[{y:0.25,x:8.75,c:"#d6d6d6",a:3,w:3},"\n\n\n\n3u"],
-[{y:1,x:7.75,w:2},"\n\n\n\n2u",{x:1,w:2},"\n\n\n\n2u"],
-[{x:7.75,w:3},"\n\n\n\n3u",{w:2},"\n\n\n\n2u"],
-[{x:6.75,w:7},"\n\n\n\n7u"],
-[{rx:0.25,y:4,x:6.5,c:"#a6a6a6",sm:"alps",a:7},"LALT"],
-[{y:0.25,x:6,w:1.5},"LALT",{x:5,w:1.5},"RALT"],
-[{y:1.25,x:7.5,c:"#d6d6d6"},"",""],
-[{x:9.5},""],
-[{rx:0.5,y:7.5,x:9.25},"","",""]
+[{x:2.75,c:"#a6a6a6",t:"#383838",st:"KS-3-Tea",a:3,f:4},"ESC\n\n\n\n\n0\n\n\n\n\n\n0",{c:"#cccccc",a:1},"~\n`\n\n\n\n1\n\n\n\n\n\n0","!\n1\n\n\n\n2\n\n\n\n\n\n0","@\n2\n\n\n\n3\n\n\n\n\n\n0","#\n3\n\n\n\n4\n\n\n\n\n\n0","$\n4\n\n\n\n5\n\n\n\n\n\n0","%\n5\n\n\n\n6\n\n\n\n\n\n0","^\n6\n\n\n\n7\n\n\n\n\n\n0","&\n7\n\n\n\n8\n\n\n\n\n\n0","*\n8\n\n\n\n9\n\n\n\n\n\n0","(\n9\n\n\n\n10\n\n\n\n\n\n0",")\n0\n\n\n\n11\n\n\n\n\n\n0","_\n-\n\n\n\n12\n\n\n\n\n\n0","+\n=\n\n\n\n13\n\n\n\n\n\n0",{c:"#a6a6a6",a:3},"DEL\n\n\n\n\n14\n\n\n\n\n\n0",{w:2},"DELETE\n\n\n\n2u\n0 14"],
+[{x:0.75,w:2},"TAB\n\n\n\n2u\n1 0","\n\n\n\n\n0\n\n\n\n\n\n1","\n\n\n\n\n1\n\n\n\n\n\n1",{c:"#cccccc",f:6},"Q\n\n\n\n\n2\n\n\n\n\n\n1","W\n\n\n\n\n3\n\n\n\n\n\n1","E\n\n\n\n\n4\n\n\n\n\n\n1","R\n\n\n\n\n5\n\n\n\n\n\n1","T\n\n\n\n\n6\n\n\n\n\n\n1","Y\n\n\n\n\n7\n\n\n\n\n\n1","U\n\n\n\n\n8\n\n\n\n\n\n1","I\n\n\n\n\n9\n\n\n\n\n\n1","O\n\n\n\n\n10\n\n\n\n\n\n1","P\n\n\n\n\n11\n\n\n\n\n\n1",{a:1,f:4},"{\n[\n\n\n\n12\n\n\n\n\n\n1","}\n]\n\n\n\n13\n\n\n\n\n\n1","|\n\\\n\n\n\n14\n\n\n\n\n\n1"],
+[{x:2.75,c:"#a6a6a6",a:3},"CAPS\n\n\n\n\n0\n\n\n\n\n\n2","FN\n\n\n\n\n1\n\n\n\n\n\n2",{c:"#cccccc",f:6},"A\n\n\n\n\n2\n\n\n\n\n\n2","S\n\n\n\n\n3\n\n\n\n\n\n2","D\n\n\n\n\n4\n\n\n\n\n\n2",{a:1},"\n_\n\n\n\n5\nF\n\n\n\n\n2",{a:3},"G\n\n\n\n\n6\n\n\n\n\n\n2","H\n\n\n\n\n7\n\n\n\n\n\n2",{a:1},"\n_\n\n\n\n8\nJ\n\n\n\n\n2",{a:3},"K\n\n\n\n\n9\n\n\n\n\n\n2","L\n\n\n\n\n10\n\n\n\n\n\n2",{a:1,f:4},":\n;\n\n\n\n11\n\n\n\n\n\n2","\"\n'\n\n\n\n12\n\n\n\n\n\n2",{c:"#a6a6a6",a:3},"\n\n\n\n\n13\n\n\n\n\n\n2","\n\n\n\n\n14\n\n\n\n\n\n2",{w:2},"ENTER\n\n\n\n2u\n2 14"],
+[{x:0.75,w:2},"SHIFT\n\n\n\n2u\n3 0","\n\n\n\n\n0\n\n\n\n\n\n3","\n\n\n\n\n1\n\n\n\n\n\n3",{c:"#cccccc",f:6},"Z\n\n\n\n\n2\n\n\n\n\n\n3","X\n\n\n\n\n3\n\n\n\n\n\n3","C\n\n\n\n\n4\n\n\n\n\n\n3","V\n\n\n\n\n5\n\n\n\n\n\n3","B\n\n\n\n\n6\n\n\n\n\n\n3","N\n\n\n\n\n7\n\n\n\n\n\n3","M\n\n\n\n\n8\n\n\n\n\n\n3",{a:1,f:4},"<\n,\n\n\n\n9\n\n\n\n\n\n3",">\n.\n\n\n\n10\n\n\n\n\n\n3","?\n/\n\n\n\n11\n\n\n\n\n\n3",{c:"#bf6060",a:3,f:9},"↑\n\n\n\n\n12\n\n\n\n\n\n3",{c:"#a6a6a6",f:4},"\n\n\n\n\n13\n\n\n\n\n\n3","\n\n\n\n\n14\n\n\n\n\n\n3"],
+[{x:3.75},"LCTL\n\n\n\n\n1\n\n\n\n\n\n4","\n\n\n\n\n2\n\n\n\n\n\n4","LALT\n\n\n\n\n3\n\n\n\n\n\n4",{x:6,c:"#7acdff"},"\n\n\n\n\n10\n\n\n\n\n\n4",{c:"#bf6060",f:9},"←\n\n\n\n\n11\n\n\n\n\n\n4","↓\n\n\n\n\n12\n\n\n\n\n\n4","→\n\n\n\n\n13\n\n\n\n\n\n4"],
+[{x:3.75,c:"#a6a6a6",f:4,w:1.5},"LCTL\n\n\n\n\n4 1","\n\n\n\n\n2\n\n\n\n\n\n4",{x:8},"\n\n\n\n\n4 12",{w:1.5},"RCTL\n\n\n\n\n4 13"],
+[{x:6.75,c:"#7acdff",w:3},"\n\n\n\n3u\n4 5",{x:1,w:3},"\n\n\n\n3u\n4 9"],
+[{x:8.75,w:3},"\n\n\n\n3u\n4 7"],
+[{x:7.75,w:2},"\n\n\n\n2u\n4 6",{x:1,w:2},"\n\n\n\n2u\n4 8"],
+[{x:7.75,w:3},"\n\n\n\n3u\n4 6"],
+[{x:9.75,w:3},"\n\n\n\n3u\n4 8"],
+[{x:6.75,w:7},"\n\n\n\n7u\n4 7"],
+[{rx:0.25,y:4,x:6.5,sm:"alps"},"\n\n\n\n\n4\n\n\n\n\n\n4","\n\n\n\n\n5\n\n\n\n\n\n4","\n\n\n\n\n6\n\n\n\n\n\n4"],
+[{x:6,c:"#a6a6a6",w:1.5},"LALT\n\n\n\n\n4 4",{x:5,w:1.5},"RALT\n\n\n\n\n4 10"],
+[{rx:0.5,y:4,x:9.25,c:"#7acdff"},"\n\n\n\n\n7\n\n\n\n\n\n4","\n\n\n\n\n8\n\n\n\n\n\n4","\n\n\n\n\n9\n\n\n\n\n\n4"]
 ```
 
 ---
