@@ -8651,6 +8651,35 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 243.84 187.325 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 83dd0498-8d5c-4cd8-8393-91939e66d5b2)
+    (property "Reference" "H2" (at 247.015 186.69 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "OSH" (at 247.015 189.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "acheron_Graphics:OSH_Logo_22.5x8.5mm" (at 243.84 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 243.84 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "legshark65_rev2"
+        (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "legshark65_rev1"
+        (path "/9ddf6dc5-8b5e-413a-9b25-d1d5a5a60469"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 213.36 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86834e31-27b1-4d9a-8c69-b66cbf957198)
