@@ -1,14 +1,33 @@
-# legshark65
+# Leg Shark Ortholinear Keyboard Project
 
-65% ortholinear keyboard using STM32 controller.
+> Leg Shark is a 60% (15 by 5) ortholinear board designed with both flexability and familiarity in mind.
 
-> Revision 2
+## Overview
+
+### Layout Options
+
+The PCB supports many different layout options for the bottom row, embracing whole unit keys but also with some left and right `1.5u` modifier options.
+
+The board also supports use of `2u` keys in the usual `TAB`, `LSHIFT`, `DELETE`, and `ENTER` locations to maintain familiarity with these often used modifiers.
 
 ![keyboard-layout Rev2](images/keyboard-layout_rev2.png)
 
-![front](images/back.PNG)
-![front](images/front.PNG)
+### PCB
 
+> Note: These images may not be up to date.
+![front](images/front.PNG)
+![back](images/back.PNG)
+
+
+### Mounting Style
+
+Supports both plate and O-Ring mounting styles.
+
+### Case
+
+TBD
+
+### Design 
 
 Revision 2 will bring more customizable layout options and various optimizaitons over the original board. It will also change the layout to be more aesthetic and symetrical than it's predecesor.
 
@@ -19,7 +38,7 @@ The purpose of this keyboard is contain all of the features I would like to have
 - Offset to easily distinguish the arrow keys (fatter finger complex).
 - Unevenly-split and centered spacebar. The main reason for this is to allow for easier reach to the spacebar from the right side of board. 
 
-## Keyboard Layout Editor:
+### Keyboard Layout Editor:
 
 ```
 [{x:2,c:"#c9a6de",t:"#383838",st:"KS-3-Tea",a:3,f:4},"ESC\n\n\n\n\n0\n\n\n\n\n\n0",{c:"#cccccc",a:1},"~\n`\n\n\n\n1\n\n\n\n\n\n0","!\n1\n\n\n\n2\n\n\n\n\n\n0","@\n2\n\n\n\n3\n\n\n\n\n\n0","#\n3\n\n\n\n4\n\n\n\n\n\n0","$\n4\n\n\n\n5\n\n\n\n\n\n0","%\n5\n\n\n\n6\n\n\n\n\n\n0","^\n6\n\n\n\n7\n\n\n\n\n\n0","&\n7\n\n\n\n8\n\n\n\n\n\n0","*\n8\n\n\n\n9\n\n\n\n\n\n0","(\n9\n\n\n\n10\n\n\n\n\n\n0",")\n0\n\n\n\n11\n\n\n\n\n\n0","_\n-\n\n\n\n12\n\n\n\n\n\n0","+\n=\n\n\n\n13\n\n\n\n\n\n0",{c:"#c9a6de",a:3},"DEL\n\n\n\n\n14\n\n\n\n\n\n0",{w:2},"DELETE\n\n\n\n2u\n0 14"],
@@ -36,8 +55,16 @@ The purpose of this keyboard is contain all of the features I would like to have
 [{x:6,w:7},"\n\n\n\n7u\n4 7"]
 ```
 
----
-## Legacy
+# Liability
+
+This hardware is provided as is and can not be held accountable for any damages and/or liabilities caused as a result of whatever you intend to use it for.
+
+
+
+# Legacy
+
+The following contains information about previous randitions of this project.
+
 ## Revision 1
 
 ![keyboard-layout](images/keyboard-layout-v2.2.jpg)
