@@ -10874,8 +10874,8 @@
     (property "Datasheet" "" (at 187.96 127 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 6f70d43f-9998-40a0-a007-f10fb0680c32))
-    (pin "2" (uuid effb79ff-9212-4b78-af07-97e43bc15971))
+    (pin "1" (uuid 70b718ba-c2ee-42ee-ab85-0eb8806007eb))
+    (pin "2" (uuid 20913561-445a-49d2-8f3a-f706fc03eba6))
     (instances
       (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
