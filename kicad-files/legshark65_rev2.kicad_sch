@@ -2668,11 +2668,6 @@
     (stroke (width 0) (type default))
     (uuid 36b30c94-4545-4fbd-9ef8-19319ec654dd)
   )
-  (polyline (pts (xy 255.905 6.35) (xy 255.905 144.78))
-    (stroke (width 0.5) (type dash))
-    (uuid 36e5cb52-2708-4eb7-aaf8-760dd4bcb4b1)
-  )
-
   (wire (pts (xy 318.77 24.13) (xy 325.12 24.13))
     (stroke (width 0) (type default))
     (uuid 373d5720-8b13-4b1a-93bf-cfc8a31faffe)
@@ -4208,14 +4203,6 @@
     (uuid 4a587ff9-306f-499c-9485-6fcafa02e6b6)
   )
 
-  (text "6 free pins" (at 147.32 251.46 90)
-    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
-    (uuid 048a99f8-6161-4d2b-8f9e-5de52aa01c36)
-  )
-  (text "5 free pins" (at 193.04 226.06 90)
-    (effects (font (size 3 3) (thickness 0.6) bold) (justify right bottom))
-    (uuid 1c167bb4-bd83-420d-a14e-2fd22d609e1c)
-  )
   (text "Capslock LED (Optional)" (at 13.97 68.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e0d5158-7efd-48db-b972-c7a3a27981ba)
@@ -4228,10 +4215,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8c13a6fb-bd60-4caa-b31f-33cce9a960b7)
   )
-  (text "6 free pins" (at 154.94 217.17 0)
-    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
-    (uuid a1e15d81-5f61-4e4d-8130-d2a704785857)
-  )
   (text "Just dont use this pin." (at 212.09 248.285 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbdcb3fe-771f-4c01-87cd-6d4af27ffae1)
@@ -4239,10 +4222,6 @@
   (text "Leaving R1 unpopulated as per other boards" (at 228.6 240.665 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf9698a8-a2af-4c20-a3e0-f2a3a3b3c343)
-  )
-  (text "8 free pins" (at 156.21 265.43 0)
-    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
-    (uuid d39b7ba9-ffb9-4880-9304-84df702c57e6)
   )
   (text "Internal Pulldown" (at 212.09 246.38 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4960,7 +4939,7 @@
   )
 
   (symbol (lib_name "MountingHole_5") (lib_id "Mechanical:MountingHole") (at 285.75 190.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 02dc37b5-16e7-45f1-a00c-17fed4f39ee0)
     (property "Reference" "H7" (at 288.29 189.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5069,7 +5048,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 35.56 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0520e96f-b71e-4637-8ee4-7f4adf15f2ad)
     (property "Reference" "K_0" (at 35.56 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -5098,7 +5077,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 111.76 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0625c0bb-7ec2-479a-94ff-7ab747ad2962)
     (property "Reference" "K_18" (at 111.76 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -5162,7 +5141,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 289.56 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0c13c539-c741-447a-8dfc-780ba7cef4d0)
     (property "Reference" "K_55" (at 289.56 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -5261,7 +5240,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 86.36 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0d6d64c1-89d1-4e98-8747-4e49c48f8662)
     (property "Reference" "K_17" (at 86.36 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -5325,7 +5304,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 238.76 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0fbecc1d-c822-4975-abd1-9728ce45dfb4)
     (property "Reference" "K_38" (at 238.76 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -5354,7 +5333,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 238.76 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 0fdfe15c-4af9-44e1-befc-bcb994dc388d)
     (property "Reference" "K_8" (at 238.76 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -5412,7 +5391,7 @@
     (property "Package" "0603" (at 37.465 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "PWR LED" (at 37.465 155.575 0)
+    (property "Description" "" (at 37.465 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2c21fcdc-14c5-42b9-a769-14b0b94793b5))
@@ -5427,7 +5406,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 162.56 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 126ecdb1-69c0-4393-8e0b-429782c086ef)
     (property "Reference" "K_5" (at 162.56 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -5662,7 +5641,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 162.56 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 1cd210f4-bc76-4640-a726-827f8b1a0969)
     (property "Reference" "K_71" (at 162.56 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -5732,7 +5711,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 391.16 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 1dcc8845-e3fe-416a-a55d-ec6c9ccff3fd)
     (property "Reference" "K_29" (at 391.16 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -5761,7 +5740,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 243.84 180.975 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 1f0f114f-061e-4013-b81f-5f50cf9fadb9)
     (property "Reference" "H3" (at 247.015 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6155,7 +6134,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 35.56 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 2899e860-1d03-4479-8273-bbe724292d8d)
     (property "Reference" "K_15" (at 35.56 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -6184,7 +6163,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 289.56 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 297f9b46-29dc-460d-906d-18aa2f063b0a)
     (property "Reference" "K_66" (at 289.56 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -6400,7 +6379,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 238.76 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 2d58d664-6ac1-466b-9c02-748fb1a0d280)
     (property "Reference" "K_65" (at 238.76 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -6519,7 +6498,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 243.84 174.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 3143f4dc-089c-4b41-8c7a-cded6ba023c4)
     (property "Reference" "H1" (at 247.015 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6592,7 +6571,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 365.76 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 3410b61e-c4ba-4a18-b332-034fbe1e1147)
     (property "Reference" "K_43" (at 365.76 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -6621,7 +6600,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 340.36 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 3416fe0c-a909-45a5-aad5-d02b72a67c8c)
     (property "Reference" "K_27" (at 340.36 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -6691,7 +6670,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 111.76 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 34717815-1ae7-4cf1-b562-3fc04f1a0de9)
     (property "Reference" "K_48" (at 111.76 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -6720,7 +6699,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 314.96 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 3499d7ff-9b8c-414e-85f0-7c2fcc08c0ca)
     (property "Reference" "K_67" (at 314.96 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -6790,7 +6769,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 340.36 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 3728c6e9-e9ac-422c-a633-94caa446be27)
     (property "Reference" "K_42" (at 340.36 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -6860,7 +6839,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 360.68 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 38e9d7c7-80c2-4bcf-aa26-ca1ad0246dd9)
     (property "Reference" "K_75" (at 360.68 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -6889,7 +6868,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 81.915 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 3b647f50-3d6a-4e4a-93e3-6997fee45e77)
     (property "Reference" "K_81" (at 81.915 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -7206,7 +7185,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 264.16 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 42acfd34-d343-48f4-b16e-21ab26859390)
     (property "Reference" "K_39" (at 264.16 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -7276,7 +7255,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 50.165 213.36 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 461be674-f44c-4117-9b48-bbdacafbfb12)
     (property "Reference" "J1" (at 48.895 202.565 0)
       (effects (font (size 1.27 1.27)))
@@ -7413,7 +7392,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 111.76 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 49cdfe23-6822-4bd5-8a51-816fb96c1ed6)
     (property "Reference" "K_62" (at 111.76 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -7442,7 +7421,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 4b4d638a-da36-4522-9bc9-3dab63adc43b)
     (property "Reference" "K_36" (at 187.96 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -7715,7 +7694,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 314.96 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 526cb6ac-4e39-450b-bbaf-3042d75868e3)
     (property "Reference" "K_41" (at 314.96 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -7820,7 +7799,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 86.36 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 58d192ab-9af5-4b7e-a0cc-0af748fdeb3d)
     (property "Reference" "K_2" (at 86.36 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -7985,7 +7964,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 213.36 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 5bfba5fe-9cde-47d8-81ab-8ed384e0bba7)
     (property "Reference" "K_22" (at 213.36 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -8178,7 +8157,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 391.16 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 61e66fac-39c7-4864-9a8a-ea5a72301d4c)
     (property "Reference" "K_14" (at 391.16 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -8207,7 +8186,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 60.96 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 654c4bb9-686d-4f33-9db2-940e236b6f5a)
     (property "Reference" "K_46" (at 60.96 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -8277,7 +8256,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 314.96 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 68bc197d-dc95-4083-a2f9-f2509f05d7cb)
     (property "Reference" "K_11" (at 314.96 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -8341,7 +8320,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 182.88 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 6962504e-722e-40ec-a572-aab659f4d47f)
     (property "Reference" "K_77" (at 182.88 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -8405,7 +8384,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 232.41 220.98 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 69e50ae9-4266-448a-ae5e-7f25a6e1652d)
     (property "Reference" "R5" (at 232.41 218.44 90)
       (effects (font (size 1.27 1.27)))
@@ -8419,7 +8398,7 @@
     (property "Datasheet" "" (at 232.41 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "UNPOPULATE" (at 232.41 220.98 0)
+    (property "Description" "DNP" (at 232.41 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part" "" (at 232.41 220.98 0)
@@ -8561,7 +8540,7 @@
   )
 
   (symbol (lib_name "MountingHole_6") (lib_id "Mechanical:MountingHole") (at 285.75 195.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 6c7bd0da-1e49-4a57-b914-5b9d52f2b396)
     (property "Reference" "H9" (at 288.29 194.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8594,7 +8573,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 289.56 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 6e588573-9372-4c95-9495-1b5657480e52)
     (property "Reference" "K_10" (at 289.56 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -8664,7 +8643,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 365.76 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 70f44981-fa60-46fa-b268-14a8cc55cec6)
     (property "Reference" "K_13" (at 365.76 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -8693,7 +8672,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 60.96 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 70fd4288-739d-4809-826a-27bf699900cf)
     (property "Reference" "K_60" (at 60.96 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -8722,7 +8701,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 716eeb28-3318-4e67-a0f5-f2b0b8e52b01)
     (property "Reference" "K_51" (at 187.96 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -8751,7 +8730,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 137.16 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 739fd841-36a0-46f4-91bc-cbba9340c0f3)
     (property "Reference" "K_63" (at 137.16 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -8897,7 +8876,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 264.16 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 76b2027b-f58a-42ac-972a-995125f47e7a)
     (property "Reference" "K_54" (at 264.16 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -8961,7 +8940,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 264.16 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 76f5ecc9-d353-4e02-b570-f448fb433db9)
     (property "Reference" "K_73" (at 264.16 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -8990,7 +8969,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 238.76 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 771adc30-a96c-41dc-b6e7-5ea467b97000)
     (property "Reference" "K_23" (at 238.76 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -9114,7 +9093,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 137.16 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 7993e05c-9db9-4917-9669-d1d6d111149d)
     (property "Reference" "K_19" (at 137.16 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -9143,7 +9122,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 365.76 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 79b83d2d-c627-4bd0-b4e9-1f0eee349aa2)
     (property "Reference" "K_28" (at 365.76 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -9172,7 +9151,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 386.715 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 7b3f5ac2-1f35-486e-aa9a-bb15e6b6f7da)
     (property "Reference" "K_74" (at 386.715 67.7418 0)
       (effects (font (size 1.524 1.524)))
@@ -9201,7 +9180,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 60.96 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 7bbbdc1a-5cec-4ad3-99b0-39da4de8177f)
     (property "Reference" "K_1" (at 60.96 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -9325,7 +9304,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 137.16 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 7f71222d-cea8-4dde-b1ee-9953be8b76d9)
     (property "Reference" "K_4" (at 137.16 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -9443,7 +9422,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 86.36 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 80f9901b-a290-4a19-ada2-3de2ff3cfd99)
     (property "Reference" "K_47" (at 86.36 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -9513,7 +9492,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-LED") (at 35.56 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 82d5ceba-c67d-4884-9a04-4005033bddb9)
     (property "Reference" "K_30" (at 35.56 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -9585,7 +9564,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 243.84 187.325 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 83dd0498-8d5c-4cd8-8393-91939e66d5b2)
     (property "Reference" "H2" (at 247.015 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9617,7 +9596,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 213.36 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 86834e31-27b1-4d9a-8c69-b66cbf957198)
     (property "Reference" "K_78" (at 213.36 121.285 0)
       (effects (font (size 1.524 1.524)))
@@ -9687,7 +9666,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 340.36 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 87504de3-e557-49f2-8a23-2cbc6257832c)
     (property "Reference" "K_57" (at 340.36 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -9890,7 +9869,7 @@
   )
 
   (symbol (lib_name "MountingHole_1") (lib_id "Mechanical:MountingHole") (at 285.75 167.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 8f3e737c-611d-47d2-9e27-922c92e359b1)
     (property "Reference" "H8" (at 288.29 167.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -9923,7 +9902,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 289.56 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 8fdda92f-0ccc-49de-be9a-ea8bf74c00ae)
     (property "Reference" "K_40" (at 289.56 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -10006,7 +9985,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 31.115 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 91f2ba29-fcb5-469d-a2d8-d6d63fad8692)
     (property "Reference" "K_72" (at 31.115 93.1418 0)
       (effects (font (size 1.524 1.524)))
@@ -10089,7 +10068,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 264.16 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 962e430e-91a4-4da5-99ce-930234f82053)
     (property "Reference" "K_24" (at 264.16 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -10153,7 +10132,7 @@
   )
 
   (symbol (lib_id "legshark_symbols:Header_4_Way,_1_Row") (at 52.07 240.03 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 984dedf9-ed84-4842-b971-31bdb4b75c55)
     (property "Reference" "T2" (at 60.96 241.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10167,7 +10146,7 @@
     (property "Datasheet" "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/SM04B-SRSS-TB-LF-SN/926710" (at 64.77 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "UNPOPULATE" (at 52.07 240.03 0)
+    (property "Description" "DNP" (at 52.07 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part" "C160404" (at 52.07 240.03 0)
@@ -10209,7 +10188,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 238.76 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 991c2143-74cf-4108-b5c2-a6d8e00c8621)
     (property "Reference" "K_53" (at 238.76 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -10368,7 +10347,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 207.01 123.825 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 9e6b669c-1365-4eb6-bbd7-a1628dc129b9)
     (property "Reference" "K_87" (at 204.47 120.015 0)
       (effects (font (size 1.524 1.524)))
@@ -10397,7 +10376,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 340.36 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 9f2feec4-864c-49ef-9e52-03a3ec45b69a)
     (property "Reference" "K_68" (at 340.36 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -10543,7 +10522,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 162.56 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a5c0d0f9-058b-448c-82ae-e0130c5bc32e)
     (property "Reference" "K_20" (at 162.56 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -10572,7 +10551,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 111.76 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a6875936-f7f2-4bed-a222-dceb72db3dac)
     (property "Reference" "K_3" (at 111.76 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -10601,7 +10580,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 365.76 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a72c27b8-1247-4ac4-923b-23613cff7c90)
     (property "Reference" "K_69" (at 365.76 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -10712,7 +10691,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 386.715 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid aebbea17-245b-46a2-af69-e6500e671b39)
     (property "Reference" "K_84" (at 386.715 16.9418 0)
       (effects (font (size 1.524 1.524)))
@@ -10741,7 +10720,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 107.315 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid aebfb933-4d49-4af4-b498-943d1e35f4f4)
     (property "Reference" "K_85" (at 107.315 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -10770,7 +10749,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 33.02 247.65 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid af19c429-4817-4672-ba91-a7728198d46b)
     (property "Reference" "J3" (at 35.56 248.285 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10806,7 +10785,7 @@
   )
 
   (symbol (lib_name "MountingHole_4") (lib_id "Mechanical:MountingHole") (at 285.75 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid aff8b2b2-b03b-4df9-9ea4-12e2447787f8)
     (property "Reference" "H6" (at 288.29 184.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10839,7 +10818,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 340.36 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid b011180b-0028-4e27-a3bf-874122114201)
     (property "Reference" "K_12" (at 340.36 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -11078,7 +11057,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 391.16 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid b8042e29-e195-48d3-9f5c-70669c221f75)
     (property "Reference" "K_59" (at 391.16 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -11218,7 +11197,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 137.16 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid be8e0244-d27d-4175-944a-7cb1164a2f1a)
     (property "Reference" "K_49" (at 137.16 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -11301,7 +11280,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid befbb47e-4161-4a17-8d6b-96f6e11d0e41)
     (property "Reference" "K_6" (at 187.96 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -11384,7 +11363,7 @@
   )
 
   (symbol (lib_name "MountingHole_2") (lib_id "Mechanical:MountingHole") (at 285.75 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bf60f7d4-4109-4471-8e7b-971234718812)
     (property "Reference" "H4" (at 288.29 174.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -11528,7 +11507,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 86.36 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid c1546d9f-9a71-4666-bad9-64dc455dee5a)
     (property "Reference" "K_61" (at 86.36 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -11665,7 +11644,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 226.06 241.935 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid c50ca3ef-04b6-4479-93a4-392aa64418c6)
     (property "Reference" "R1" (at 226.06 239.395 90)
       (effects (font (size 1.27 1.27)))
@@ -11679,7 +11658,7 @@
     (property "Datasheet" "" (at 226.06 241.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "UNPOPULATE" (at 226.06 241.935 0)
+    (property "Description" "DNP" (at 226.06 241.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part" "" (at 226.06 241.935 0)
@@ -11780,7 +11759,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 213.36 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid cdbec71a-5a90-4466-b8ec-60e1e6888d4e)
     (property "Reference" "K_52" (at 213.36 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -11809,7 +11788,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 213.36 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ce45bf06-be29-4187-8dd1-cab8f4190a04)
     (property "Reference" "K_37" (at 213.36 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -11879,7 +11858,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 162.56 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d0a5300f-d02a-4f1f-8e41-4ce02e56fbd8)
     (property "Reference" "K_50" (at 162.56 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -11908,7 +11887,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 289.56 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d1cdf93b-a0d2-48ac-addd-e6851d646023)
     (property "Reference" "K_25" (at 289.56 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -11937,7 +11916,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 35.56 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d2765af9-63ec-4e07-9d8f-3945cc774896)
     (property "Reference" "K_45" (at 35.56 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -12007,7 +11986,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 335.28 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d42ee41d-f006-4d1a-9f05-810249d4c7aa)
     (property "Reference" "K_82" (at 335.28 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -12036,7 +12015,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d5a9de5f-8bef-4f4b-8790-4d35f4527b68)
     (property "Reference" "K_64" (at 187.96 121.0818 0)
       (effects (font (size 1.524 1.524)))
@@ -12123,7 +12102,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 314.96 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid d92b72cf-ef88-45e6-a6a1-035afde04cc3)
     (property "Reference" "K_26" (at 314.96 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -12193,7 +12172,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 86.36 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid dbb6efab-4e21-41a3-b6bd-76434a61960b)
     (property "Reference" "K_32" (at 86.36 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -12276,7 +12255,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 137.16 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid dd7042fb-800b-40f0-8de2-850844c76056)
     (property "Reference" "K_34" (at 137.16 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -12305,7 +12284,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 60.96 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid dd7b81bb-61f4-48bb-9cce-a15dadc11c35)
     (property "Reference" "K_31" (at 60.96 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -12388,7 +12367,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 219.075 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid de50a7b9-9101-43a9-b553-b0e8fe26512e)
     (property "Reference" "K_88" (at 223.52 133.35 0)
       (effects (font (size 1.524 1.524)))
@@ -12676,7 +12655,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 314.96 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e0025ae3-073a-4ba3-8bb3-3f93d7a8396c)
     (property "Reference" "K_56" (at 314.96 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -12705,7 +12684,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 187.96 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e2c5978b-464b-4469-984e-4137324eab5c)
     (property "Reference" "K_21" (at 187.96 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -12788,7 +12767,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 285.115 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e35b3a2c-3d49-44a1-865a-73907f95918a)
     (property "Reference" "K_83" (at 285.115 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -12899,7 +12878,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 60.96 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e55ce2ce-2752-4a35-add1-c35e2bd9b307)
     (property "Reference" "K_16" (at 60.96 44.8818 0)
       (effects (font (size 1.524 1.524)))
@@ -12928,7 +12907,7 @@
   )
 
   (symbol (lib_name "MountingHole_3") (lib_id "Mechanical:MountingHole") (at 285.75 180.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid e6152ba0-75d9-40e5-8318-9b9d8d1f7d50)
     (property "Reference" "H5" (at 288.29 179.705 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -13002,7 +12981,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 365.76 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e7e46c34-155b-49b1-80e3-226f8d3f9634)
     (property "Reference" "K_58" (at 365.76 95.6818 0)
       (effects (font (size 1.524 1.524)))
@@ -13113,7 +13092,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 31.115 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid eb705916-15cf-40be-a506-68adc2a4440f)
     (property "Reference" "K_70" (at 31.115 42.3418 0)
       (effects (font (size 1.524 1.524)))
@@ -13218,7 +13197,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 162.56 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid edd96e89-8849-4b7b-85b4-ee40aea45845)
     (property "Reference" "K_35" (at 162.56 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -13464,7 +13443,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 213.36 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f18930c2-61f6-4352-bf79-58befa3580f6)
     (property "Reference" "K_7" (at 213.36 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -13534,7 +13513,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 111.76 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f5e71e9d-c3b9-46dc-9efa-03b4fdcdf7f7)
     (property "Reference" "K_33" (at 111.76 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -13563,7 +13542,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 391.16 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f622bf37-5dc6-4f5c-9a08-28b9bb05299b)
     (property "Reference" "K_44" (at 391.16 70.2818 0)
       (effects (font (size 1.524 1.524)))
@@ -13592,7 +13571,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 264.16 25.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f6dee3af-deee-418b-aa62-408178b044ca)
     (property "Reference" "K_9" (at 264.16 19.4818 0)
       (effects (font (size 1.524 1.524)))
@@ -13697,7 +13676,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.715 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f88511db-261d-4fc4-b93e-a57f2f40d17a)
     (property "Reference" "K_80" (at 132.715 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -13767,7 +13746,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 310.515 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid faae34d9-aac8-4890-b4a7-c0e100e6c4a2)
     (property "Reference" "K_86" (at 310.515 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -13796,7 +13775,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 56.515 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid fc531f62-fd7c-4ef1-8d0d-f09c84f6da28)
     (property "Reference" "K_79" (at 56.515 118.5418 0)
       (effects (font (size 1.524 1.524)))
@@ -13996,7 +13975,7 @@
   )
 
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 234.315 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ff0c6a1a-d6fa-49ee-bb12-76e1e6f6f81c)
     (property "Reference" "K_76" (at 234.315 118.5418 0)
       (effects (font (size 1.524 1.524)))
