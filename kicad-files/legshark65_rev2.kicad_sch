@@ -5385,7 +5385,7 @@
   (symbol (lib_id "legshark_symbols:LED_0603") (at 37.465 155.575 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 120f00f0-2464-42d4-b949-661db6f8c12a)
-    (property "Reference" "LED1" (at 37.465 153.035 0)
+    (property "Reference" "D102" (at 37.465 153.035 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Red" (at 38.1 157.48 0)
@@ -5420,7 +5420,7 @@
     (instances
       (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
-          (reference "LED1") (unit 1)
+          (reference "D102") (unit 1)
         )
       )
     )
@@ -9759,7 +9759,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 72.39 278.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d103986-b786-4ccd-8283-7302a8bcd7dd)
-    (property "Reference" "D1" (at 72.0725 273.05 0)
+    (property "Reference" "D101" (at 72.0725 273.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B5819W-SL" (at 72.0725 275.59 0)
@@ -9791,7 +9791,7 @@
     (instances
       (project "legshark65_rev2"
         (path "/2fcc1073-d3f4-43f9-b3b4-5cee13272705"
-          (reference "D1") (unit 1)
+          (reference "D101") (unit 1)
         )
       )
       (project "old_layout"
