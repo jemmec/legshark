@@ -10909,7 +10909,7 @@
   )
 
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 86.36 158.75 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b50e9f4c-46ce-43c2-a75f-6139bdddec67)
     (property "Reference" "SW2" (at 86.36 152.4 0)
       (effects (font (size 1.27 1.27)))
