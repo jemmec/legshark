@@ -11,10 +11,8 @@
 /* disable debug print */
 // #define NO_DEBUG
 
-#define LED_CAPS_LOCK_PIN B12
-
 /* disable print */
-#define NO_PRINT
+// #define NO_PRINT
 
 /* disable action features */
 //#define NO_ACTION_LAYER
@@ -25,3 +23,5 @@
 #define LOCKING_RESYNC_ENABLE
 
 #define EEPROM_I2C_24LC256
+
+#define LED_CAPS_LOCK_PIN B12
