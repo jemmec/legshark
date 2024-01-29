@@ -38,6 +38,13 @@ The purpose of this keyboard is contain all of the features I would like to have
 - Offset to easily distinguish the arrow keys (fatter finger complex).
 - Unevenly-split and centered spacebar. The main reason for this is to allow for easier reach to the spacebar from the right side of board. 
 
+### QMK
+
+Copy `./qmk/keyboards` into your `/qmk_firmware` folder then run the following command to compile the firmware:
+```
+qmk compile -kb legshark65/rev2 -km default
+```
+
 ### Keyboard Layout Editor:
 
 ```
