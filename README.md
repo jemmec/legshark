@@ -27,7 +27,7 @@ The board also supports use of `2u` keys in the usual `TAB`, `LSHIFT`, `DELETE`,
 
 Supports the [Unified Daughterboard](https://github.com/Unified-Daughterboard/).
 
-### Mounting Style
+### Mounting Styles
 
 Supports a unique "plateless" o-ring mounting style. The PCB also has through-holes for plate mounting should that be preferred.
 
@@ -37,11 +37,15 @@ The "plateless" o-ring mounting style lets you enjoy the unique characteristics 
 
 The printable plate files can be found in `./stls`. There are two files, one for `1.5u` spaced switches (pictured) and one for the `1u` spaced switches. Only the left side plate is supplied, you will need to vertically mirror the file in your slicer to print the right side. The optimal printing orientation is upside-down.
 
+A standard 60% o-ring (OD 180-190mm) with a diameter of 2.5-3.5mm will work. 
+
 ![plateless](images/plateless.png)
 
 >NOTE: If you intend to use a layout with the `2u` SHIFT or DELETE keys these plates may need modified in order to fit the stabs.
 
 ### Case
+
+A 3D printable case designed around the "plateless" o-ring mounting system. It's a unibody design with a daughterboard cutout and recessed holes for 12mm rubber feet. The daughterboard is screwed into M2 threaded inserts.
 
 Files for printing the case can be found in `./stls`. The print has been split into two parts, since it is too large for standard-sized printer volumes. The two halves are designed to be glued together using key and slot guides for alignment and added strength. The optimal printing orientation is vertically with the case-sides facing down.
 
