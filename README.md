@@ -1,6 +1,6 @@
 # Legshark
 
-> Legshark is a 60% (15 by 5) ortholinear keyboard designed with both flexability and familiarity in mind.
+Legshark is a open source 60% (15 by 5) ortholinear keyboard designed with both flexability and familiarity in mind.
 
 ## Overview
 
@@ -19,12 +19,11 @@ The board also supports use of `2u` keys in the usual `TAB`, `LSHIFT`, `DELETE`,
 
 ### PCB
 
-> WARNING: It is recommended to use screw-in stabilizers (yes they work with o-ring) due to clip-ins sometimes slipping between the three holes in the bottom row. I have slightly reduced the clip-in hole size which has mitigated the issue, but made them quite hard to push in.
+> NOTE: It is recommended to use screw-in stabilizers (yes they work with o-ring) due to clip-ins sometimes slipping between the three holes in the bottom row. I have slightly reduced the clip-in hole size which has mitigated the issue, but made them quite hard to push in.
 
 ![front](images/front.PNG)
 ![back](images/back.PNG)
-_These images may not be up-to-date._
-
+>_These images may not be up-to-date._
 
 Supports the [Unified Daughterboard](https://github.com/Unified-Daughterboard/).
 
@@ -32,22 +31,21 @@ Supports the [Unified Daughterboard](https://github.com/Unified-Daughterboard/).
 
 Supports a unique "plateless" o-ring mounting style. The PCB also has through-holes for plate mounting should that be preferred.
 
-#### "Plateless" o-ring
+#### "Plateless" o-ring plate
 
 The "plateless" o-ring mounting style lets you enjoy the unique characteristics and sound of a platless + o-ring board with the added benefit of being able to remove/change the plate after soldering in the switches.
 
-The printable plate files can be found in `./stls`. There are two files, one for `1.5u` spaced switches and one for the `1u` spaced switches. Only the left side plate is supplied, you will need to vertically mirror the file in your slicer to print the right hand side. The optimal printing orientation is upside-down.
-
-
+The printable plate files can be found in `./stls`. There are two files, one for `1.5u` spaced switches (pictured) and one for the `1u` spaced switches. Only the left side plate is supplied, you will need to vertically mirror the file in your slicer to print the right side. The optimal printing orientation is upside-down.
 
 ![plateless](images/plateless.png)
 
+>NOTE: If you intend to use a layout with the `2u` SHIFT or DELETE keys these plates may need modified in order to fit the stabs.
 
 ### Case
 
 Files for printing the case can be found in `./stls`. The print has been split into two parts, since it is too large for standard-sized printer volumes. The two halves are designed to be glued together using key and slot guides for alignment and added strength. The optimal printing orientation is vertically with the case-sides facing down.
 
->WARNING: I recommend using superglue to bond the two halves together.
+>NOTE: I recommend using superglue to bond the two halves together.
 >1) Glue all three keys into the slots of one of the halves. 
 >2) Add glue along the mating surface and in the slots of the other half. 
 >3) Carefully slide the two halves together using the keys and slots a guide. 
@@ -64,7 +62,7 @@ Copy `./qmk/keyboards` into your `/qmk_firmware` folder then run the following c
 qmk compile -kb legshark/rev2 -km default
 ```
 
->WARNING: You will need to modify the keymaps to support different layouts!
+>NOTE: You will need to modify the keymaps to support different layouts!
 
 ### Keyboard Layout Editor:
 
@@ -85,40 +83,3 @@ qmk compile -kb legshark/rev2 -km default
 # Liability
 
 This open source hardware is provided as is and can not be held accountable for any damages and/or liabilities caused as a result of whatever you intend to use it for.
-
-# Legacy
-
-The following contains information about previous renditions of this project.
-
-## Revision 1
-
-![keyboard-layout](images/keyboard-layout-v2.2.jpg)
-
-<details>
-  <summary>Keyboard Layout Editor</summary>
-
-	[{c:"#5795d4",t:"#383838",st:"KS-3-Tea",a:7,f:4},"ESC",{c:"#cccccc",a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{c:"#5795d4",a:7},"DEL"],
-	[{c:"#c9a88f",w:2},"TAB",{c:"#cccccc",f:6},"Q","W","E","R","T","Y","U","I","O","P",{a:5,f:4},"{\n[","}\n]","|\n\\"],
-	[{c:"#5795d4",a:7},"CAP","M",{c:"#cccccc",f:6},"A","S","D","F","G","H","J","K","L",{a:5,f:4},":\n;","\"\n'",{c:"#5795d4",a:7,w:2},"ENTER"],
-	[{c:"#c9a88f",w:2},"SHIFT",{c:"#cccccc",f:6},"Z","X","C","V","B","N","M",{a:5,f:4},"<\n,",">\n.","?\n/",{x:1,c:"#c9a88f",a:7,f:9},"↑"],
-	[{y:-0.5,x:12},"←",{x:1},"→"],
-	[{y:-0.5,f:4,w:1.25},"CTRL",{w:1.25},"WIN",{w:1.25},"ALT",{c:"#cc5656",w:2.75},"BACKSPACE",{c:"#60c560",w:3},"SPACE",{c:"#c9a88f",w:1.25},"ALT",{w:1.25},"FN",{x:1,f:9},"↓"]
-</details>
-
-
-
-```
-#define LAYOUT( \
-	K000, K001, K002, K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, K013, K014, \
-	      K101, K102, K103, K104, K105, K106, K107, K108, K109, K110, K111, K112, K113, K114, \
-	K200, K201, K202, K203, K204, K205, K206, K207, K208, K209, K210, K211, K212,       K214, \
-	      K301, K302, K303, K304, K305, K306, K307, K308, K309, K310, K311,       K313,       \
-	K400,       K402, K403,       K405,             K408,       K410, K411, K412, K413, K414  \
-) { \
-	{ K000,  K001,  K002,  K003,  K004,  K005,  K006,  K007,  K008,  K009,  K010,  K011,  K012,  K013,  K014 }, \
-	{ KC_NO, K101,  K102,  K103,  K104,  K105,  K106,  K107,  K108,  K109,  K110,  K111,  K112,  K113,  K114 }, \
-	{ K200,  K201,  K202,  K203,  K204,  K205,  K206,  K207,  K208,  K209,  K210,  K211,  K212,  KC_NO, K214 }, \
-	{ KC_NO, K301,  K302,  K303,  K304,  K305,  K306,  K307,  K308,  K309,  K310,  K311,  KC_NO, K313,  KC_NO }, \
-	{ K400,  KC_NO, K402,  K403,  KC_NO, K405,  KC_NO, KC_NO, K408,  KC_NO, K410,  K411,  K412,  K413,  K414 }  \
-}
-```
