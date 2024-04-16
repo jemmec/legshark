@@ -1,8 +1,8 @@
-# Legshark
+![title](./images/title.png)
 
-Legshark is a open source 60% (15 by 5) ortholinear keyboard designed with both flexability and familiarity in mind.
+# legshark
 
-## Overview
+An open source 60% (15 by 5) ortholinear keyboard designed with both flexability and familiarity in mind.
 
 - Highly customizable 60% ortho layout
 - "Plateless" o-ring mounting
